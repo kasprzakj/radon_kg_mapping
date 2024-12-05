@@ -1,0 +1,8 @@
+# Exclude the entire data directory and its contents
+/data/
+
+# Exclude the kg_project directory and its contents
+/kg_project/
+
+# Exclude the RML mapper JAR file
+rmlmapper.jar
