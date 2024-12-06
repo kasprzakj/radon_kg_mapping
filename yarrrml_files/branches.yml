@@ -15,7 +15,7 @@ prefixes:
 mappings:
   branch:
     sources:
-      - ['data/examples/branch.json~jsonpath', $]
+      - ['data/branches.json~jsonpath', '$[*]']
     s: bra:branch_$(branchUuid)
     po:
       - [a, org:OrganizationalUnit]
@@ -32,7 +32,7 @@ mappings:
 
   address:
     sources:
-      - ['data/examples/branch.json~jsonpath', '$']
+      - ['data/branches.json~jsonpath', '$[*]']
     s: bra:address_$(branchUuid)
     po:
       - [a, vcard:Address]
