@@ -11,7 +11,7 @@ How to use what's in here?
 7. Run `java -jar rmlmapper.jar -m mappings/{dataset_name}.rml.ttl -o turtles/{dataset_name}.ttl -s turtle`
 8. You should now have a .ttl file in `turtles`
 
-Example for 7 and 8:
+Example for 6 and 7:
 
 `yarrrml-parser -i yarrrml_files/branches.yml -o mappings/branches.rml.ttl`
 

@@ -9,33 +9,34 @@ prefixes:
   prov: http://www.w3.org/ns/prov#
   dcterms: http://purl.org/dc/terms/
   time: http://www.w3.org/2006/time#
-  grel: "http://users.ugent.be/~bjdmeest/function/grel.ttl#"
-  bra: http://example.org/branch#
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
+  adms: http://www.w3.org/ns/adms#
+  radon: http://example.org/radon#
 
 mappings:
   branch:
     sources:
       - ['data/branches.json~jsonpath', '$[*]']
-    s: bra:branch_$(branchUuid)
+    s: radon:branch_$(branchUuid)
     po:
+      - [a, radon:Branch]
       - [a, org:OrganizationalUnit]
       - [org:identifier, $(branchUuid)]
       - [schema:name, $(name)]
-      - p: vcard:hasAddress
-        o:
-          mapping: address
-          condition:
-            function: equal
-            parameters:
-              - [str1, $(branchUuid)]
-              - [str2, $(branchUuid)]
-
-  address:
-    sources:
-      - ['data/branches.json~jsonpath', '$[*]']
-    s: bra:address_$(branchUuid)
-    po:
-      - [a, vcard:Address]
-      - [vcard:country-name, '$(addresses[0].country)']
-      - [vcard:street-address, '$(addresses[0].street) $(addresses[0].bNumber)']
-      - [vcard:postal-code, '$(addresses[0].postalCd)']
+      - [vcard:hasEmail, $(eMail)]
+      - [vcard:country-name, '$(country)']
+      - [vcard:street-address, '$(street) $(buildingNumber)']
+      - [vcard:postal-code, '$(postalCode)']
+      - [vcard:region, '$(voivodship)']
+      - [org:subOrganizationOf, '$(mainInstitutionUuid)']
+      - [foaf:homepage, $(www)]
+      - [schema:status, $(status)]
+      - [adms:identifier, $(regon)]
+      # - p: org:subOrganizationOf
+      #   o:
+      #     mapping: institution
+      #     condition:
+      #       function: equal
+      #       parameters:
+      #         - [str1, $(mainInstitutionUuid)]
+      #         - [str2, $(insitutionUuid)]

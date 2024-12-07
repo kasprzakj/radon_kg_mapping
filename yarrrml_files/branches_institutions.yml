@@ -1,0 +1,99 @@
+prefixes:
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  org: http://www.w3.org/ns/org#
+  vcard: http://www.w3.org/2006/vcard/ns#
+  vivo: http://vivoweb.org/ontology/core#
+  schema: http://schema.org/
+  prov: http://www.w3.org/ns/prov#
+  dcterms: http://purl.org/dc/terms/
+  time: http://www.w3.org/2006/time#
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
+  adms: http://www.w3.org/ns/adms#
+  radon: http://example.org/radon#
+  idlab-fn: https://w3id.org/imec/idlab/function#
+
+mappings:
+  properties:
+    sources:
+        - ['data/branches.json~jsonpath', '$[*]']
+    s: radon:regon
+    po:
+      - [a, owl:DatatypeProperty]
+      - [rdfs:label, "REGON identifier"]
+      - [rdfs:comment, "Polish national business registry number"]
+      - [rdfs:domain, org:OrganizationalUnit]
+      - [rdfs:range, xsd:string]
+
+  branch:
+    sources:
+      - ['data/branches.json~jsonpath', '$[*]']
+    s: radon:branch_$(branchUuid)
+    po:
+      - [a, radon:Branch]
+      - [a, org:OrganizationalUnit]
+      - [org:identifier, $(branchUuid)]
+      - [schema:name, $(name)]
+      - [vcard:hasEmail, $(eMail)]
+      - [vcard:country-name, $(country)]
+      - [vcard:street-address, '$(street) $(buildingNumber)']
+      - [vcard:postal-code, $(postalCode)]
+      - [vcard:region, $(voivodeship)]
+      - [vcard:locality, $(city)]
+      - [foaf:homepage, $(www)]
+      - [schema:status, $(status)]
+      - [radon:apartmentNumber, $(apartmentNumber)]
+      - p: org:subOrganizationOf
+        o:
+          mapping: institution
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(mainInstitutionUuid)]
+              - [str2, $(institutionUuid)]
+
+  institution:
+    sources:
+      - ['data/institutions.json~jsonpath', '$[*]']
+    s: radon:institution_$(institutionUuid)
+    po:
+      - [a, vivo:University]
+      - [a, org:OrganizationalUnit]
+      - [org:identifier, $(institutionUuid)]
+      - [schema:name, $(name)]
+      - [schema:url, $(www)]
+      - [org:classification, $(iKindName)]
+      - [radon:regon, $(regon)]
+      - [vcard:hasEmail, $(eMail)]
+      - [vcard:country-name, $(country)]
+      - [vcard:locality, $(city)]
+      - [vcard:street-address, '$(street) $(bNumber) $(lNumber)']
+      - [vcard:postal-code, $(postalCode)]
+      - [vcard:region, $(voivodeship)]
+      - [schema:status, $(status)]
+      - p: org:hasSubOrganization
+        o:
+          mapping: branch
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(institutionUuid)]
+              - [str2, $(mainInstitutionUuid)]
+      - p: org:reportsTo
+        o:
+          mapping: supervising_institutions
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(supervisingInstitutionID)]
+              - [str2, $(supervisingInstitutionID)]
+
+  supervising_institutions:
+    sources:
+      - ['data/institutions.json~jsonpath', '$[*]']
+    s: radon:supervisingInstitution_$(supervisingInstitutionID)
+    po:
+    - [a, org:OrganizationalUnit]
+    - [org:identifier, $(supervisingInstitutionID)]
+    - [schema:name, $(supervisingInstitutionName)]
