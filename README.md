@@ -13,10 +13,10 @@ What can be found here? Let's take a look at the folders:
 A list of ontologies used for this project:
 * [RDF](http://www.w3.org/1999/02/22-rdf-syntax-ns#)
 * [RDFS](http://www.w3.org/2000/01/rdf-schema#)
-* [XSD](http://www.w3.org/2001/XMLSchema#)
-* [SCHEMA](http://schema.org/)
+* [XMLSchema](http://www.w3.org/2001/XMLSchema#)
+* [Schema.org](http://schema.org/)
 * [FOAF](<http://xmlns.com/foaf/0.1/>)
-* [ORG](http://www.w3.org/ns/org#) – for relations between institutions and their branches
-* [VCARD](http://www.w3.org/2006/vcard/ns#) – for geolocational properties
+* [org](http://www.w3.org/ns/org#) – for relations between institutions and their branches
+* [vcard](http://www.w3.org/2006/vcard/ns#) – for geolocational properties
 * [VIVO](http://vivoweb.org/ontology/core#) – for university-specific properties 
 * TBC (perhaps when we look into scientists more we will need something else)
