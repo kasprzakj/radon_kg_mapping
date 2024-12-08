@@ -1,20 +1,22 @@
-## README WIP
+## THIS IS NOT THE FINAL VERSION, BOTH THE README AND THE REST OF THE REPOSITORY ARE WIP
 
-How to use what's in here?
+This repository is an attempt at transforming data from the [RAD-on system](https://radon.nauka.gov.pl/) into a knowledge graph using [yarrrml](https://rml.io/yarrrml/) and [RMLmapper](https://github.com/RMLio/rmlmapper-java). The idea of this project is to provide a querable knowledge graph which could be used to find information about Polish scientific institutions, scientists etc. and an easy way to recreate and develop the graph should it be necessary.
 
-1. Download RMLMAPPER and jarrrml-parser (look it up, rmlmapper is a .jar file and the parser is to be installed in cmd and is somehow related to node.js I think)
-2. Set up a venv using requirements.txt (optional)
-3. Download the data using `get_data.ipynb` into `data/{dataset_name}.json` as per the current example in `get_data.ipynb`
-4. If you've made changes/created a new yarrrml file, it should be placed in `yarrrml_files`
-5. Open CMD in the root project folder
-6. Run `yarrrml-parser -i yarrrml_files/{dataset_name}.yml -o mappings/{dataset_name}.rml.ttl`
-7. Run `java -jar rmlmapper.jar -m mappings/{dataset_name}.rml.ttl -o turtles/{dataset_name}.ttl -s turtle`
-8. You should now have a .ttl file in `turtles`
+What can be found here? Let's take a look at the folders:
 
-Example for 6 and 7:
+1. [yarrrml_files](https://github.com/kasprzakj/radon_kg_mapping/tree/main/yarrrml_files) contains yarrrml specific files in .yml format which can be used to generate RML mappings, which can then in turn be used with RMLmapper to generate the target turtle file.
+2. [mappings](https://github.com/kasprzakj/radon_kg_mapping/tree/main/mappings) contains the middle-of-the-process RML mappings generated with yarrrml-parser.
+3. [turtles](https://github.com/kasprzakj/radon_kg_mapping/tree/main/turtles) contains the final turtle files with the final knowledge graph.
+4. [example_queries](https://github.com/kasprzakj/radon_kg_mapping/tree/main/example_queries) contains some example SPARQL queries performed on the graph and their results, together with an instruction on how to perform them.
+5. [data_aquisition](https://github.com/kasprzakj/radon_kg_mapping/tree/main/data_aquisition) contains a Jupyter notebook with Python code showing a sample way of downloading the RAD-on data through a publically available API, as well as a requirements.txt file with all necessary dependencies.
 
-`yarrrml-parser -i yarrrml_files/branches.yml -o mappings/branches.rml.ttl`
-
-`java -jar rmlmapper.jar -m mappings/branches.rml.ttl -o turtles/branches.ttl -s turtle`
-
-Note: currently existing `branches_single.yaml` specifies a different file (see: sources), I used it for testing, just a single branch in data/example/branch.json. This file **won't** work for the `data/branches.json` obtained using `get_data.ipynb`.
+A list of ontologies used for this project:
+* [RDF](http://www.w3.org/1999/02/22-rdf-syntax-ns#)
+* [RDFS](http://www.w3.org/2000/01/rdf-schema#)
+* [XSD](http://www.w3.org/2001/XMLSchema#)
+* [SCHEMA](http://schema.org/)
+* [FOAF](<http://xmlns.com/foaf/0.1/>)
+* [ORG](http://www.w3.org/ns/org#) – for relations between institutions and their branches
+* [VCARD](http://www.w3.org/2006/vcard/ns#) – for geolocational properties
+* [VIVO](http://vivoweb.org/ontology/core#) – for university-specific properties 
+* TBC (perhaps when we look into scientists more we will need something else)

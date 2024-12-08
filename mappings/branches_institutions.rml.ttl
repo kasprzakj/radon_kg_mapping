@@ -15,13 +15,7 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
 @prefix vivo: <http://vivoweb.org/ontology/core#>.
 @prefix schema: <http://schema.org/>.
-@prefix prov: <http://www.w3.org/ns/prov#>.
-@prefix dcterms: <http://purl.org/dc/terms/>.
-@prefix time: <http://www.w3.org/2006/time#>.
-@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#>.
-@prefix adms: <http://www.w3.org/ns/adms#>.
 @prefix radon: <http://example.org/radon#>.
-@prefix idlab-fn: <https://w3id.org/imec/idlab/function#>.
 
 :rules_000 a void:Dataset;
     void:exampleResource :map_properties_000.

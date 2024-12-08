@@ -6,13 +6,8 @@ prefixes:
   vcard: http://www.w3.org/2006/vcard/ns#
   vivo: http://vivoweb.org/ontology/core#
   schema: http://schema.org/
-  prov: http://www.w3.org/ns/prov#
-  dcterms: http://purl.org/dc/terms/
-  time: http://www.w3.org/2006/time#
-  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
-  adms: http://www.w3.org/ns/adms#
+  foaf: <http://xmlns.com/foaf/0.1/>
   radon: http://example.org/radon#
-  idlab-fn: https://w3id.org/imec/idlab/function#
 
 mappings:
   properties:
