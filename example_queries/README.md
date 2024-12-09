@@ -1,7 +1,7 @@
 ## Example Queries
 
 In this files directory, there are currently 3 different example queries made on the branches_institutions.ttl file.
-The queries were developed using apache jena fuseki, but one can also use some online SPARQL engines.
+The queries were developed using apache jena fuseki (instructions to download: https://jena.apache.org/documentation/fuseki2/#download-fuseki-with-ui), but one can also use some online SPARQL engines (for example: https://atomgraph.github.io/SPARQL-Playground/).
 Each one of them has a screenshot and a short overview in this section below:
 
 
