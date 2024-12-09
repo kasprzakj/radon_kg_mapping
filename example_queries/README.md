@@ -23,4 +23,4 @@ Similar to previous query, that shows how many of different branches of universi
 
 A query that shows all the Universities of Technology. (Entities that name begins with "Politechnika")
 
-![universities_of_technology](images/universities_of_technology.png)
+![universities_of_technology](images/universities_of_technology_image.png)
