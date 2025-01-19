@@ -8,7 +8,7 @@ What can be found here? Let's take a look at the folders:
 2. [mappings](https://github.com/kasprzakj/radon_kg_mapping/tree/main/mappings) contains the middle-of-the-process RML mappings generated with yarrrml-parser.
 3. [turtles](https://github.com/kasprzakj/radon_kg_mapping/tree/main/turtles) contains the final turtle files with the final knowledge graph.
 4. [example_queries](https://github.com/kasprzakj/radon_kg_mapping/tree/main/example_queries) contains some example SPARQL queries performed on the graph and their results, together with an instruction on how to perform them.
-5. [data_aquisition](https://github.com/kasprzakj/radon_kg_mapping/tree/main/data_aquisition) contains a Jupyter notebook with Python code showing a sample way of downloading the RAD-on data through a publically available API, as well as a requirements.txt file with all necessary dependencies.
+5. [data_acquisition](https://github.com/kasprzakj/radon_kg_mapping/tree/main/data_acquisition) contains a Jupyter notebook with Python code showing a sample way of downloading the RAD-on data through a publically available API, as well as a requirements.txt file with all necessary dependencies.
 
 A list of ontologies used for this project:
 * [RDF](http://www.w3.org/1999/02/22-rdf-syntax-ns#)
