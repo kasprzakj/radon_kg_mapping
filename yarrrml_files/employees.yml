@@ -1,0 +1,72 @@
+prefixes:
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  org: http://www.w3.org/ns/org#
+  vcard: http://www.w3.org/2006/vcard/ns#
+  vivo: http://vivoweb.org/ontology/core#
+  schema: http://schema.org/
+  prov: http://www.w3.org/ns/prov#
+  dcterms: http://purl.org/dc/terms/
+  time: http://www.w3.org/2006/time#
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
+  adms: http://www.w3.org/ns/adms#
+  radon: http://example.org/radon#
+  aiiso: http://purl.org/vocab/aiiso/schema#
+  bibo: http://purl.org/ontology/bibo/
+
+mappings:
+  property_startedCurrentJob:
+    sources:
+      - ['data/branches.json~jsonpath', '$[*]']
+    s: radon:startedCurrentJob
+    po:
+      - [a, owl:DatatypeProperty]
+      - [rdfs:domain, radon:Employee]
+      - [rdfs:range, xsd:date]
+      - [rdfs:label, "work start date"]
+      - [rdfs:comment, "The date when the employee started their current employement."]
+      
+  employee:
+    sources:
+      - ['data/employees.json~jsonpath', '$[*]']
+    s: radon:employee_$(id)
+    po:
+      - [a, radon:Employee]
+      - [org:identifier, $(id)]
+      - [foaf:firstName, $(personalData.firstName)]
+      - [foaf:middleName, $(personalData.middleName)]
+      - [foaf:lastName, $(personalData.lastName)]
+      - [schema:hasCredential, '$(calculatedEduLevel)']
+      - [vivo:hasResearchArea, '$(employments[0].declaredDisciplines.firstDisciplineName)']
+      - [vivo:hasResearchArea, '$(employments[0].declaredDisciplines.secondDisciplineName)']
+      - [vivo:hasResearchArea, '$(employments[1].declaredDisciplines.firstDisciplineName)']
+      - [vivo:hasResearchArea, '$(employments[1].declaredDisciplines.secondDisciplineName)']
+      - [vivo:hasResearchArea, '$(employments[2].declaredDisciplines.firstDisciplineName)']
+      - [vivo:hasResearchArea, '$(employments[2].declaredDisciplines.secondDisciplineName)']
+      - [org:role, '$(managerialFunctions[0].function)']
+      - [radon:startedCurrentJob, '$(employments[0].startDate)', xsd:date]
+      - p: schema:worksFor
+        o:
+          mapping: institution
+          condition:
+            function: equal
+            parameters:
+              - [str1, '$(employments[0].employingInstitutionUuid)']
+              - [str2, $(institutionUuid)]
+      - p: schema:worksFor
+        o:
+          mapping: institution
+          condition:
+            function: equal
+            parameters:
+              - [str1, '$(employments[1].employingInstitutionUuid)']
+              - [str2, $(institutionUuid)]
+      - p: org:memberOf
+        o:
+          mapping: institution
+          condition:
+            function: equal
+            parameters:
+              - [str1, '$(managerialFunctions[0].institutionId)']
+              - [str2, $(institutionUuid)]

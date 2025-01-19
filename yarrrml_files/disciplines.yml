@@ -1,0 +1,62 @@
+prefixes:
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  org: http://www.w3.org/ns/org#
+  vcard: http://www.w3.org/2006/vcard/ns#
+  vivo: http://vivoweb.org/ontology/core#
+  schema: http://schema.org/
+  prov: http://www.w3.org/ns/prov#
+  dcterms: http://purl.org/dc/terms/
+  time: http://www.w3.org/2006/time#
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
+  adms: http://www.w3.org/ns/adms#
+  radon: http://example.org/radon#
+  aiiso: http://purl.org/vocab/aiiso/schema#
+  bibo: http://purl.org/ontology/bibo/
+
+mappings:
+  property_consistsOf:
+    sources:
+      - ['data/branches.json~jsonpath', '$[*]']
+    s: radon:consistsOf
+    po:
+      - [a, owl:ObjectProperty]
+      - [a, owl:AsymmetricProperty]
+      - [rdfs:range, radon:Discipline]
+      - [rdfs:label, "consists of"]
+      - [rdfs:comment, "Represents that a Domain consists of one or more Disciplines."]
+
+  discipline:
+    sources:
+      - ['data/researchDisciplines_transformed.json~jsonpath', '$[*]']
+    s: radon:discipline_$(disciplineCode)
+    po:
+      - [a, radon:Discipline]
+      - [schema:identifier, $(disciplineCode)]
+      - [schema:name, $(disciplineName)]
+      - p: rdfs:subclassOf
+        o:
+          mapping: domain
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(domainCode)]
+              - [str2, $(domainCode)]
+
+  domain:
+    sources: 
+      - ['data/researchDisciplines_transformed.json~jsonpath', '$[*]']
+    s: radon:domain_$(domainCode)
+    po:
+      - [a, radon:Domain]
+      - [schema:identifier, $(domainCode)]
+      - [schema:name, $(domainName)]
+      - p: radon:consistsOf
+        o:
+          mapping: discipline
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(domainCode)]
+              - [str2, $(domainCode)]

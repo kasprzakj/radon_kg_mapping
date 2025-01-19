@@ -1,0 +1,54 @@
+prefixes:
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  org: http://www.w3.org/ns/org#
+  vcard: http://www.w3.org/2006/vcard/ns#
+  vivo: http://vivoweb.org/ontology/core#
+  schema: http://schema.org/
+  prov: http://www.w3.org/ns/prov#
+  dcterms: http://purl.org/dc/terms/
+  time: http://www.w3.org/2006/time#
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
+  adms: http://www.w3.org/ns/adms#
+  radon: http://example.org/radon#
+  aiiso: http://purl.org/vocab/aiiso/schema#
+  bibo: http://purl.org/ontology/bibo/
+
+mappings:
+  property_hasDissertation:
+    sources: 
+      - ['data/branches.json~jsonpath', '$[*]']
+    s: radon:hasDissertation
+    po:
+      - [a, owl:ObjectProperty]
+      - [rdfs:domain, radon:Promotion]
+      - [rdfs:range, bibo:Thesis]
+      - [rdfs:comment, "The dissertation related to the promotion."]
+
+  promotion:
+    sources:
+      - ['data/promotions_limited.json~jsonpath', '$[*]']
+    s: radon:promotion_$(promotionUuid)
+    po:
+      - [a, radon:Promotion]
+      - [schema:identifier, $(promotionUuid)]
+      - [radon:hasDissertation, radon:dissertation_$(promotionUuid)]
+      - p: rev:Reviewer
+        o:
+          mapping: employee
+          condition:
+            function: equal
+            parameters:
+              - [str1, '$(commissionMembers[0].reviewerUuid)']
+              - [str2, $(id)]
+      
+  dissertation:
+    sources:
+      - ['data/promotions_limited.json~jsonpath', '$[*]']
+    s: radon:dissertation_$(promotionUuid)
+    po:
+      - [a, bibo:Thesis]
+      - [schema:identifier, $(promotionUuid)]
+      - [dcterms:title, $(dissertationData.dissertationTitle)]
+      - [dcterms:creator, '$(personBaseData.name) $(personBaseData.surname)']

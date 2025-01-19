@@ -1,0 +1,315 @@
+@prefix : <http://mapping.example.com/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix aiiso: <http://purl.org/vocab/aiiso/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix radon: <http://example.org/radon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix schema: <http://schema.org/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+radon:discipline_DS010101N a radon:Discipline;
+  schema:identifier "DS010101N";
+  schema:name "archeologia";
+  rdfs:subclassOf radon:domain_DZ0101N .
+
+radon:discipline_DS010102N a radon:Discipline;
+  schema:identifier "DS010102N";
+  schema:name "filozofia";
+  rdfs:subclassOf radon:domain_DZ0101N .
+
+radon:discipline_DS010103N a radon:Discipline;
+  schema:identifier "DS010103N";
+  schema:name "historia";
+  rdfs:subclassOf radon:domain_DZ0101N .
+
+radon:discipline_DS010104N a radon:Discipline;
+  schema:identifier "DS010104N";
+  schema:name "językoznawstwo";
+  rdfs:subclassOf radon:domain_DZ0101N .
+
+radon:discipline_DS010105N a radon:Discipline;
+  schema:identifier "DS010105N";
+  schema:name "literaturoznawstwo";
+  rdfs:subclassOf radon:domain_DZ0101N .
+
+radon:discipline_DS010106N a radon:Discipline;
+  schema:identifier "DS010106N";
+  schema:name "nauki o kulturze i religii";
+  rdfs:subclassOf radon:domain_DZ0101N .
+
+radon:discipline_DS010107N a radon:Discipline;
+  schema:identifier "DS010107N";
+  schema:name "nauki o sztuce";
+  rdfs:subclassOf radon:domain_DZ0101N .
+
+radon:discipline_DS010108N a radon:Discipline;
+  schema:identifier "DS010108N";
+  schema:name "etnologia i antropologia kulturowa";
+  rdfs:subclassOf radon:domain_DZ0101N .
+
+radon:discipline_DS010109N a radon:Discipline;
+  schema:identifier "DS010109N";
+  schema:name "polonistyka";
+  rdfs:subclassOf radon:domain_DZ0101N .
+
+radon:discipline_DS010201N a radon:Discipline;
+  schema:identifier "DS010201N";
+  schema:name "architektura i urbanistyka";
+  rdfs:subclassOf radon:domain_DZ0102N .
+
+radon:discipline_DS010202N a radon:Discipline;
+  schema:identifier "DS010202N";
+  schema:name "inżynieria biomedyczna";
+  rdfs:subclassOf radon:domain_DZ0102N .
+
+radon:discipline_DS010203N a radon:Discipline;
+  schema:identifier "DS010203N";
+  schema:name "automatyka, elektronika i elektrotechnika";
+  rdfs:subclassOf radon:domain_DZ0102N .
+
+radon:discipline_DS010204N a radon:Discipline;
+  schema:identifier "DS010204N";
+  schema:name "informatyka techniczna i telekomunikacja";
+  rdfs:subclassOf radon:domain_DZ0102N .
+
+radon:discipline_DS010205N a radon:Discipline;
+  schema:identifier "DS010205N";
+  schema:name "inżynieria chemiczna";
+  rdfs:subclassOf radon:domain_DZ0102N .
+
+radon:discipline_DS010206N a radon:Discipline;
+  schema:identifier "DS010206N";
+  schema:name "inżynieria lądowa i transport";
+  rdfs:subclassOf radon:domain_DZ0102N .
+
+radon:discipline_DS010207N a radon:Discipline;
+  schema:identifier "DS010207N";
+  schema:name "inżynieria materiałowa";
+  rdfs:subclassOf radon:domain_DZ0102N .
+
+radon:discipline_DS010208N a radon:Discipline;
+  schema:identifier "DS010208N";
+  schema:name "inżynieria mechaniczna";
+  rdfs:subclassOf radon:domain_DZ0102N .
+
+radon:discipline_DS010209N a radon:Discipline;
+  schema:identifier "DS010209N";
+  schema:name "inżynieria środowiska, górnictwo i energetyka";
+  rdfs:subclassOf radon:domain_DZ0102N .
+
+radon:discipline_DS010210N a radon:Discipline;
+  schema:identifier "DS010210N";
+  schema:name "inżynieria bezpieczeństwa";
+  rdfs:subclassOf radon:domain_DZ0102N .
+
+radon:discipline_DS010212N a radon:Discipline;
+  schema:identifier "DS010212N";
+  schema:name "inżynieria lądowa, geodezja i transport";
+  rdfs:subclassOf radon:domain_DZ0102N .
+
+radon:discipline_DS010213N a radon:Discipline;
+  schema:identifier "DS010213N";
+  schema:name "automatyka, elektronika, elektrotechnika i technologie kosmiczne";
+  rdfs:subclassOf radon:domain_DZ0102N .
+
+radon:discipline_DS010301N a radon:Discipline;
+  schema:identifier "DS010301N";
+  schema:name "nauki farmaceutyczne";
+  rdfs:subclassOf radon:domain_DZ0103N .
+
+radon:discipline_DS010302N a radon:Discipline;
+  schema:identifier "DS010302N";
+  schema:name "nauki o kulturze fizycznej";
+  rdfs:subclassOf radon:domain_DZ0103N .
+
+radon:discipline_DS010303N a radon:Discipline;
+  schema:identifier "DS010303N";
+  schema:name "nauki o zdrowiu";
+  rdfs:subclassOf radon:domain_DZ0103N .
+
+radon:discipline_DS010304N a radon:Discipline;
+  schema:identifier "DS010304N";
+  schema:name "nauki medyczne";
+  rdfs:subclassOf radon:domain_DZ0103N .
+
+radon:discipline_DS010305N a radon:Discipline;
+  schema:identifier "DS010305N";
+  schema:name "biologia medyczna";
+  rdfs:subclassOf radon:domain_DZ0103N .
+
+radon:discipline_DS010401N a radon:Discipline;
+  schema:identifier "DS010401N";
+  schema:name "rolnictwo i ogrodnictwo";
+  rdfs:subclassOf radon:domain_DZ0104N .
+
+radon:discipline_DS010402N a radon:Discipline;
+  schema:identifier "DS010402N";
+  schema:name "technologia żywności i żywienia";
+  rdfs:subclassOf radon:domain_DZ0104N .
+
+radon:discipline_DS010403N a radon:Discipline;
+  schema:identifier "DS010403N";
+  schema:name "weterynaria";
+  rdfs:subclassOf radon:domain_DZ0104N .
+
+radon:discipline_DS010404N a radon:Discipline;
+  schema:identifier "DS010404N";
+  schema:name "zootechnika i rybactwo";
+  rdfs:subclassOf radon:domain_DZ0104N .
+
+radon:discipline_DS010405N a radon:Discipline;
+  schema:identifier "DS010405N";
+  schema:name "nauki leśne";
+  rdfs:subclassOf radon:domain_DZ0104N .
+
+radon:discipline_DS010501N a radon:Discipline;
+  schema:identifier "DS010501N";
+  schema:name "ekonomia i finanse";
+  rdfs:subclassOf radon:domain_DZ0105N .
+
+radon:discipline_DS010502N a radon:Discipline;
+  schema:identifier "DS010502N";
+  schema:name "geografia społeczno-ekonomiczna i gospodarka przestrzenna";
+  rdfs:subclassOf radon:domain_DZ0105N .
+
+radon:discipline_DS010503N a radon:Discipline;
+  schema:identifier "DS010503N";
+  schema:name "nauki o bezpieczeństwie";
+  rdfs:subclassOf radon:domain_DZ0105N .
+
+radon:discipline_DS010504N a radon:Discipline;
+  schema:identifier "DS010504N";
+  schema:name "nauki o komunikacji społecznej i mediach";
+  rdfs:subclassOf radon:domain_DZ0105N .
+
+radon:discipline_DS010505N a radon:Discipline;
+  schema:identifier "DS010505N";
+  schema:name "nauki o polityce i administracji";
+  rdfs:subclassOf radon:domain_DZ0105N .
+
+radon:discipline_DS010506N a radon:Discipline;
+  schema:identifier "DS010506N";
+  schema:name "nauki o zarządzaniu i jakości";
+  rdfs:subclassOf radon:domain_DZ0105N .
+
+radon:discipline_DS010507N a radon:Discipline;
+  schema:identifier "DS010507N";
+  schema:name "nauki prawne";
+  rdfs:subclassOf radon:domain_DZ0105N .
+
+radon:discipline_DS010508N a radon:Discipline;
+  schema:identifier "DS010508N";
+  schema:name "nauki socjologiczne";
+  rdfs:subclassOf radon:domain_DZ0105N .
+
+radon:discipline_DS010509N a radon:Discipline;
+  schema:identifier "DS010509N";
+  schema:name "pedagogika";
+  rdfs:subclassOf radon:domain_DZ0105N .
+
+radon:discipline_DS010510N a radon:Discipline;
+  schema:identifier "DS010510N";
+  schema:name "prawo kanoniczne";
+  rdfs:subclassOf radon:domain_DZ0105N .
+
+radon:discipline_DS010511N a radon:Discipline;
+  schema:identifier "DS010511N";
+  schema:name "psychologia";
+  rdfs:subclassOf radon:domain_DZ0105N .
+
+radon:discipline_DS010512N a radon:Discipline;
+  schema:identifier "DS010512N";
+  schema:name "stosunki międzynarodowe";
+  rdfs:subclassOf radon:domain_DZ0105N .
+
+radon:discipline_DS010601N a radon:Discipline;
+  schema:identifier "DS010601N";
+  schema:name "informatyka";
+  rdfs:subclassOf radon:domain_DZ0106N .
+
+radon:discipline_DS010602N a radon:Discipline;
+  schema:identifier "DS010602N";
+  schema:name "matematyka";
+  rdfs:subclassOf radon:domain_DZ0106N .
+
+radon:discipline_DS010603N a radon:Discipline;
+  schema:identifier "DS010603N";
+  schema:name "nauki biologiczne";
+  rdfs:subclassOf radon:domain_DZ0106N .
+
+radon:discipline_DS010604N a radon:Discipline;
+  schema:identifier "DS010604N";
+  schema:name "nauki chemiczne";
+  rdfs:subclassOf radon:domain_DZ0106N .
+
+radon:discipline_DS010605N a radon:Discipline;
+  schema:identifier "DS010605N";
+  schema:name "nauki fizyczne";
+  rdfs:subclassOf radon:domain_DZ0106N .
+
+radon:discipline_DS010606N a radon:Discipline;
+  schema:identifier "DS010606N";
+  schema:name "nauki o Ziemi i środowisku";
+  rdfs:subclassOf radon:domain_DZ0106N .
+
+radon:discipline_DS010607N a radon:Discipline;
+  schema:identifier "DS010607N";
+  schema:name "astronomia";
+  rdfs:subclassOf radon:domain_DZ0106N .
+
+radon:discipline_DS010608N a radon:Discipline;
+  schema:identifier "DS010608N";
+  schema:name "biotechnologia";
+  rdfs:subclassOf radon:domain_DZ0106N .
+
+radon:discipline_DS010701N a radon:Discipline;
+  schema:identifier "DS010701N";
+  schema:name "nauki teologiczne";
+  rdfs:subclassOf radon:domain_DZ0107N .
+
+radon:discipline_DS010702N a radon:Discipline;
+  schema:identifier "DS010702N";
+  schema:name "nauki biblijne";
+  rdfs:subclassOf radon:domain_DZ0107N .
+
+radon:discipline_DS010801N a radon:Discipline;
+  schema:identifier "DS010801N";
+  schema:name "sztuki filmowe i teatralne";
+  rdfs:subclassOf radon:domain_DZ0108N .
+
+radon:discipline_DS010802N a radon:Discipline;
+  schema:identifier "DS010802N";
+  schema:name "sztuki muzyczne";
+  rdfs:subclassOf radon:domain_DZ0108N .
+
+radon:discipline_DS010803N a radon:Discipline;
+  schema:identifier "DS010803N";
+  schema:name "sztuki plastyczne i konserwacja dzieł sztuki";
+  rdfs:subclassOf radon:domain_DZ0108N .
+
+radon:discipline_DS010901N a radon:Discipline;
+  schema:identifier "DS010901N";
+  schema:name "nauki o rodzinie";
+  rdfs:subclassOf radon:domain_DZ0109N .
+
+radon:discipline_DS011001N a radon:Discipline;
+  schema:identifier "DS011001N";
+  schema:name "weterynaria (dziedzina nauk weterynaryjnych)";
+  rdfs:subclassOf radon:domain_DZ0110N .
+

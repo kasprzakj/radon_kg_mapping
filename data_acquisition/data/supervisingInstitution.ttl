@@ -1,0 +1,121 @@
+@prefix : <http://mapping.example.com/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix aiiso: <http://purl.org/vocab/aiiso/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix radon: <http://example.org/radon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix schema: <http://schema.org/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+radon:supervisingInstitution_0210a81b-ec79-45e4-b463-a95d2d2f1007 a org:OrganizationalUnit;
+  schema:name "Minister Sportu i Turystyki (poprzednio MS)";
+  org:identifier "0210a81b-ec79-45e4-b463-a95d2d2f1007" .
+
+radon:supervisingInstitution_04fb00a8-4327-4852-af74-6ec3060573d2 a org:OrganizationalUnit;
+  schema:name "Minister Cyfryzacji";
+  org:identifier "04fb00a8-4327-4852-af74-6ec3060573d2" .
+
+radon:supervisingInstitution_101a981c-2750-40b0-b6c9-60833cb614c8 a org:OrganizationalUnit;
+  schema:name "Minister Obrony Narodowej";
+  org:identifier "101a981c-2750-40b0-b6c9-60833cb614c8" .
+
+radon:supervisingInstitution_20b6090b-f452-4a8b-97a2-96aa78fb96b9 a org:OrganizationalUnit;
+  schema:name "Minister Rodziny, Pracy i Polityki Społecznej (poprzednio MRiPS)";
+  org:identifier "20b6090b-f452-4a8b-97a2-96aa78fb96b9" .
+
+radon:supervisingInstitution_29ee8a6f-a20d-4c41-8abd-75b1e4cd38aa a org:OrganizationalUnit;
+  schema:name "Minister Edukacji Narodowej";
+  org:identifier "29ee8a6f-a20d-4c41-8abd-75b1e4cd38aa" .
+
+radon:supervisingInstitution_2b2e64d0-dc32-4575-ba6c-073f0757f4f9 a org:OrganizationalUnit;
+  schema:name "Minister Nauki (poprzednio MEiN)";
+  org:identifier "2b2e64d0-dc32-4575-ba6c-073f0757f4f9" .
+
+radon:supervisingInstitution_2cc8ed07-3c06-47d4-b26a-64ab1f5df6eb a org:OrganizationalUnit;
+  schema:name "Polska Akademia Nauk";
+  org:identifier "2cc8ed07-3c06-47d4-b26a-64ab1f5df6eb" .
+
+radon:supervisingInstitution_311faa11-6721-4dcd-a93c-a1a4492c755e a org:OrganizationalUnit;
+  schema:name "Minister Infrastruktury (poprzednio MiB)";
+  org:identifier "311faa11-6721-4dcd-a93c-a1a4492c755e" .
+
+radon:supervisingInstitution_383dff69-de38-4c6e-bcc5-752c3d2ffb66 a org:OrganizationalUnit;
+  schema:name "Minister Sprawiedliwości";
+  org:identifier "383dff69-de38-4c6e-bcc5-752c3d2ffb66" .
+
+radon:supervisingInstitution_39d86820-f093-46f4-a6bf-facd6137b25a a org:OrganizationalUnit;
+  schema:name "Minister Klimatu i Środowiska (poprzednio MŚiK)";
+  org:identifier "39d86820-f093-46f4-a6bf-facd6137b25a" .
+
+radon:supervisingInstitution_47506fc2-1121-4343-8a42-88bcb21bdd3f a org:OrganizationalUnit;
+  schema:name "Minister Aktywów Państwowych";
+  org:identifier "47506fc2-1121-4343-8a42-88bcb21bdd3f" .
+
+radon:supervisingInstitution_53df6a82-2924-4aae-85b7-19106e8bdcf5 a org:OrganizationalUnit;
+  schema:name "Minister Przedsiębiorczości i Technologii";
+  org:identifier "53df6a82-2924-4aae-85b7-19106e8bdcf5" .
+
+radon:supervisingInstitution_5b64b6e6-7375-4037-89d8-ef183ea2c1f0 a org:OrganizationalUnit;
+  schema:name "Minister Kultury i Dziedzictwa Narodowego (poprzednio MKDNiS)";
+  org:identifier "5b64b6e6-7375-4037-89d8-ef183ea2c1f0" .
+
+radon:supervisingInstitution_5bd5c28a-b763-43c7-86b0-79a4cc745664 a org:OrganizationalUnit;
+  schema:name "Minister Energii";
+  org:identifier "5bd5c28a-b763-43c7-86b0-79a4cc745664" .
+
+radon:supervisingInstitution_5ff6eb4a-8be9-49f6-9694-2b2e5eb2a13c a org:OrganizationalUnit;
+  schema:name "Minister Funduszy i Polityki Regionalnej";
+  org:identifier "5ff6eb4a-8be9-49f6-9694-2b2e5eb2a13c" .
+
+radon:supervisingInstitution_7a57c44f-2924-4052-9d2a-54c2f5f03592 a org:OrganizationalUnit;
+  schema:name "Minister Spraw Zagranicznych";
+  org:identifier "7a57c44f-2924-4052-9d2a-54c2f5f03592" .
+
+radon:supervisingInstitution_7d11545b-37fc-4424-8b45-a54a84aad859 a org:OrganizationalUnit;
+  schema:name "Centrum Łukasiewicz";
+  org:identifier "7d11545b-37fc-4424-8b45-a54a84aad859" .
+
+radon:supervisingInstitution_939effe4-29f2-4e41-9ec6-caa6b34d54f5 a org:OrganizationalUnit;
+  schema:name "Minister Gospodarki Morskiej i Żeglugi Śródlądowej";
+  org:identifier "939effe4-29f2-4e41-9ec6-caa6b34d54f5" .
+
+radon:supervisingInstitution_a06627fe-7d86-4b90-b7a7-9ab06ac48434 a org:OrganizationalUnit;
+  schema:name "Minister Spraw Wewnętrznych i Administracji";
+  org:identifier "a06627fe-7d86-4b90-b7a7-9ab06ac48434" .
+
+radon:supervisingInstitution_b19d0545-dcf0-4f9c-8414-9328e1831c24 a org:OrganizationalUnit;
+  schema:name "Minister Gospodarki";
+  org:identifier "b19d0545-dcf0-4f9c-8414-9328e1831c24" .
+
+radon:supervisingInstitution_b8ccc265-859a-4ca1-9579-60150e8908a4 a org:OrganizationalUnit;
+  schema:name "Minister Rolnictwa i Rozwoju Wsi";
+  org:identifier "b8ccc265-859a-4ca1-9579-60150e8908a4" .
+
+radon:supervisingInstitution_e32dba3a-b2a3-41da-8019-314f1091d013 a org:OrganizationalUnit;
+  schema:name "Minister Zdrowia";
+  org:identifier "e32dba3a-b2a3-41da-8019-314f1091d013" .
+
+radon:supervisingInstitution_ea92a74d-9594-48bf-9e03-4de781cff5b8 a org:OrganizationalUnit;
+  schema:name "Minister Rozwoju i Technologii (poprzednio MRPiT)";
+  org:identifier "ea92a74d-9594-48bf-9e03-4de781cff5b8" .
+
+radon:supervisingInstitution_f9e9ba22-a913-44c1-9453-db011acff8e8 a org:OrganizationalUnit;
+  schema:name "Minister Przemysłu";
+  org:identifier "f9e9ba22-a913-44c1-9453-db011acff8e8" .
+

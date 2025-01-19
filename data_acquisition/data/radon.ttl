@@ -1,0 +1,44 @@
+radon:consistsOf a <http://www.w3.org/2002/07/owl#AsymmetricProperty>, <http://www.w3.org/2002/07/owl#ObjectProperty>;
+  rdfs:comment "Represents that a Domain consists of one or more Disciplines.";
+  rdfs:label "consists of";
+  rdfs:range "http://example.org/radon#Discipline" .
+
+radon:hasDissertation a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+  rdfs:comment "The dissertation related to the promotion.";
+  rdfs:domain "http://example.org/radon#Promotion";
+  rdfs:range "http://purl.org/ontology/bibo/Thesis" .
+
+radon:regon a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+  rdfs:comment "Polish national business registry number";
+  rdfs:domain "http://www.w3.org/ns/org#OrganizationalUnit";
+  rdfs:label "REGON identifier";
+  rdfs:range "http://www.w3.org/2001/XMLSchema#string" .
+
+radon:startedCurrentJob a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+  rdfs:comment "The date when the employee started their current employement.";
+  rdfs:domain "http://example.org/radon#Employee";
+  rdfs:label "work start date";
+  rdfs:range "http://www.w3.org/2001/XMLSchema#date" .
+
+radon:consistsOf a <http://www.w3.org/2002/07/owl#AsymmetricProperty>, <http://www.w3.org/2002/07/owl#ObjectProperty>;
+  rdfs:comment "Represents that a Domain consists of one or more Disciplines.";
+  rdfs:label "consists of";
+  rdfs:range "http://example.org/radon#Discipline" .
+
+radon:hasDissertation a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+  rdfs:comment "The dissertation related to the promotion.";
+  rdfs:domain "http://example.org/radon#Promotion";
+  rdfs:range "http://purl.org/ontology/bibo/Thesis" .
+
+radon:regon a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+  rdfs:comment "Polish national business registry number";
+  rdfs:domain "http://www.w3.org/ns/org#OrganizationalUnit";
+  rdfs:label "REGON identifier";
+  rdfs:range "http://www.w3.org/2001/XMLSchema#string" .
+
+radon:startedCurrentJob a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+  rdfs:comment "The date when the employee started their current employement.";
+  rdfs:domain "http://example.org/radon#Employee";
+  rdfs:label "work start date";
+  rdfs:range "http://www.w3.org/2001/XMLSchema#date" .
+

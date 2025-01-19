@@ -9,81 +9,73 @@ prefixes:
   prov: http://www.w3.org/ns/prov#
   dcterms: http://purl.org/dc/terms/
   time: http://www.w3.org/2006/time#
-  inst: http://example.org/institution#
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
+  adms: http://www.w3.org/ns/adms#
+  radon: http://example.org/radon#
+  aiiso: http://purl.org/vocab/aiiso/schema#
+  bibo: http://purl.org/ontology/bibo/
 
 mappings:
+  property_regon:
+    sources:
+        - ['data/branches.json~jsonpath', '$[*]']
+    s: radon:regon
+    po:
+      - [a, owl:DatatypeProperty]
+      - [rdfs:label, "REGON identifier"]
+      - [rdfs:comment, "Polish national business registry number"]
+      - [rdfs:domain, org:OrganizationalUnit]
+      - [rdfs:range, xsd:string]
+
   institution:
     sources:
-      - ['data/examples/institution.json~jsonpath', '$']
-    s: inst:institution_$(id)
+      - ['data/institutions.json~jsonpath', '$[*]']
+    s: radon:institution_$(institutionUuid)
     po:
       - [a, vivo:University]
-      - [org:identifier, $(id)]
+      - [a, org:OrganizationalUnit]
+      - [org:identifier, $(institutionUuid)]
       - [schema:name, $(name)]
       - [schema:url, $(www)]
       - [org:classification, $(iKindName)]
-      - [schema:regon, $(regon)]
-      - p: inst:hasStatus
+      - [radon:regon, $(regon)]
+      - [vcard:hasEmail, $(eMail)]
+      - [vcard:country-name, $(country)]
+      - [vcard:locality, $(city)]
+      - [vcard:street-address, '$(street) $(bNumber) $(lNumber)']
+      - [vcard:postal-code, $(postalCode)]
+      - [vcard:region, $(voivodeship)]
+      - [schema:status, $(status)]
+      - p: org:hasSubOrganization
         o:
-          mapping: institution_status
+          mapping: branch
           condition:
             function: equal
             parameters:
-              - [str1, $(status)]
-              - [str2, $(statusName)]
-
-  institution_address:
-    sources:
-      - ['data/examples/institution.json~jsonpath', '$.addresses[*]']
-    s: inst:address_$(institutionUuid)_$(dateFrom)
-    po:
-      - [a, vcard:Address]
-      - [vcard:street-address, $(street) $(bNumber)]
-      - [vcard:postal-code, $(postalCd)]
-      - [vcard:locality, $(city)]
-      - [vcard:region, $(voivodeship)]
-      - [vcard:country-name, $(country)]
-      - [dcterms:valid, $(dateFrom)]
-    
-  institution_status:
-    sources:
-      - ['data/examples/institution.json~jsonpath', '$.statuses[*]']
-    s: inst:status_$(institutionUuid)_$(dateFrom)
-    po:
-      - [a, prov:Activity]
-      - [rdfs:label, $(statusName)]
-      - [prov:startedAtTime, $(dateFrom)]
-
-  institution_name:
-    sources:
-      - ['data/examples/institution.json~jsonpath', '$.names[*]']
-    s: inst:name_$(institutionUuid)_$(dateFrom)
-    po:
-      - [a, schema:Name]
-      - [schema:name, $(name)]
-      - [dcterms:valid, $(dateFrom)]
-
-  institution_type:
-    sources:
-      - ['data/examples/institution.json~jsonpath', '$.types[*]']
-    s: inst:type_$(institutionUuid)_$(dateFrom)
-    po:
-      - [a, org:Classification]
-      - [rdfs:label, $(typeName)]
-      - [dcterms:valid, $(dateFrom)]
-
-  supervising_institution:
-    sources:
-      - ['data/examples/institution.json~jsonpath', '$.supervisingInstitutions[*]']
-    s: inst:supervisor_$(supervisingInstitutionID)
-    po:
-      - [a, org:Organization]
-      - [rdfs:label, $(supervisingInstitutionName)]
-      - p: org:unitOf
+              - [str1, $(institutionUuid)]
+              - [str2, $(mainInstitutionUuid)]
+      - p: org:reportsTo
         o:
-          - mapping: institution
-            condition:
-              function: equal
-              parameters:
-                - [str1, $(dateFrom)]
-                - [str2, $(dateFrom)]
+          mapping: supervising_institutions
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(supervisingInstitutionID)]
+              - [str2, $(supervisingInstitutionID)]
+      - p: aiiso:Teaches
+        o:
+          mapping: discipline
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(institutionUuid)]
+              - [str2, $(institutionUuid)]
+
+  supervising_institutions:
+    sources:
+      - ['data/institutions.json~jsonpath', '$[*]']
+    s: radon:supervisingInstitution_$(supervisingInstitutionID)
+    po:
+    - [a, org:OrganizationalUnit]
+    - [org:identifier, $(supervisingInstitutionID)]
+    - [schema:name, $(supervisingInstitutionName)]

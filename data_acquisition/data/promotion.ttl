@@ -1,0 +1,45 @@
+@prefix : <http://mapping.example.com/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix aiiso: <http://purl.org/vocab/aiiso/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix radon: <http://example.org/radon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix schema: <http://schema.org/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+radon:promotion_0002e6a0-bd6f-4102-a0f9-65e359611da2 a radon:Promotion;
+  radon:hasDissertation "http://example.org/radon#dissertation_0002e6a0-bd6f-4102-a0f9-65e359611da2";
+  schema:identifier "0002e6a0-bd6f-4102-a0f9-65e359611da2" .
+
+radon:promotion_0006b213-678b-4163-b87e-6efbc715ad3b a radon:Promotion;
+  radon:hasDissertation "http://example.org/radon#dissertation_0006b213-678b-4163-b87e-6efbc715ad3b";
+  schema:identifier "0006b213-678b-4163-b87e-6efbc715ad3b" .
+
+radon:promotion_00076091-db5d-4cc4-abb1-159fa184e257 a radon:Promotion;
+  radon:hasDissertation "http://example.org/radon#dissertation_00076091-db5d-4cc4-abb1-159fa184e257";
+  schema:identifier "00076091-db5d-4cc4-abb1-159fa184e257" .
+
+radon:promotion_0007d115-25db-47c3-b832-ea426bb6e777 radon:hasDissertation "http://example.org/radon#dissertation_0007d115-25db-47c3-b832-ea426bb6e777";
+  schema:identifier "0007d115-25db-47c3-b832-ea426bb6e777";
+  a radon:Promotion .
+
+radon:promotion_0020db58-b7c9-4eb5-9143-62e97f3c0033 a radon:Promotion;
+  radon:hasDissertation "http://example.org/radon#dissertation_0020db58-b7c9-4eb5-9143-62e97f3c0033";
+  schema:identifier "0020db58-b7c9-4eb5-9143-62e97f3c0033" .
+

@@ -1,0 +1,87 @@
+@prefix : <http://mapping.example.com/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix aiiso: <http://purl.org/vocab/aiiso/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix radon: <http://example.org/radon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix schema: <http://schema.org/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+radon:domain_DZ0101N a radon:Domain;
+  radon:consistsOf radon:discipline_DS010101N, radon:discipline_DS010102N, radon:discipline_DS010103N,
+    radon:discipline_DS010104N, radon:discipline_DS010105N, radon:discipline_DS010106N,
+    radon:discipline_DS010107N, radon:discipline_DS010108N, radon:discipline_DS010109N;
+  schema:identifier "DZ0101N";
+  schema:name "dziedzina nauk humanistycznych" .
+
+radon:domain_DZ0102N a radon:Domain;
+  radon:consistsOf radon:discipline_DS010201N, radon:discipline_DS010202N, radon:discipline_DS010203N,
+    radon:discipline_DS010204N, radon:discipline_DS010205N, radon:discipline_DS010206N,
+    radon:discipline_DS010207N, radon:discipline_DS010208N, radon:discipline_DS010209N,
+    radon:discipline_DS010210N, radon:discipline_DS010212N, radon:discipline_DS010213N;
+  schema:identifier "DZ0102N";
+  schema:name "dziedzina nauk inżynieryjno-technicznych" .
+
+radon:domain_DZ0103N a radon:Domain;
+  radon:consistsOf radon:discipline_DS010301N, radon:discipline_DS010302N, radon:discipline_DS010303N,
+    radon:discipline_DS010304N, radon:discipline_DS010305N;
+  schema:identifier "DZ0103N";
+  schema:name "dziedzina nauk medycznych i nauk o zdrowiu" .
+
+radon:domain_DZ0104N a radon:Domain;
+  radon:consistsOf radon:discipline_DS010401N, radon:discipline_DS010402N, radon:discipline_DS010403N,
+    radon:discipline_DS010404N, radon:discipline_DS010405N;
+  schema:identifier "DZ0104N";
+  schema:name "dziedzina nauk rolniczych" .
+
+radon:domain_DZ0105N a radon:Domain;
+  radon:consistsOf radon:discipline_DS010501N, radon:discipline_DS010502N, radon:discipline_DS010503N,
+    radon:discipline_DS010504N, radon:discipline_DS010505N, radon:discipline_DS010506N,
+    radon:discipline_DS010507N, radon:discipline_DS010508N, radon:discipline_DS010509N,
+    radon:discipline_DS010510N, radon:discipline_DS010511N, radon:discipline_DS010512N;
+  schema:identifier "DZ0105N";
+  schema:name "dziedzina nauk społecznych" .
+
+radon:domain_DZ0106N a radon:Domain;
+  radon:consistsOf radon:discipline_DS010601N, radon:discipline_DS010602N, radon:discipline_DS010603N,
+    radon:discipline_DS010604N, radon:discipline_DS010605N, radon:discipline_DS010606N,
+    radon:discipline_DS010607N, radon:discipline_DS010608N;
+  schema:identifier "DZ0106N";
+  schema:name "dziedzina nauk ścisłych i przyrodniczych" .
+
+radon:domain_DZ0107N a radon:Domain;
+  radon:consistsOf radon:discipline_DS010701N, radon:discipline_DS010702N;
+  schema:identifier "DZ0107N";
+  schema:name "dziedzina nauk teologicznych" .
+
+radon:domain_DZ0108N a radon:Domain;
+  radon:consistsOf radon:discipline_DS010801N, radon:discipline_DS010802N, radon:discipline_DS010803N;
+  schema:identifier "DZ0108N";
+  schema:name "dziedzina sztuki" .
+
+radon:domain_DZ0109N a radon:Domain;
+  radon:consistsOf radon:discipline_DS010901N;
+  schema:identifier "DZ0109N";
+  schema:name "dziedzina nauk o rodzinie" .
+
+radon:domain_DZ0110N a radon:Domain;
+  radon:consistsOf radon:discipline_DS011001N;
+  schema:identifier "DZ0110N";
+  schema:name "dziedzina nauk weterynaryjnych" .
+

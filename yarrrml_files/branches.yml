@@ -12,6 +12,8 @@ prefixes:
   grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
   adms: http://www.w3.org/ns/adms#
   radon: http://example.org/radon#
+  aiiso: http://purl.org/vocab/aiiso/schema#
+  bibo: http://purl.org/ontology/bibo/
 
 mappings:
   branch:
@@ -24,19 +26,18 @@ mappings:
       - [org:identifier, $(branchUuid)]
       - [schema:name, $(name)]
       - [vcard:hasEmail, $(eMail)]
-      - [vcard:country-name, '$(country)']
+      - [vcard:country-name, $(country)]
       - [vcard:street-address, '$(street) $(buildingNumber)']
-      - [vcard:postal-code, '$(postalCode)']
-      - [vcard:region, '$(voivodship)']
-      - [org:subOrganizationOf, '$(mainInstitutionUuid)']
-      - [foaf:homepage, $(www)]
+      - [vcard:postal-code, $(postalCode)]
+      - [vcard:region, $(voivodeship)]
+      - [vcard:locality, $(city)]
+      - [foaf:homepage, $(www), xsd:anyURI]
       - [schema:status, $(status)]
-      - [adms:identifier, $(regon)]
-      # - p: org:subOrganizationOf
-      #   o:
-      #     mapping: institution
-      #     condition:
-      #       function: equal
-      #       parameters:
-      #         - [str1, $(mainInstitutionUuid)]
-      #         - [str2, $(insitutionUuid)]
+      - p: org:subOrganizationOf
+        o:
+          mapping: institution
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(mainInstitutionUuid)]
+              - [str2, $(institutionUuid)]

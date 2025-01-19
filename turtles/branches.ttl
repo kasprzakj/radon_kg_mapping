@@ -52,7 +52,7 @@ radon:branch_015efe15-8c9c-45fa-9e41-4058f5c5b9f9 a radon:Branch, org:Organizati
   adms:identifier "368585165";
   org:identifier "015efe15-8c9c-45fa-9e41-4058f5c5b9f9";
   org:subOrganizationOf "eb677936-faca-4d49-9884-bc532f3c0566";
-  foaf:homepage "http://ews.edu.pl" .
+  foaf:homepage "http://ews.edu.pl"^^xsd:anyURI .
 
 radon:branch_016ede2f-b556-4be9-826c-2bc08fc65a34 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Kołobrzegu";
@@ -64,7 +64,7 @@ radon:branch_016ede2f-b556-4be9-826c-2bc08fc65a34 a radon:Branch, org:Organizati
   adms:identifier "812011950";
   org:identifier "016ede2f-b556-4be9-826c-2bc08fc65a34";
   org:subOrganizationOf "91934ff1-e070-4adf-962d-7c54e52941fc";
-  foaf:homepage "http://kolobrzeg.cb.szczecin.pl/" .
+  foaf:homepage "http://kolobrzeg.cb.szczecin.pl/"^^xsd:anyURI .
 
 radon:branch_01e04a34-1b69-4d4e-805d-5733ed925899 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Informatyki w Bytomiu";
@@ -117,7 +117,7 @@ radon:branch_05003f06-f4d4-4960-9067-18a70c943e70 a radon:Branch, org:Organizati
   adms:identifier "811975923";
   org:identifier "05003f06-f4d4-4960-9067-18a70c943e70";
   org:subOrganizationOf "93316717-c30b-4ab1-9f32-f95eef75f238";
-  foaf:homepage "http://www.zpsb.swinoujscie.pl" .
+  foaf:homepage "http://www.zpsb.swinoujscie.pl"^^xsd:anyURI .
 
 radon:branch_05f0676e-42f7-4f08-936d-265a3162c8b6 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Warszawie";
@@ -129,7 +129,7 @@ radon:branch_05f0676e-42f7-4f08-936d-265a3162c8b6 a radon:Branch, org:Organizati
   adms:identifier "470985279";
   org:identifier "05f0676e-42f7-4f08-936d-265a3162c8b6";
   org:subOrganizationOf "8f4f45a9-5c93-4073-8e0a-fcb2b63cb997";
-  foaf:homepage "http://warszawa.san.edu.pl" .
+  foaf:homepage "http://warszawa.san.edu.pl"^^xsd:anyURI .
 
 radon:branch_06374ec1-084c-4114-bc40-6bb0317c9ca0 a radon:Branch, org:OrganizationalUnit;
   schema:name "filia we Wrocławiu";
@@ -149,7 +149,7 @@ radon:branch_06b9b948-bd81-47ca-87c6-7644f9db0993 a radon:Branch, org:Organizati
   adms:identifier "340072737";
   org:identifier "06b9b948-bd81-47ca-87c6-7644f9db0993";
   org:subOrganizationOf "548bd80f-e4fa-42e5-bd11-1abfb1869bb4";
-  foaf:homepage "wsnoz.pl" .
+  foaf:homepage "wsnoz.pl"^^xsd:anyURI .
 
 radon:branch_0ab56b35-9e86-414e-96aa-1525d79dc02c a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zdrowia i Nauk Społecznych w Piotrkowie Trybunalskim";
@@ -161,7 +161,7 @@ radon:branch_0ab56b35-9e86-414e-96aa-1525d79dc02c a radon:Branch, org:Organizati
   adms:identifier "278181078";
   org:identifier "0ab56b35-9e86-414e-96aa-1525d79dc02c";
   org:subOrganizationOf "ea1761e0-822e-47a7-85b4-2c7ca4a76dd2";
-  foaf:homepage "http://www.wsps.pl" .
+  foaf:homepage "http://www.wsps.pl"^^xsd:anyURI .
 
 radon:branch_0ae4e6bb-9cae-48b5-a218-daf12b735bfb a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Chełmie";
@@ -173,7 +173,7 @@ radon:branch_0ae4e6bb-9cae-48b5-a218-daf12b735bfb a radon:Branch, org:Organizati
   adms:identifier "010340484";
   org:identifier "0ae4e6bb-9cae-48b5-a218-daf12b735bfb";
   org:subOrganizationOf "180d2805-5609-4d97-ae79-27444f690ab6";
-  foaf:homepage "http://www.janski.edu.pl" .
+  foaf:homepage "http://www.janski.edu.pl"^^xsd:anyURI .
 
 radon:branch_0b5bda92-e4da-48ab-a55f-4b2c8431ac8f a radon:Branch, org:OrganizationalUnit;
   schema:name "Pomorska Szkoła Wyższa w Starogardzie Gdańskim Filia w Tczewie";
@@ -226,7 +226,7 @@ radon:branch_0cf22207-26f1-40b2-95da-27e099cdc416 a radon:Branch, org:Organizati
   adms:identifier "811099769";
   org:identifier "0cf22207-26f1-40b2-95da-27e099cdc416";
   org:subOrganizationOf "9a80eec2-fc58-44c1-89ed-0e424ac52932";
-  foaf:homepage "https://anstwp.ostroleka.pl/" .
+  foaf:homepage "https://anstwp.ostroleka.pl/"^^xsd:anyURI .
 
 radon:branch_0cf6e56a-b9b6-447e-a120-2424264985ea a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Pedagogiczny Filia w Iławie";
@@ -238,7 +238,7 @@ radon:branch_0cf6e56a-b9b6-447e-a120-2424264985ea a radon:Branch, org:Organizati
   adms:identifier "610217351";
   org:identifier "0cf6e56a-b9b6-447e-a120-2424264985ea";
   org:subOrganizationOf "77de6eec-1f71-4363-bea7-e4287d49e1da";
-  foaf:homepage "http://www.wlodkowic.pl" .
+  foaf:homepage "http://www.wlodkowic.pl"^^xsd:anyURI .
 
 radon:branch_0d291981-61ab-49dd-9b45-66634eca1072 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Szczecinie";
@@ -272,7 +272,7 @@ radon:branch_0f471858-97e9-4501-802c-125d3e00c06c a radon:Branch, org:Organizati
   adms:identifier "830437527";
   org:identifier "0f471858-97e9-4501-802c-125d3e00c06c";
   org:subOrganizationOf "0c5a5b1d-0810-421d-bc19-0a029010273a";
-  foaf:homepage "http://www.wsgiz.mielec.pl/" .
+  foaf:homepage "http://www.wsgiz.mielec.pl/"^^xsd:anyURI .
 
 radon:branch_0fa0a683-67ed-4e4a-ac82-8f2df4d10b0f a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Sandomierzu";
@@ -284,7 +284,7 @@ radon:branch_0fa0a683-67ed-4e4a-ac82-8f2df4d10b0f a radon:Branch, org:Organizati
   adms:identifier "000001407";
   org:identifier "0fa0a683-67ed-4e4a-ac82-8f2df4d10b0f";
   org:subOrganizationOf "451f3300-ea98-4941-a77e-31f6cc80cbeb";
-  foaf:homepage "http://www.sandomierz.ujk.edu.pl" .
+  foaf:homepage "http://www.sandomierz.ujk.edu.pl"^^xsd:anyURI .
 
 radon:branch_105bbe9b-bf76-465c-a038-067d35f19c47 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Żywcu";
@@ -296,7 +296,7 @@ radon:branch_105bbe9b-bf76-465c-a038-067d35f19c47 a radon:Branch, org:Organizati
   adms:identifier "272653903";
   org:identifier "105bbe9b-bf76-465c-a038-067d35f19c47";
   org:subOrganizationOf "69309128-a485-48bf-b8fb-006187190299";
-  foaf:homepage "http://www.wsb.edu.pl/zywiec" .
+  foaf:homepage "http://www.wsb.edu.pl/zywiec"^^xsd:anyURI .
 
 radon:branch_106d55c2-e448-4016-a3d9-a9356a80257c a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Zgorzelcu";
@@ -308,7 +308,7 @@ radon:branch_106d55c2-e448-4016-a3d9-a9356a80257c a radon:Branch, org:Organizati
   adms:identifier "811099769";
   org:identifier "106d55c2-e448-4016-a3d9-a9356a80257c";
   org:subOrganizationOf "9a80eec2-fc58-44c1-89ed-0e424ac52932";
-  foaf:homepage "https://wshtwp.zgorzelec.pl/" .
+  foaf:homepage "https://wshtwp.zgorzelec.pl/"^^xsd:anyURI .
 
 radon:branch_10d929ec-b489-4bd2-9bf4-b3f5eab86bac a radon:Branch, org:OrganizationalUnit;
   schema:name "Wyższa Szkoła Humanistyczno - Ekonomiczna w Brzegu Filia w Tychach";
@@ -330,7 +330,7 @@ radon:branch_112b8434-2ec0-403a-9ba2-cea63b2b5358 a radon:Branch, org:Organizati
   adms:identifier "192768769";
   org:identifier "112b8434-2ec0-403a-9ba2-cea63b2b5358";
   org:subOrganizationOf "0bdc78e2-3f99-49ee-ab6c-d9fadf38c0f1";
-  foaf:homepage "https://gsw.gda.pl/" .
+  foaf:homepage "https://gsw.gda.pl/"^^xsd:anyURI .
 
 radon:branch_11b05f97-611e-4af9-8369-f22cd2ae5bc4 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wyższa Szkoła Bezpieczeństwa Publicznego i Indywidualnego \"Apeiron\" w Krakowie Dolnośląski Wydział Bezpieczeństwa i Nauk Społeczno-Prawnych we Wrocławiu";
@@ -342,7 +342,7 @@ radon:branch_11b05f97-611e-4af9-8369-f22cd2ae5bc4 a radon:Branch, org:Organizati
   adms:identifier "120101283";
   org:identifier "11b05f97-611e-4af9-8369-f22cd2ae5bc4";
   org:subOrganizationOf "9948021a-d4a1-4f4f-946c-630504be6302";
-  foaf:homepage "https://apeiron.edu.pl/wroclaw/" .
+  foaf:homepage "https://apeiron.edu.pl/wroclaw/"^^xsd:anyURI .
 
 radon:branch_139bc79b-07ea-462c-84f8-d8395e243b60 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Zduńskiej Woli";
@@ -354,7 +354,7 @@ radon:branch_139bc79b-07ea-462c-84f8-d8395e243b60 a radon:Branch, org:Organizati
   adms:identifier "470985279";
   org:identifier "139bc79b-07ea-462c-84f8-d8395e243b60";
   org:subOrganizationOf "8f4f45a9-5c93-4073-8e0a-fcb2b63cb997";
-  foaf:homepage "http://zsunskawola.spoleczna.pl" .
+  foaf:homepage "http://zsunskawola.spoleczna.pl"^^xsd:anyURI .
 
 radon:branch_14656ae4-d3ec-479a-accf-2d66e76e4fae a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Ekonomiczny w Szczecinie";
@@ -366,7 +366,7 @@ radon:branch_14656ae4-d3ec-479a-accf-2d66e76e4fae a radon:Branch, org:Organizati
   adms:identifier "630245248";
   org:identifier "14656ae4-d3ec-479a-accf-2d66e76e4fae";
   org:subOrganizationOf "add982ff-1e14-4375-84f5-07977f9fd994";
-  foaf:homepage "http://www.wsb.szczecin.pl" .
+  foaf:homepage "http://www.wsb.szczecin.pl"^^xsd:anyURI .
 
 radon:branch_16081767-833f-49e6-a410-834032b1837a a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Nauk Administracyjnych i Ekonomicznych w Uherské Hradiště";
@@ -400,7 +400,7 @@ radon:branch_17b6b668-5b6b-425a-b25d-026b42f9e2e2 a radon:Branch, org:Organizati
   adms:identifier "978077991";
   org:identifier "17b6b668-5b6b-425a-b25d-026b42f9e2e2";
   org:subOrganizationOf "07f75f83-c25a-4520-835c-86ed2a8fa4df";
-  foaf:homepage "http://ww.lsw.edu.pl" .
+  foaf:homepage "http://ww.lsw.edu.pl"^^xsd:anyURI .
 
 radon:branch_17e78e22-c6f0-41b3-83f8-2b77eed60d7f a radon:Branch, org:OrganizationalUnit;
   schema:name "Zagraniczna Filia w Andijan";
@@ -431,7 +431,7 @@ radon:branch_1a91ae57-3194-4623-83d5-93e9e1a11d54 a radon:Branch, org:Organizati
   adms:identifier "300001987";
   org:identifier "1a91ae57-3194-4623-83d5-93e9e1a11d54";
   org:subOrganizationOf "90296486-2c11-4d4f-9cef-2edcebdf5b39";
-  foaf:homepage "http://www.wsb.net.pl" .
+  foaf:homepage "http://www.wsb.net.pl"^^xsd:anyURI .
 
 radon:branch_1ae411ce-74dd-4b27-9bfe-dae783f45d82 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Powiślańskiej Szkoły Wyższej w Gdańsku";
@@ -443,7 +443,7 @@ radon:branch_1ae411ce-74dd-4b27-9bfe-dae783f45d82 a radon:Branch, org:Organizati
   adms:identifier "191871175";
   org:identifier "1ae411ce-74dd-4b27-9bfe-dae783f45d82";
   org:subOrganizationOf "bc3eae7b-1b6a-4a7c-8db2-5ef5f8a94051";
-  foaf:homepage "https://powislanska.edu.pl/uczelnia/filia-gdansk/" .
+  foaf:homepage "https://powislanska.edu.pl/uczelnia/filia-gdansk/"^^xsd:anyURI .
 
 radon:branch_1c6ccc20-fc28-4e1b-841a-34a78daa0f2e a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Dublinie";
@@ -497,7 +497,7 @@ radon:branch_2081deec-7b71-4b9c-8d74-d72631429f2e a radon:Branch, org:Organizati
   adms:identifier "300001987";
   org:identifier "2081deec-7b71-4b9c-8d74-d72631429f2e";
   org:subOrganizationOf "90296486-2c11-4d4f-9cef-2edcebdf5b39";
-  foaf:homepage "http://www.wsb.net.pl" .
+  foaf:homepage "http://www.wsb.net.pl"^^xsd:anyURI .
 
 radon:branch_21691afd-fef4-460c-941a-c6d5e7f1ec74 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Tarnobrzegu";
@@ -509,7 +509,7 @@ radon:branch_21691afd-fef4-460c-941a-c6d5e7f1ec74 a radon:Branch, org:Organizati
   adms:identifier "470985279";
   org:identifier "21691afd-fef4-460c-941a-c6d5e7f1ec74";
   org:subOrganizationOf "8f4f45a9-5c93-4073-8e0a-fcb2b63cb997";
-  foaf:homepage "http://tarnobrzeg.san.edu.pl/" .
+  foaf:homepage "http://tarnobrzeg.san.edu.pl/"^^xsd:anyURI .
 
 radon:branch_21816831-bb60-441f-be82-de81e6a985b9 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Katowicach";
@@ -521,7 +521,7 @@ radon:branch_21816831-bb60-441f-be82-de81e6a985b9 a radon:Branch, org:Organizati
   adms:identifier "011947981";
   org:identifier "21816831-bb60-441f-be82-de81e6a985b9";
   org:subOrganizationOf "55baf644-3dc9-4855-a45b-d6b971a17256";
-  foaf:homepage "http://www.swps.pl" .
+  foaf:homepage "http://www.swps.pl"^^xsd:anyURI .
 
 radon:branch_22a8d317-929d-4e5d-9b71-b33eb0f2bd91 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Wągrowcu";
@@ -533,7 +533,7 @@ radon:branch_22a8d317-929d-4e5d-9b71-b33eb0f2bd91 a radon:Branch, org:Organizati
   adms:identifier "300410823";
   org:identifier "22a8d317-929d-4e5d-9b71-b33eb0f2bd91";
   org:subOrganizationOf "6a71f2f0-1f33-4abf-8731-a9a4d1157af7";
-  foaf:homepage "https://www.wspia.pl" .
+  foaf:homepage "https://www.wspia.pl"^^xsd:anyURI .
 
 radon:branch_2384b338-026e-465f-8885-313459324ec5 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Sztuki Nowych Mediów w Gdańsku";
@@ -545,7 +545,7 @@ radon:branch_2384b338-026e-465f-8885-313459324ec5 a radon:Branch, org:Organizati
   adms:identifier "010816248";
   org:identifier "2384b338-026e-465f-8885-313459324ec5";
   org:subOrganizationOf "9d1eca9c-696f-4908-b65b-8c54eadeb76e";
-  foaf:homepage "http://gdansk.pjwstk.edu.pl" .
+  foaf:homepage "http://gdansk.pjwstk.edu.pl"^^xsd:anyURI .
 
 radon:branch_23f9be4a-3d48-45f5-8185-42d999d080f6 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Aktorski - Filia we Wrocławiu";
@@ -557,7 +557,7 @@ radon:branch_23f9be4a-3d48-45f5-8185-42d999d080f6 a radon:Branch, org:Organizati
   adms:identifier "000275843";
   org:identifier "23f9be4a-3d48-45f5-8185-42d999d080f6";
   org:subOrganizationOf "a552e574-34c1-4df9-930b-a54b06f25b97";
-  foaf:homepage "http://www.ast.wroc.pl" .
+  foaf:homepage "http://www.ast.wroc.pl"^^xsd:anyURI .
 
 radon:branch_2437a6c0-a144-41e8-8f42-e6cbf8868f71 a radon:Branch, org:OrganizationalUnit;
   schema:name "Kolegium Nauk Medycznych - Filia w Toruniu";
@@ -578,7 +578,7 @@ radon:branch_24fd69e9-9806-4349-9b7a-c2925e4b5aab a radon:Branch, org:Organizati
   adms:identifier "278168801";
   org:identifier "24fd69e9-9806-4349-9b7a-c2925e4b5aab";
   org:subOrganizationOf "4ab10dcb-1c97-4a34-94a6-70107b058fd0";
-  foaf:homepage "www.wst.com.pl" .
+  foaf:homepage "www.wst.com.pl"^^xsd:anyURI .
 
 radon:branch_24feb148-f6de-4ad5-b0e3-c8f8693b7cba a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy Nauk Społecznych w Tarnowskich Górach";
@@ -590,7 +590,7 @@ radon:branch_24feb148-f6de-4ad5-b0e3-c8f8693b7cba a radon:Branch, org:Organizati
   adms:identifier "531152730";
   org:identifier "24feb148-f6de-4ad5-b0e3-c8f8693b7cba";
   org:subOrganizationOf "704c9ddd-ef4d-40de-999b-b7a7f99244f5";
-  foaf:homepage "http://www.wszia.opole.pl" .
+  foaf:homepage "http://www.wszia.opole.pl"^^xsd:anyURI .
 
 radon:branch_250e3226-1df0-4467-a0df-c321b6fa63b3 a radon:Branch, org:OrganizationalUnit;
   schema:name "Uczelnia Nauk Społecznych Filia w Rzeszowie";
@@ -611,7 +611,7 @@ radon:branch_26414b57-32be-4301-8cb2-5efcaf44f308 a radon:Branch, org:Organizati
   adms:identifier "011947981";
   org:identifier "26414b57-32be-4301-8cb2-5efcaf44f308";
   org:subOrganizationOf "55baf644-3dc9-4855-a45b-d6b971a17256";
-  foaf:homepage "http://www.swps.pl" .
+  foaf:homepage "http://www.swps.pl"^^xsd:anyURI .
 
 radon:branch_2724177a-12ce-42d7-9c66-a4189809a791 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Nauk Społeczno - Pedagogicznych w Katowicach";
@@ -623,7 +623,7 @@ radon:branch_2724177a-12ce-42d7-9c66-a4189809a791 a radon:Branch, org:Organizati
   adms:identifier "01029199800039";
   org:identifier "2724177a-12ce-42d7-9c66-a4189809a791";
   org:subOrganizationOf "aad3aebb-97ca-40f2-ba23-1ced23433435";
-  foaf:homepage "http://www.wspkorczak.eu" .
+  foaf:homepage "http://www.wspkorczak.eu"^^xsd:anyURI .
 
 radon:branch_275a41ba-bebf-463c-b567-cf3470bdf4e8 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy we Wrocławiu Akademii Finansów i Biznesu Vistula z siedzibą w Warszawie";
@@ -635,7 +635,7 @@ radon:branch_275a41ba-bebf-463c-b567-cf3470bdf4e8 a radon:Branch, org:Organizati
   adms:identifier "011021150";
   org:identifier "275a41ba-bebf-463c-b567-cf3470bdf4e8";
   org:subOrganizationOf "1cb32064-70d2-4de8-b43f-8e67b8a4286b";
-  foaf:homepage "http://www.vistula.edu.pl" .
+  foaf:homepage "http://www.vistula.edu.pl"^^xsd:anyURI .
 
 radon:branch_2782f382-51a2-4b50-a7d7-a8ad0f4c8fc2 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Lubelskiej Akademii WSEI w Warszawie";
@@ -647,7 +647,7 @@ radon:branch_2782f382-51a2-4b50-a7d7-a8ad0f4c8fc2 a radon:Branch, org:Organizati
   adms:identifier "432260703";
   org:identifier "2782f382-51a2-4b50-a7d7-a8ad0f4c8fc2";
   org:subOrganizationOf "f4dd5e8d-c071-4ec2-a048-faf9c2aae76d";
-  foaf:homepage "https://studiapielegniarskie.pl/" .
+  foaf:homepage "https://studiapielegniarskie.pl/"^^xsd:anyURI .
 
 radon:branch_298e5905-82e8-4bbc-817d-f29da2088672 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Zabrzu";
@@ -659,7 +659,7 @@ radon:branch_298e5905-82e8-4bbc-817d-f29da2088672 a radon:Branch, org:Organizati
   adms:identifier "010340484";
   org:identifier "298e5905-82e8-4bbc-817d-f29da2088672";
   org:subOrganizationOf "180d2805-5609-4d97-ae79-27444f690ab6";
-  foaf:homepage "http://www.janski.edu.pl" .
+  foaf:homepage "http://www.janski.edu.pl"^^xsd:anyURI .
 
 radon:branch_29b2b994-a842-49c6-a373-d15f4af19945 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Białymstoku";
@@ -670,7 +670,7 @@ radon:branch_29b2b994-a842-49c6-a373-d15f4af19945 a radon:Branch, org:Organizati
   adms:identifier "811099769";
   org:identifier "29b2b994-a842-49c6-a373-d15f4af19945";
   org:subOrganizationOf "9a80eec2-fc58-44c1-89ed-0e424ac52932";
-  foaf:homepage "https://wshtwp.bialystok.pl/" .
+  foaf:homepage "https://wshtwp.bialystok.pl/"^^xsd:anyURI .
 
 radon:branch_2ca6212c-f4ed-4bc5-b0c8-a85596442b4e a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Staropolskiej Szkoły Wyższej w Kielcach we Lwowie";
@@ -682,7 +682,7 @@ radon:branch_2ca6212c-f4ed-4bc5-b0c8-a85596442b4e a radon:Branch, org:Organizati
   adms:identifier "292390760";
   org:identifier "2ca6212c-f4ed-4bc5-b0c8-a85596442b4e";
   org:subOrganizationOf "835ac4bc-3b1c-4d79-a10f-843bc54be4ef";
-  foaf:homepage "www.stsw.edu.pl" .
+  foaf:homepage "www.stsw.edu.pl"^^xsd:anyURI .
 
 radon:branch_2cab8fdb-8673-4808-9f88-01e9c1dbdca1 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Nauk Społecznych w Lesznie";
@@ -713,7 +713,7 @@ radon:branch_2f16aafb-ab39-41b6-9633-2f299b93a40f a radon:Branch, org:Organizati
   adms:identifier "910215414";
   org:identifier "2f16aafb-ab39-41b6-9633-2f299b93a40f";
   org:subOrganizationOf "871e140a-03db-4bf5-9c91-0b6bdd2a6798";
-  foaf:homepage "www.ksw.wloclawek.pl" .
+  foaf:homepage "www.ksw.wloclawek.pl"^^xsd:anyURI .
 
 radon:branch_30262709-da03-4b00-8533-bf0610881689 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Administracji i Zarządzania w Filii w Wyszkowie";
@@ -725,7 +725,7 @@ radon:branch_30262709-da03-4b00-8533-bf0610881689 a radon:Branch, org:Organizati
   adms:identifier "610217351";
   org:identifier "30262709-da03-4b00-8533-bf0610881689";
   org:subOrganizationOf "77de6eec-1f71-4363-bea7-e4287d49e1da";
-  foaf:homepage "http://www.wlodkowic.pl" .
+  foaf:homepage "http://www.wlodkowic.pl"^^xsd:anyURI .
 
 radon:branch_304b3541-eb41-44e6-989f-6959f95b9387 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Sopocie";
@@ -737,7 +737,7 @@ radon:branch_304b3541-eb41-44e6-989f-6959f95b9387 a radon:Branch, org:Organizati
   adms:identifier "011947981";
   org:identifier "304b3541-eb41-44e6-989f-6959f95b9387";
   org:subOrganizationOf "55baf644-3dc9-4855-a45b-d6b971a17256";
-  foaf:homepage "http://www.swps.pl" .
+  foaf:homepage "http://www.swps.pl"^^xsd:anyURI .
 
 radon:branch_349fbfb2-7477-4652-ab39-be0f8b3f8954 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Ostravie";
@@ -749,7 +749,7 @@ radon:branch_349fbfb2-7477-4652-ab39-be0f8b3f8954 a radon:Branch, org:Organizati
   adms:identifier "272199522";
   org:identifier "349fbfb2-7477-4652-ab39-be0f8b3f8954";
   org:subOrganizationOf "58dcc6b4-cc40-4c1f-ad2d-46bc7fa9f3b5";
-  foaf:homepage "http://gwsh.pl/cz/" .
+  foaf:homepage "http://gwsh.pl/cz/"^^xsd:anyURI .
 
 radon:branch_34f4cbae-ecba-4de6-84bd-e9697f5cf80d a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Wałbrzychu";
@@ -761,7 +761,7 @@ radon:branch_34f4cbae-ecba-4de6-84bd-e9697f5cf80d a radon:Branch, org:Organizati
   adms:identifier "000288981";
   org:identifier "34f4cbae-ecba-4de6-84bd-e9697f5cf80d";
   org:subOrganizationOf "18711a61-b8cc-4cb5-97c3-893045eff81e";
-  foaf:homepage "http://www.umw.edu.pl" .
+  foaf:homepage "http://www.umw.edu.pl"^^xsd:anyURI .
 
 radon:branch_355aabfc-f725-45e0-b021-151f1fe49d37 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Sieradzu";
@@ -773,7 +773,7 @@ radon:branch_355aabfc-f725-45e0-b021-151f1fe49d37 a radon:Branch, org:Organizati
   adms:identifier "470985279";
   org:identifier "355aabfc-f725-45e0-b021-151f1fe49d37";
   org:subOrganizationOf "8f4f45a9-5c93-4073-8e0a-fcb2b63cb997";
-  foaf:homepage "http://sieradz.spoleczna.pl/" .
+  foaf:homepage "http://sieradz.spoleczna.pl/"^^xsd:anyURI .
 
 radon:branch_3686306a-fd08-41e8-951b-5ae4a59fba9d a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Kutnie";
@@ -785,7 +785,7 @@ radon:branch_3686306a-fd08-41e8-951b-5ae4a59fba9d a radon:Branch, org:Organizati
   adms:identifier "471582365";
   org:identifier "3686306a-fd08-41e8-951b-5ae4a59fba9d";
   org:subOrganizationOf "a5a0472f-d374-4742-98fd-1913fc7d58f3";
-  foaf:homepage "http://www.wssm.edu.pl" .
+  foaf:homepage "http://www.wssm.edu.pl"^^xsd:anyURI .
 
 radon:branch_38540ebd-a671-43e6-8055-180799f53f2d a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Miechowie";
@@ -797,7 +797,7 @@ radon:branch_38540ebd-a671-43e6-8055-180799f53f2d a radon:Branch, org:Organizati
   adms:identifier "670679257";
   org:identifier "38540ebd-a671-43e6-8055-180799f53f2d";
   org:subOrganizationOf "15570eb2-05ce-4f28-81b9-ad0121b5df35";
-  foaf:homepage "http://www.pwsos.pl" .
+  foaf:homepage "http://www.pwsos.pl"^^xsd:anyURI .
 
 radon:branch_394256fa-ffca-4be4-a489-70e8f09dd426 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia AHE w Trzciance";
@@ -820,7 +820,7 @@ radon:branch_398d08f7-b8d3-4aa7-99c6-40c232a21c9b a radon:Branch, org:Organizati
   adms:identifier "300001987";
   org:identifier "398d08f7-b8d3-4aa7-99c6-40c232a21c9b";
   org:subOrganizationOf "90296486-2c11-4d4f-9cef-2edcebdf5b39";
-  foaf:homepage "http://www.wsb.net.pl/" .
+  foaf:homepage "http://www.wsb.net.pl/"^^xsd:anyURI .
 
 radon:branch_3a3c335f-1c06-485e-bb19-77c63a8dc2ab a radon:Branch, org:OrganizationalUnit;
   schema:name "Szczecińska Szkoła Wyższa Collegium Balticum Filia Kalisz Pomorski";
@@ -832,7 +832,7 @@ radon:branch_3a3c335f-1c06-485e-bb19-77c63a8dc2ab a radon:Branch, org:Organizati
   adms:identifier "812011950";
   org:identifier "3a3c335f-1c06-485e-bb19-77c63a8dc2ab";
   org:subOrganizationOf "91934ff1-e070-4adf-962d-7c54e52941fc";
-  foaf:homepage "www.cb.szczecin.pl" .
+  foaf:homepage "www.cb.szczecin.pl"^^xsd:anyURI .
 
 radon:branch_3b060c44-dbd4-4b0a-a511-abb81cba973d a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Bytomiu";
@@ -854,7 +854,7 @@ radon:branch_3e303b3e-a9dc-41d1-8a9f-3fa31da8375e a radon:Branch, org:Organizati
   adms:identifier "017280390";
   org:identifier "3e303b3e-a9dc-41d1-8a9f-3fa31da8375e";
   org:subOrganizationOf "2d00d06e-140e-46c4-be04-bf77ae1c73ca";
-  foaf:homepage "http://sochaczew.edu.pl/" .
+  foaf:homepage "http://sochaczew.edu.pl/"^^xsd:anyURI .
 
 radon:branch_3e73e618-4b19-4856-8922-77e9510c07e5 a radon:Branch, org:OrganizationalUnit;
   schema:name "Akademia Nauk Stosowanych  WSGE im. A. De Gasperi w Józefowie Filia w Mińsku Mazowieckim";
@@ -866,7 +866,7 @@ radon:branch_3e73e618-4b19-4856-8922-77e9510c07e5 a radon:Branch, org:Organizati
   adms:identifier "015281183";
   org:identifier "3e73e618-4b19-4856-8922-77e9510c07e5";
   org:subOrganizationOf "8247bc1c-0816-4f78-881f-c8cf81f5380b";
-  foaf:homepage "http://wsge.edu.pl/" .
+  foaf:homepage "http://wsge.edu.pl/"^^xsd:anyURI .
 
 radon:branch_3ee5005d-4935-4062-a11b-0c4379d6dfd9 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Przemyślu";
@@ -889,7 +889,7 @@ radon:branch_4008d268-30b4-4162-86a7-134a4c6a34d9 a radon:Branch, org:Organizati
   adms:identifier "093208780";
   org:identifier "4008d268-30b4-4162-86a7-134a4c6a34d9";
   org:subOrganizationOf "a53b78b5-44b6-4e93-8166-90ed8b5c92e3";
-  foaf:homepage "https://ultswiecie.edu.pl/" .
+  foaf:homepage "https://ultswiecie.edu.pl/"^^xsd:anyURI .
 
 radon:branch_400e3ca4-43db-4828-a6a1-6e3f36afa668 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Nowym Tomyślu";
@@ -912,7 +912,7 @@ radon:branch_403b4e99-f59e-416c-a35e-a17e83ecc8eb a radon:Branch, org:Organizati
   adms:identifier "278181078";
   org:identifier "403b4e99-f59e-416c-a35e-a17e83ecc8eb";
   org:subOrganizationOf "ea1761e0-822e-47a7-85b4-2c7ca4a76dd2";
-  foaf:homepage "http://www.wsps.pl" .
+  foaf:homepage "http://www.wsps.pl"^^xsd:anyURI .
 
 radon:branch_42a854f6-7e5b-443f-9edb-a4b6ae16732d a radon:Branch, org:OrganizationalUnit;
   schema:name "Zagraniczna filia w Wiedniu (Austria)";
@@ -933,7 +933,7 @@ radon:branch_42b5e72f-438f-493c-a1fd-1e816bff1cbe a radon:Branch, org:Organizati
   adms:identifier "300001987";
   org:identifier "42b5e72f-438f-493c-a1fd-1e816bff1cbe";
   org:subOrganizationOf "90296486-2c11-4d4f-9cef-2edcebdf5b39";
-  foaf:homepage "http://www.wsb.net.pl" .
+  foaf:homepage "http://www.wsb.net.pl"^^xsd:anyURI .
 
 radon:branch_42c7fb4b-66a7-4c13-923f-1d0b69c2e83e a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Preszowie";
@@ -966,7 +966,7 @@ radon:branch_4353230f-2922-44f0-af51-fa6a9920115c a radon:Branch, org:Organizati
   adms:identifier "272653903";
   org:identifier "4353230f-2922-44f0-af51-fa6a9920115c";
   org:subOrganizationOf "69309128-a485-48bf-b8fb-006187190299";
-  foaf:homepage "http://www.wsb.edu.pl/cieszyn" .
+  foaf:homepage "http://www.wsb.edu.pl/cieszyn"^^xsd:anyURI .
 
 radon:branch_442e17a3-6c7e-4a72-932d-cc4cbd80180f a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Ostrowie Wielkopolskim";
@@ -978,7 +978,7 @@ radon:branch_442e17a3-6c7e-4a72-932d-cc4cbd80180f a radon:Branch, org:Organizati
   adms:identifier "470985279";
   org:identifier "442e17a3-6c7e-4a72-932d-cc4cbd80180f";
   org:subOrganizationOf "8f4f45a9-5c93-4073-8e0a-fcb2b63cb997";
-  foaf:homepage "http://ostrow.spoleczna.pl" .
+  foaf:homepage "http://ostrow.spoleczna.pl"^^xsd:anyURI .
 
 radon:branch_44a0e5f2-7a27-4575-b778-b84c179f7d89 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Lubiczu";
@@ -990,7 +990,7 @@ radon:branch_44a0e5f2-7a27-4575-b778-b84c179f7d89 a radon:Branch, org:Organizati
   adms:identifier "016108564";
   org:identifier "44a0e5f2-7a27-4575-b778-b84c179f7d89";
   org:subOrganizationOf "bdc301bb-ee57-4bc4-9cfa-60a32f83d73f";
-  foaf:homepage "http://www.wskfit.pl/" .
+  foaf:homepage "http://www.wskfit.pl/"^^xsd:anyURI .
 
 radon:branch_4693082f-88e8-4e5e-8f35-9be8b155495c a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Rzeszów";
@@ -1023,7 +1023,7 @@ radon:branch_481c33c6-594c-4276-b211-c0bf8d5967a1 a radon:Branch, org:Organizati
   adms:identifier "000327830";
   org:identifier "481c33c6-594c-4276-b211-c0bf8d5967a1";
   org:subOrganizationOf "eea34b38-b88c-44b7-acb1-5c9a8a9f7d66";
-  foaf:homepage "http://www.awf-bp.edu.pl" .
+  foaf:homepage "http://www.awf-bp.edu.pl"^^xsd:anyURI .
 
 radon:branch_48c8a572-2524-47a6-9965-4f8bb419b8fe a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia we Włoszczowie";
@@ -1065,7 +1065,7 @@ radon:branch_4b271bd4-f115-4a6e-a9a7-ea7b5a45b0d1 a radon:Branch, org:Organizati
   adms:identifier "471575081";
   org:identifier "4b271bd4-f115-4a6e-a9a7-ea7b5a45b0d1";
   org:subOrganizationOf "12f4cd79-8bb8-4fce-88e5-3eec70ed5401";
-  foaf:homepage "www.wsfi.edu.pl" .
+  foaf:homepage "www.wsfi.edu.pl"^^xsd:anyURI .
 
 radon:branch_4dbc191f-85f0-4b7d-bc0a-c35380e80280 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Szczczecinie";
@@ -1077,7 +1077,7 @@ radon:branch_4dbc191f-85f0-4b7d-bc0a-c35380e80280 a radon:Branch, org:Organizati
   adms:identifier "192471740";
   org:identifier "4dbc191f-85f0-4b7d-bc0a-c35380e80280";
   org:subOrganizationOf "f1316179-e357-4607-97da-024972e0194f";
-  foaf:homepage "www.wsse.edu.pl" .
+  foaf:homepage "www.wsse.edu.pl"^^xsd:anyURI .
 
 radon:branch_4eddb5e0-78ad-475c-9197-6953e23d972c a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Kołobrzegu";
@@ -1089,7 +1089,7 @@ radon:branch_4eddb5e0-78ad-475c-9197-6953e23d972c a radon:Branch, org:Organizati
   adms:identifier "470985279";
   org:identifier "4eddb5e0-78ad-475c-9197-6953e23d972c";
   org:subOrganizationOf "8f4f45a9-5c93-4073-8e0a-fcb2b63cb997";
-  foaf:homepage "http://kolobrzeg.spoleczna.pl" .
+  foaf:homepage "http://kolobrzeg.spoleczna.pl"^^xsd:anyURI .
 
 radon:branch_4f21d432-dd8f-4235-a5ee-e94b4fcafb87 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wyższa Szkoła Nauk o Zdrowiu w Bydgoszczy Filia w Poznaniu";
@@ -1100,7 +1100,7 @@ radon:branch_4f21d432-dd8f-4235-a5ee-e94b4fcafb87 a radon:Branch, org:Organizati
   adms:identifier "340072737";
   org:identifier "4f21d432-dd8f-4235-a5ee-e94b4fcafb87";
   org:subOrganizationOf "548bd80f-e4fa-42e5-bd11-1abfb1869bb4";
-  foaf:homepage "wsnoz.pl" .
+  foaf:homepage "wsnoz.pl"^^xsd:anyURI .
 
 radon:branch_4fd8e04f-479d-4174-ad52-6bc4727e9078 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wyższa Szkoła Edukacji Zawodowej";
@@ -1121,7 +1121,7 @@ radon:branch_505f3c6c-2b82-4c61-91d3-968f64301da8 a radon:Branch, org:Organizati
   adms:identifier "272199522";
   org:identifier "505f3c6c-2b82-4c61-91d3-968f64301da8";
   org:subOrganizationOf "58dcc6b4-cc40-4c1f-ad2d-46bc7fa9f3b5";
-  foaf:homepage "http://www.gwsh.pl/zory/" .
+  foaf:homepage "http://www.gwsh.pl/zory/"^^xsd:anyURI .
 
 radon:branch_506d5eb3-f43f-4c4d-a912-576594e47c6f a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Rusocinie Międzynarodowej Akademii Nauk Stosowanych  w Łomży z siedzibą w Zespole Szkół Technicznych Centrum Kształcenia Zawodowego im. Macieja Rataja w Rusocinie";
@@ -1132,7 +1132,7 @@ radon:branch_506d5eb3-f43f-4c4d-a912-576594e47c6f a radon:Branch, org:Organizati
   adms:identifier "450153672";
   org:identifier "506d5eb3-f43f-4c4d-a912-576594e47c6f";
   org:subOrganizationOf "8c7212d0-2c9e-4105-8dd7-c9a54c862bc2";
-  foaf:homepage "www.mans.edu.pl" .
+  foaf:homepage "www.mans.edu.pl"^^xsd:anyURI .
 
 radon:branch_51366b33-d9c7-4f89-bcea-3d17c3c0725d a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Pradze (Czechy)";
@@ -1155,7 +1155,7 @@ radon:branch_53150f51-d39a-42d8-a53f-26caeb79c221 a radon:Branch, org:Organizati
   adms:identifier "000001672";
   org:identifier "53150f51-d39a-42d8-a53f-26caeb79c221";
   org:subOrganizationOf "794ef8e5-f723-4f79-b710-8612c20f3f6d";
-  foaf:homepage "http://www.zwl.pb.edu.pl" .
+  foaf:homepage "http://www.zwl.pb.edu.pl"^^xsd:anyURI .
 
 radon:branch_54e9500e-7944-4541-b0c2-dcfa8aa8a3ea a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Londynie";
@@ -1167,7 +1167,7 @@ radon:branch_54e9500e-7944-4541-b0c2-dcfa8aa8a3ea a radon:Branch, org:Organizati
   adms:identifier "470985279";
   org:identifier "54e9500e-7944-4541-b0c2-dcfa8aa8a3ea";
   org:subOrganizationOf "8f4f45a9-5c93-4073-8e0a-fcb2b63cb997";
-  foaf:homepage "http://londyn.spoleczna.pl" .
+  foaf:homepage "http://londyn.spoleczna.pl"^^xsd:anyURI .
 
 radon:branch_54e9a904-ae27-4c01-a7a3-d74711ada8fa a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Sulęcinie";
@@ -1201,7 +1201,7 @@ radon:branch_56788b3d-ea65-46c2-a689-6ab7a3d9838f a radon:Branch, org:Organizati
   adms:identifier "000001353";
   org:identifier "56788b3d-ea65-46c2-a689-6ab7a3d9838f";
   org:subOrganizationOf "a013df22-d5c5-4871-849c-69e8c6e7e912";
-  foaf:homepage "https://www.umcs.pl/pl/wz-pulawy.htm" .
+  foaf:homepage "https://www.umcs.pl/pl/wz-pulawy.htm"^^xsd:anyURI .
 
 radon:branch_5684fec9-6f05-4404-a04f-46d1c677132d a radon:Branch, org:OrganizationalUnit;
   schema:name "Gdańska Wyższa Szkoła Humanistyczna Filia w Koszalinie";
@@ -1213,7 +1213,7 @@ radon:branch_5684fec9-6f05-4404-a04f-46d1c677132d a radon:Branch, org:Organizati
   adms:identifier "191763965";
   org:identifier "5684fec9-6f05-4404-a04f-46d1c677132d";
   org:subOrganizationOf "1dde65ce-2e92-46a0-b743-1eaf8ba1126d";
-  foaf:homepage "gwsh.gda.pl" .
+  foaf:homepage "gwsh.gda.pl"^^xsd:anyURI .
 
 radon:branch_570fff3e-fbbf-40ee-bdde-282fb7657258 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Nowym Mieście nad Pilicą";
@@ -1246,7 +1246,7 @@ radon:branch_57838db6-ff4c-486f-9ecc-db48400db4b8 a radon:Branch, org:Organizati
   adms:identifier "510613630";
   org:identifier "57838db6-ff4c-486f-9ecc-db48400db4b8";
   org:subOrganizationOf "ab10bc52-ae3d-43c0-a564-f9717a5abf32";
-  foaf:homepage "osw.edu.pl" .
+  foaf:homepage "osw.edu.pl"^^xsd:anyURI .
 
 radon:branch_57a3a420-c8fa-4d77-95a6-f57cc64e9da3 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Krakowie";
@@ -1267,7 +1267,7 @@ radon:branch_57f16075-1c6a-4b70-87bc-983b128f1b38 a radon:Branch, org:Organizati
   adms:identifier "910215414";
   org:identifier "57f16075-1c6a-4b70-87bc-983b128f1b38";
   org:subOrganizationOf "871e140a-03db-4bf5-9c91-0b6bdd2a6798";
-  foaf:homepage "http://www.ksw.wloclawek.pl" .
+  foaf:homepage "http://www.ksw.wloclawek.pl"^^xsd:anyURI .
 
 radon:branch_5990b6fb-7975-4cb8-bba2-264c90d6d36d a radon:Branch, org:OrganizationalUnit;
   schema:name "Wyższa Szkoła Zarządzania \"Edukacja\" we Wrocławiu filia w Kłodzku";
@@ -1279,7 +1279,7 @@ radon:branch_5990b6fb-7975-4cb8-bba2-264c90d6d36d a radon:Branch, org:Organizati
   adms:identifier "931047297";
   org:identifier "5990b6fb-7975-4cb8-bba2-264c90d6d36d";
   org:subOrganizationOf "79b57e33-7ba4-457b-9a4d-a6c456d536c2";
-  foaf:homepage "http://www.wszedukacja.pl/" .
+  foaf:homepage "http://www.wszedukacja.pl/"^^xsd:anyURI .
 
 radon:branch_59ccbec6-a650-43fb-9a26-2769ae9db195 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Informatyki i Nauk Technicznych w Grudziądzu";
@@ -1291,7 +1291,7 @@ radon:branch_59ccbec6-a650-43fb-9a26-2769ae9db195 a radon:Branch, org:Organizati
   adms:identifier "510434519";
   org:identifier "59ccbec6-a650-43fb-9a26-2769ae9db195";
   org:subOrganizationOf "8b0e6027-66e8-4ba2-8f04-552b398f1d8c";
-  foaf:homepage "http://www.owsiiz.edu.pl/" .
+  foaf:homepage "http://www.owsiiz.edu.pl/"^^xsd:anyURI .
 
 radon:branch_5a4cb93b-4875-4330-b1c7-3410fb6fe264 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia AHE w Warszawie";
@@ -1314,7 +1314,7 @@ radon:branch_5ade0464-b0f9-4a65-8356-da85697910ea a radon:Branch, org:Organizati
   adms:identifier "278181078";
   org:identifier "5ade0464-b0f9-4a65-8356-da85697910ea";
   org:subOrganizationOf "ea1761e0-822e-47a7-85b4-2c7ca4a76dd2";
-  foaf:homepage "http://www.wsps.pl" .
+  foaf:homepage "http://www.wsps.pl"^^xsd:anyURI .
 
 radon:branch_5d0735f3-8daa-417b-ba20-00dee47ceb72 a radon:Branch, org:OrganizationalUnit;
   schema:name "Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie, Filia w Dziekanowie Leśnym ";
@@ -1326,7 +1326,7 @@ radon:branch_5d0735f3-8daa-417b-ba20-00dee47ceb72 a radon:Branch, org:Organizati
   adms:identifier "000001956";
   org:identifier "5d0735f3-8daa-417b-ba20-00dee47ceb72";
   org:subOrganizationOf "7fe045d3-8e37-4760-b8db-075f13a6dce9";
-  foaf:homepage "www.uksw.edu.pl" .
+  foaf:homepage "www.uksw.edu.pl"^^xsd:anyURI .
 
 radon:branch_5d1c7286-51c6-4fab-b08f-a3b3b22930e4 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia AHE w Sieradzu";
@@ -1349,7 +1349,7 @@ radon:branch_5df5fe68-7523-4a69-9217-d90a1d52570b a radon:Branch, org:Organizati
   adms:identifier "000275843";
   org:identifier "5df5fe68-7523-4a69-9217-d90a1d52570b";
   org:subOrganizationOf "a552e574-34c1-4df9-930b-a54b06f25b97";
-  foaf:homepage "http://www.ast.wroc.pl/" .
+  foaf:homepage "http://www.ast.wroc.pl/"^^xsd:anyURI .
 
 radon:branch_5e1ae838-9ee5-4399-a811-f39e054283a4 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Wałbrzychu";
@@ -1361,7 +1361,7 @@ radon:branch_5e1ae838-9ee5-4399-a811-f39e054283a4 a radon:Branch, org:Organizati
   adms:identifier "000001614";
   org:identifier "5e1ae838-9ee5-4399-a811-f39e054283a4";
   org:subOrganizationOf "dbdda9a7-f6f7-44e8-af1d-9863e2256ca3";
-  foaf:homepage "https://walbrzych.pwr.edu.pl/" .
+  foaf:homepage "https://walbrzych.pwr.edu.pl/"^^xsd:anyURI .
 
 radon:branch_5ecc0bb4-4220-45e0-b16a-2b69e1fa4eac a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Gdyni";
@@ -1373,7 +1373,7 @@ radon:branch_5ecc0bb4-4220-45e0-b16a-2b69e1fa4eac a radon:Branch, org:Organizati
   adms:identifier "191627386";
   org:identifier "5ecc0bb4-4220-45e0-b16a-2b69e1fa4eac";
   org:subOrganizationOf "29483405-4eba-4db1-b6c9-321ff370bdf9";
-  foaf:homepage "http://www.wsb.gdynia.pl/" .
+  foaf:homepage "http://www.wsb.gdynia.pl/"^^xsd:anyURI .
 
 radon:branch_5ece773a-aba0-4d50-b08a-3af2254bd192 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Gliwice";
@@ -1394,7 +1394,7 @@ radon:branch_5fdc4b22-7fff-4443-9842-cf959dd0dbda a radon:Branch, org:Organizati
   adms:identifier "272199522";
   org:identifier "5fdc4b22-7fff-4443-9842-cf959dd0dbda";
   org:subOrganizationOf "58dcc6b4-cc40-4c1f-ad2d-46bc7fa9f3b5";
-  foaf:homepage "https://www.gwsh.pl/bielsko-biala/" .
+  foaf:homepage "https://www.gwsh.pl/bielsko-biala/"^^xsd:anyURI .
 
 radon:branch_60540ad0-7b78-4a28-93b2-a8520139f6ef a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Kielcach";
@@ -1417,7 +1417,7 @@ radon:branch_60c48383-c4df-4d94-a432-d20a81a0fcb3 a radon:Branch, org:Organizati
   adms:identifier "000275843";
   org:identifier "60c48383-c4df-4d94-a432-d20a81a0fcb3";
   org:subOrganizationOf "a552e574-34c1-4df9-930b-a54b06f25b97";
-  foaf:homepage "http://www.ast.krakow.pl/" .
+  foaf:homepage "http://www.ast.krakow.pl/"^^xsd:anyURI .
 
 radon:branch_61866d63-3430-49b0-9f43-5ce3dabc0898 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Zagraniczna w Wiedniu";
@@ -1437,7 +1437,7 @@ radon:branch_61d8d478-d554-4df5-ab67-03b8946b31ff a radon:Branch, org:Organizati
   vcard:street-address "ul. Ratuszowa 11";
   org:identifier "61d8d478-d554-4df5-ab67-03b8946b31ff";
   org:subOrganizationOf "027e6aca-e2b9-4896-b4c9-1f1c127dcfe1";
-  foaf:homepage "www.collegeinfo.edu.pl" .
+  foaf:homepage "www.collegeinfo.edu.pl"^^xsd:anyURI .
 
 radon:branch_6218ebdf-5dc0-45d7-a816-762d45532961 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Tczewie";
@@ -1449,7 +1449,7 @@ radon:branch_6218ebdf-5dc0-45d7-a816-762d45532961 a radon:Branch, org:Organizati
   adms:identifier "192768769";
   org:identifier "6218ebdf-5dc0-45d7-a816-762d45532961";
   org:subOrganizationOf "0bdc78e2-3f99-49ee-ab6c-d9fadf38c0f1";
-  foaf:homepage "https://gsw.gda.pl/" .
+  foaf:homepage "https://gsw.gda.pl/"^^xsd:anyURI .
 
 radon:branch_6273709a-0175-4120-9653-cc7eb46f70ef a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Informatyki w Gdańsku";
@@ -1461,7 +1461,7 @@ radon:branch_6273709a-0175-4120-9653-cc7eb46f70ef a radon:Branch, org:Organizati
   adms:identifier "010816248";
   org:identifier "6273709a-0175-4120-9653-cc7eb46f70ef";
   org:subOrganizationOf "9d1eca9c-696f-4908-b65b-8c54eadeb76e";
-  foaf:homepage "http://gdansk.pjwstk.edu.pl" .
+  foaf:homepage "http://gdansk.pjwstk.edu.pl"^^xsd:anyURI .
 
 radon:branch_62e853fa-f4a2-460f-837c-358da3779e3b a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Warszawie";
@@ -1473,7 +1473,7 @@ radon:branch_62e853fa-f4a2-460f-837c-358da3779e3b a radon:Branch, org:Organizati
   adms:identifier "100548976";
   org:identifier "62e853fa-f4a2-460f-837c-358da3779e3b";
   org:subOrganizationOf "342c3692-8ab1-4fdc-bde5-8c96845e57c7";
-  foaf:homepage "http://www.ws.cosinus.pl" .
+  foaf:homepage "http://www.ws.cosinus.pl"^^xsd:anyURI .
 
 radon:branch_64f2775a-5c4d-4808-a371-82c541538910 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Rybniku";
@@ -1485,7 +1485,7 @@ radon:branch_64f2775a-5c4d-4808-a371-82c541538910 a radon:Branch, org:Organizati
   adms:identifier "000001548";
   org:identifier "64f2775a-5c4d-4808-a371-82c541538910";
   org:subOrganizationOf "1c5fb903-cc43-44b8-8331-af6cb635dea0";
-  foaf:homepage "http://www.ue.katowice.pl" .
+  foaf:homepage "http://www.ue.katowice.pl"^^xsd:anyURI .
 
 radon:branch_65f024a3-aebe-4304-9767-f25e8a55b9a8 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Poznaniu";
@@ -1507,7 +1507,7 @@ radon:branch_66489eab-4aa7-475b-b182-b118dae12a79 a radon:Branch, org:Organizati
   adms:identifier "092386249";
   org:identifier "66489eab-4aa7-475b-b182-b118dae12a79";
   org:subOrganizationOf "60b9afe6-5246-491a-85c7-466fcfa8c639";
-  foaf:homepage "http://wsg.byd.pl" .
+  foaf:homepage "http://wsg.byd.pl"^^xsd:anyURI .
 
 radon:branch_67cfcc94-e605-46d9-872c-e0a494f3c74f a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Powiślańskiej Szkoły Wyższej w Kościerzynie";
@@ -1519,7 +1519,7 @@ radon:branch_67cfcc94-e605-46d9-872c-e0a494f3c74f a radon:Branch, org:Organizati
   adms:identifier "191871175";
   org:identifier "67cfcc94-e605-46d9-872c-e0a494f3c74f";
   org:subOrganizationOf "bc3eae7b-1b6a-4a7c-8db2-5ef5f8a94051";
-  foaf:homepage "https://powislanska.edu.pl/uczelnia/filia-koscierzyna/" .
+  foaf:homepage "https://powislanska.edu.pl/uczelnia/filia-koscierzyna/"^^xsd:anyURI .
 
 radon:branch_67e6d223-bde2-4f3c-8c26-dfdf2fe57523 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Krakowie Wyższej Szkoły Biznesu – National Louis University z siedzibą w Nowym Sączu";
@@ -1530,7 +1530,7 @@ radon:branch_67e6d223-bde2-4f3c-8c26-dfdf2fe57523 a radon:Branch, org:Organizati
   vcard:street-address "ul. Pilotów 4C";
   org:identifier "67e6d223-bde2-4f3c-8c26-dfdf2fe57523";
   org:subOrganizationOf "6fc3859a-c979-4e11-a81a-6d1df51e8be9";
-  foaf:homepage "www.wsb-nlu.edu.pl" .
+  foaf:homepage "www.wsb-nlu.edu.pl"^^xsd:anyURI .
 
 radon:branch_698c3474-232d-45c5-a93a-f874690b0007 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Pedagogiczno-Artystyczny w Kaliszu - filia";
@@ -1542,7 +1542,7 @@ radon:branch_698c3474-232d-45c5-a93a-f874690b0007 a radon:Branch, org:Organizati
   adms:identifier "000001293";
   org:identifier "698c3474-232d-45c5-a93a-f874690b0007";
   org:subOrganizationOf "9eec5244-9085-4de9-9ad9-a77b7ad693bc";
-  foaf:homepage "https://wpa.amu.edu.pl/" .
+  foaf:homepage "https://wpa.amu.edu.pl/"^^xsd:anyURI .
 
 radon:branch_6abfdee5-ede2-4914-b2d0-dd6bcb29864b a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Koszalinie";
@@ -1554,7 +1554,7 @@ radon:branch_6abfdee5-ede2-4914-b2d0-dd6bcb29864b a radon:Branch, org:Organizati
   adms:identifier "812011950";
   org:identifier "6abfdee5-ede2-4914-b2d0-dd6bcb29864b";
   org:subOrganizationOf "91934ff1-e070-4adf-962d-7c54e52941fc";
-  foaf:homepage "http://www.koszalin.cb.szczecin.pl/" .
+  foaf:homepage "http://www.koszalin.cb.szczecin.pl/"^^xsd:anyURI .
 
 radon:branch_6b9a55d1-4071-4f21-9594-61f5fb8a4ea8 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Płońsku";
@@ -1566,7 +1566,7 @@ radon:branch_6b9a55d1-4071-4f21-9594-61f5fb8a4ea8 a radon:Branch, org:Organizati
   adms:identifier "015650551";
   org:identifier "6b9a55d1-4071-4f21-9594-61f5fb8a4ea8";
   org:subOrganizationOf "7b0ab8cc-4a9c-4409-a081-852409a0c9eb";
-  foaf:homepage "http://www.uth.edu.pl" .
+  foaf:homepage "http://www.uth.edu.pl"^^xsd:anyURI .
 
 radon:branch_6b9ba704-8298-4af3-976e-7a9bf100adf0 a radon:Branch, org:OrganizationalUnit;
   schema:name "Zamiejscowy Wydział Medycyny Ratunkowej i Katastrof w Radomiu";
@@ -1578,7 +1578,7 @@ radon:branch_6b9ba704-8298-4af3-976e-7a9bf100adf0 a radon:Branch, org:Organizati
   adms:identifier "200447924";
   org:identifier "6b9ba704-8298-4af3-976e-7a9bf100adf0";
   org:subOrganizationOf "2f768632-d391-4250-9ee0-d7e5fcbba3a0";
-  foaf:homepage "https://www.wszoz.edu.pl" .
+  foaf:homepage "https://www.wszoz.edu.pl"^^xsd:anyURI .
 
 radon:branch_6c07d01f-25d7-4f2b-b719-e13abd9158dc a radon:Branch, org:OrganizationalUnit;
   schema:name "Collegium Polonicum w Słubicach - filia";
@@ -1610,7 +1610,7 @@ radon:branch_6f9c029d-354d-4f18-91c7-8f2fb55b5b4c a radon:Branch, org:Organizati
   adms:identifier "811099769";
   org:identifier "6f9c029d-354d-4f18-91c7-8f2fb55b5b4c";
   org:subOrganizationOf "9a80eec2-fc58-44c1-89ed-0e424ac52932";
-  foaf:homepage "https://wshtwp.konin.pl/" .
+  foaf:homepage "https://wshtwp.konin.pl/"^^xsd:anyURI .
 
 radon:branch_6fb90046-5ede-4dd2-83c2-76d758b2c0a3 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Nauk Ekonomiczno Społecznych w Warszawie";
@@ -1622,7 +1622,7 @@ radon:branch_6fb90046-5ede-4dd2-83c2-76d758b2c0a3 a radon:Branch, org:Organizati
   adms:identifier "510434519";
   org:identifier "6fb90046-5ede-4dd2-83c2-76d758b2c0a3";
   org:subOrganizationOf "8b0e6027-66e8-4ba2-8f04-552b398f1d8c";
-  foaf:homepage "http://www.owsiiz.edu.pl/" .
+  foaf:homepage "http://www.owsiiz.edu.pl/"^^xsd:anyURI .
 
 radon:branch_71775c50-5474-4ac0-8629-b8d146f25d8d a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział w Gryficach";
@@ -1634,7 +1634,7 @@ radon:branch_71775c50-5474-4ac0-8629-b8d146f25d8d a radon:Branch, org:Organizati
   adms:identifier "811975923";
   org:identifier "71775c50-5474-4ac0-8629-b8d146f25d8d";
   org:subOrganizationOf "93316717-c30b-4ab1-9f32-f95eef75f238";
-  foaf:homepage "http://www.zpsb.gryfice.edu.pl" .
+  foaf:homepage "http://www.zpsb.gryfice.edu.pl"^^xsd:anyURI .
 
 radon:branch_71ee2ffb-7389-460b-8c68-1bc21972f27a a radon:Branch, org:OrganizationalUnit;
   schema:name "Zamiejscowy Instytut Sportu i Rekreacji w Bielsku-Białej";
@@ -1646,7 +1646,7 @@ radon:branch_71ee2ffb-7389-460b-8c68-1bc21972f27a a radon:Branch, org:Organizati
   adms:identifier "368585165";
   org:identifier "71ee2ffb-7389-460b-8c68-1bc21972f27a";
   org:subOrganizationOf "eb677936-faca-4d49-9884-bc532f3c0566";
-  foaf:homepage "http://ews.edu.pl" .
+  foaf:homepage "http://ews.edu.pl"^^xsd:anyURI .
 
 radon:branch_73102bf6-0450-4f33-bf7d-d95408c42127 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Łowiczu";
@@ -1658,7 +1658,7 @@ radon:branch_73102bf6-0450-4f33-bf7d-d95408c42127 a radon:Branch, org:Organizati
   adms:identifier "292390760";
   org:identifier "73102bf6-0450-4f33-bf7d-d95408c42127";
   org:subOrganizationOf "835ac4bc-3b1c-4d79-a10f-843bc54be4ef";
-  foaf:homepage "http://stsw.edu.pl" .
+  foaf:homepage "http://stsw.edu.pl"^^xsd:anyURI .
 
 radon:branch_73986612-ef39-4958-84f0-8dcf141d0bf5 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wyższa Szkoła Kadr Menedżerskich, Filia w Złotowie ";
@@ -1670,7 +1670,7 @@ radon:branch_73986612-ef39-4958-84f0-8dcf141d0bf5 a radon:Branch, org:Organizati
   adms:identifier "300685922";
   org:identifier "73986612-ef39-4958-84f0-8dcf141d0bf5";
   org:subOrganizationOf "840fa892-2a42-4007-92cd-c6f60a19f825";
-  foaf:homepage "www.wskm.edu.pl" .
+  foaf:homepage "www.wskm.edu.pl"^^xsd:anyURI .
 
 radon:branch_7453e293-0474-406b-ac87-d5539526a152 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wyższa Szkoła Administracji w Warszawie";
@@ -1691,7 +1691,7 @@ radon:branch_74e6b227-7e1a-4ef2-92b4-0d9b127badba a radon:Branch, org:Organizati
   adms:identifier "510623491";
   org:identifier "74e6b227-7e1a-4ef2-92b4-0d9b127badba";
   org:subOrganizationOf "ab10bc52-ae3d-43c0-a564-f9717a5abf32";
-  foaf:homepage "osw@edu.pl" .
+  foaf:homepage "osw@edu.pl"^^xsd:anyURI .
 
 radon:branch_7595dafb-ca44-4e91-ae6f-3f315402787b a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Tarnowie";
@@ -1725,7 +1725,7 @@ radon:branch_76717999-b71c-4160-9041-6859b164f57b a radon:Branch, org:Organizati
   adms:identifier "000275702";
   org:identifier "76717999-b71c-4160-9041-6859b164f57b";
   org:subOrganizationOf "47e86fcb-d7b4-4631-822c-b5647a72e885";
-  foaf:homepage "chopin/man.bialystok.pl" .
+  foaf:homepage "chopin/man.bialystok.pl"^^xsd:anyURI .
 
 radon:branch_78132de3-fa65-4b92-bb8d-5db88b38d991 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Nauk Społecznych";
@@ -1746,7 +1746,7 @@ radon:branch_79912362-f032-455a-9893-fe4243dc82e6 a radon:Branch, org:Organizati
   adms:identifier "470985279";
   org:identifier "79912362-f032-455a-9893-fe4243dc82e6";
   org:subOrganizationOf "8f4f45a9-5c93-4073-8e0a-fcb2b63cb997";
-  foaf:homepage "http://garwolin.spoleczna.pl" .
+  foaf:homepage "http://garwolin.spoleczna.pl"^^xsd:anyURI .
 
 radon:branch_79ca86ca-2421-488c-995c-55031c0690d0 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Szczecinie";
@@ -1757,7 +1757,7 @@ radon:branch_79ca86ca-2421-488c-995c-55031c0690d0 a radon:Branch, org:Organizati
   vcard:street-address "pl. Hołdu Pruskiego 9";
   org:identifier "79ca86ca-2421-488c-995c-55031c0690d0";
   org:subOrganizationOf "aad4ac1c-4de1-456f-a31d-1c29dc994385";
-  foaf:homepage "https://humanum.pl/" .
+  foaf:homepage "https://humanum.pl/"^^xsd:anyURI .
 
 radon:branch_7a2d7613-b708-4970-9c27-4c1bf15dcda4 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Białymstoku";
@@ -1769,7 +1769,7 @@ radon:branch_7a2d7613-b708-4970-9c27-4c1bf15dcda4 a radon:Branch, org:Organizati
   adms:identifier "000275837";
   org:identifier "7a2d7613-b708-4970-9c27-4c1bf15dcda4";
   org:subOrganizationOf "9dc46d5f-ff3d-4691-9018-4e3993838b3d";
-  foaf:homepage "http://www.atb.edu.pl" .
+  foaf:homepage "http://www.atb.edu.pl"^^xsd:anyURI .
 
 radon:branch_7aa6ca5c-dabe-4e06-8a40-65d11ec42d13 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Ateneum Szkoły Wyższej w Sewilli ";
@@ -1791,7 +1791,7 @@ radon:branch_7d8a3041-ed90-48b9-9e0e-8267894ece31 a radon:Branch, org:Organizati
   adms:identifier "000001287";
   org:identifier "7d8a3041-ed90-48b9-9e0e-8267894ece31";
   org:subOrganizationOf "5011bcd5-dfb1-41ed-84b0-5bd51ce0832c";
-  foaf:homepage "http://filia.uni.lodz.pl" .
+  foaf:homepage "http://filia.uni.lodz.pl"^^xsd:anyURI .
 
 radon:branch_7d8b4125-dd9d-417d-a410-8b95aa6525c5 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Vsetinie (Czechy)";
@@ -1814,7 +1814,7 @@ radon:branch_7eaf3f71-c9bc-4f9e-b0f9-3312304d707e a radon:Branch, org:Organizati
   adms:identifier "630245248";
   org:identifier "7eaf3f71-c9bc-4f9e-b0f9-3312304d707e";
   org:subOrganizationOf "add982ff-1e14-4375-84f5-07977f9fd994";
-  foaf:homepage "http://www.wsb.chorzow.pl" .
+  foaf:homepage "http://www.wsb.chorzow.pl"^^xsd:anyURI .
 
 radon:branch_804c4bbc-b5ae-4465-bee3-53191f187638 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Staropolskiej Szkoły Wyższej w Kielcach w Bochni";
@@ -1837,7 +1837,7 @@ radon:branch_807c06fd-273c-4500-918d-997b8d03f2a6 a radon:Branch, org:Organizati
   adms:identifier "00000153100029";
   org:identifier "807c06fd-273c-4500-918d-997b8d03f2a6";
   org:subOrganizationOf "5d6c2944-921b-45cb-afa3-d2518eeabac7";
-  foaf:homepage "http://www.ezit.ue.wroc.pl" .
+  foaf:homepage "http://www.ezit.ue.wroc.pl"^^xsd:anyURI .
 
 radon:branch_809d1120-1b0e-4ade-8974-f1e1c6b9be9f a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zarządzania Filia w Ełku";
@@ -1849,7 +1849,7 @@ radon:branch_809d1120-1b0e-4ade-8974-f1e1c6b9be9f a radon:Branch, org:Organizati
   adms:identifier "050247894";
   org:identifier "809d1120-1b0e-4ade-8974-f1e1c6b9be9f";
   org:subOrganizationOf "a1e65d4f-b897-426b-9e0f-51b5d3c6d629";
-  foaf:homepage "https://elk.wans.edu.pl/" .
+  foaf:homepage "https://elk.wans.edu.pl/"^^xsd:anyURI .
 
 radon:branch_81f741e8-8678-45d3-abbb-bcef6bae6ee7 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy Turystyki, Hotelarstwa i Promocji Środowiska";
@@ -1872,7 +1872,7 @@ radon:branch_82120589-ee3a-4499-bb71-888ae7d0ffc7 a radon:Branch, org:Organizati
   adms:identifier "193059070";
   org:identifier "82120589-ee3a-4499-bb71-888ae7d0ffc7";
   org:subOrganizationOf "c8d725eb-bb10-4712-84a2-35c4785a15ae";
-  foaf:homepage "http://pomeraniakoscierzyna.edu.pl/" .
+  foaf:homepage "http://pomeraniakoscierzyna.edu.pl/"^^xsd:anyURI .
 
 radon:branch_82f51ddc-085d-4643-bcd0-7003500250eb a radon:Branch, org:OrganizationalUnit;
   schema:name "Zagraniczna filia w Bratysławie (Republika Słowacka)";
@@ -1893,7 +1893,7 @@ radon:branch_83467a4d-314b-4b68-911d-500eb48ffb39 a radon:Branch, org:Organizati
   adms:identifier "430977957";
   org:identifier "83467a4d-314b-4b68-911d-500eb48ffb39";
   org:subOrganizationOf "a029c48a-4b25-4ee7-bae6-8296a405206b";
-  foaf:homepage "http://www.wspa.pl" .
+  foaf:homepage "http://www.wspa.pl"^^xsd:anyURI .
 
 radon:branch_8353922c-096c-4fed-a92b-17838c725e2a a radon:Branch, org:OrganizationalUnit;
   schema:name "Zagraniczna filia w Pradze (Republika Czeska)";
@@ -1914,7 +1914,7 @@ radon:branch_844b267e-6094-436a-9edb-24372360481a a radon:Branch, org:Organizati
   adms:identifier "192768769";
   org:identifier "844b267e-6094-436a-9edb-24372360481a";
   org:subOrganizationOf "0bdc78e2-3f99-49ee-ab6c-d9fadf38c0f1";
-  foaf:homepage "http://www.gsw.gda.pl/" .
+  foaf:homepage "http://www.gsw.gda.pl/"^^xsd:anyURI .
 
 radon:branch_84dd29b8-ed2f-4dbc-bc2c-e81d32a7fd37 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Tychach Krakowskiej Akademii im. Andrzeja Frycza Modrzewskiego";
@@ -1926,7 +1926,7 @@ radon:branch_84dd29b8-ed2f-4dbc-bc2c-e81d32a7fd37 a radon:Branch, org:Organizati
   adms:identifier "357129941";
   org:identifier "84dd29b8-ed2f-4dbc-bc2c-e81d32a7fd37";
   org:subOrganizationOf "336f05cc-b615-4f3c-94b2-65abc7f54264";
-  foaf:homepage "http://www.tychy.ka.deu.pl" .
+  foaf:homepage "http://www.tychy.ka.deu.pl"^^xsd:anyURI .
 
 radon:branch_86cf55af-fd1e-4cf4-a3db-b0953cf6aa1e a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Limanowej";
@@ -1938,7 +1938,7 @@ radon:branch_86cf55af-fd1e-4cf4-a3db-b0953cf6aa1e a radon:Branch, org:Organizati
   adms:identifier "290698978";
   org:identifier "86cf55af-fd1e-4cf4-a3db-b0953cf6aa1e";
   org:subOrganizationOf "c10b9c4e-c1a9-40f3-af77-964c8c1971e2";
-  foaf:homepage "https://goluchowski.edu.pl/filia-w-limanowej/" .
+  foaf:homepage "https://goluchowski.edu.pl/filia-w-limanowej/"^^xsd:anyURI .
 
 radon:branch_8993bef3-307b-4580-a718-33133da6b566 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Radomiu Wyższej Szkoły Biznesu – National Louis University z siedzibą w Nowym Sączu";
@@ -1949,7 +1949,7 @@ radon:branch_8993bef3-307b-4580-a718-33133da6b566 a radon:Branch, org:Organizati
   vcard:street-address "ul. Młynarska 10";
   org:identifier "8993bef3-307b-4580-a718-33133da6b566";
   org:subOrganizationOf "6fc3859a-c979-4e11-a81a-6d1df51e8be9";
-  foaf:homepage "www.wsb-nlu.edu.pl" .
+  foaf:homepage "www.wsb-nlu.edu.pl"^^xsd:anyURI .
 
 radon:branch_8a7b19f8-590c-4e09-a5f6-f59b4edb58a2 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Bielsku-Białej Śląskiego Uniwersytetu Medycznego w Katowicach";
@@ -1970,7 +1970,7 @@ radon:branch_8b6455a3-d514-45b1-8f73-72dccb760625 a radon:Branch, org:Organizati
   vcard:street-address "ul. Nowe Ogrody 2023";
   org:identifier "8b6455a3-d514-45b1-8f73-72dccb760625";
   org:subOrganizationOf "aad4ac1c-4de1-456f-a31d-1c29dc994385";
-  foaf:homepage "https://humanum.pl/" .
+  foaf:homepage "https://humanum.pl/"^^xsd:anyURI .
 
 radon:branch_8bf258ef-f480-400b-abe6-d35f69e62dbc a radon:Branch, org:OrganizationalUnit;
   schema:name "Uczelnia Nauk Społecznych Filia w Warszawie";
@@ -1991,7 +1991,7 @@ radon:branch_8d74cf9e-66b5-4ff1-9813-93a88e63ed40 a radon:Branch, org:Organizati
   adms:identifier "140150627";
   org:identifier "8d74cf9e-66b5-4ff1-9813-93a88e63ed40";
   org:subOrganizationOf "61e7484f-2f8e-40cb-9743-b8240e85fd86";
-  foaf:homepage "http://www.wsbio.waw.pl" .
+  foaf:homepage "http://www.wsbio.waw.pl"^^xsd:anyURI .
 
 radon:branch_8df6d48a-086a-46d9-862d-23f15ea7cdd1 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Krakowie";
@@ -2035,7 +2035,7 @@ radon:branch_90d0fb4a-17e0-4db5-96ee-c59068cee82a a radon:Branch, org:Organizati
   adms:identifier "634655925";
   org:identifier "90d0fb4a-17e0-4db5-96ee-c59068cee82a";
   org:subOrganizationOf "d719ed3b-5b56-4940-9eb9-1255fc3bb940";
-  foaf:homepage "http://www.szczecin.wseit.edu.pl" .
+  foaf:homepage "http://www.szczecin.wseit.edu.pl"^^xsd:anyURI .
 
 radon:branch_910f7e5e-3767-4c1f-8137-053f3f148a8f a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Nowym Targu";
@@ -2047,7 +2047,7 @@ radon:branch_910f7e5e-3767-4c1f-8137-053f3f148a8f a radon:Branch, org:Organizati
   adms:identifier "910215414";
   org:identifier "910f7e5e-3767-4c1f-8137-053f3f148a8f";
   org:subOrganizationOf "871e140a-03db-4bf5-9c91-0b6bdd2a6798";
-  foaf:homepage "http://www.ksw.wloclawek.pl" .
+  foaf:homepage "http://www.ksw.wloclawek.pl"^^xsd:anyURI .
 
 radon:branch_927928f3-3f07-41ac-b045-8a00ed6929db a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Katolickiego Uniwersytetu Lubelskiego Jana Pawła II w Stalowej Woli";
@@ -2059,7 +2059,7 @@ radon:branch_927928f3-3f07-41ac-b045-8a00ed6929db a radon:Branch, org:Organizati
   adms:identifier "000514064";
   org:identifier "927928f3-3f07-41ac-b045-8a00ed6929db";
   org:subOrganizationOf "9d3664e2-2c7a-448a-9fb2-278de61e6136";
-  foaf:homepage "https://www.kul.pl/stalowa" .
+  foaf:homepage "https://www.kul.pl/stalowa"^^xsd:anyURI .
 
 radon:branch_93356429-2521-4576-b0bb-de66c965e100 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Nauk Społeczno-Medycznych w Warszawie";
@@ -2071,7 +2071,7 @@ radon:branch_93356429-2521-4576-b0bb-de66c965e100 a radon:Branch, org:Organizati
   adms:identifier "141091453";
   org:identifier "93356429-2521-4576-b0bb-de66c965e100";
   org:subOrganizationOf "1baf62ae-f22b-47be-95f3-4dec203aa376";
-  foaf:homepage "http://warszawa.eust.pl" .
+  foaf:homepage "http://warszawa.eust.pl"^^xsd:anyURI .
 
 radon:branch_93379cec-4714-42a1-81db-68667b6c023b a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Nauk Społecznych w Bartoszycach";
@@ -2083,7 +2083,7 @@ radon:branch_93379cec-4714-42a1-81db-68667b6c023b a radon:Branch, org:Organizati
   adms:identifier "300001987";
   org:identifier "93379cec-4714-42a1-81db-68667b6c023b";
   org:subOrganizationOf "90296486-2c11-4d4f-9cef-2edcebdf5b39";
-  foaf:homepage "http://www.wsb.net.pl" .
+  foaf:homepage "http://www.wsb.net.pl"^^xsd:anyURI .
 
 radon:branch_93f3142a-5b95-441b-8f16-056373f3aafc a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Gdańsku";
@@ -2106,7 +2106,7 @@ radon:branch_943f33f6-72fe-4055-8663-64a9d32ff7f3 a radon:Branch, org:Organizati
   adms:identifier "812011950";
   org:identifier "943f33f6-72fe-4055-8663-64a9d32ff7f3";
   org:subOrganizationOf "91934ff1-e070-4adf-962d-7c54e52941fc";
-  foaf:homepage "http://www.stargardinum.pl/" .
+  foaf:homepage "http://www.stargardinum.pl/"^^xsd:anyURI .
 
 radon:branch_945d525f-07cc-4c65-8b65-5ed393d268c7 a radon:Branch, org:OrganizationalUnit;
   schema:name "Zagraniczna filia we Frydku - Mistku (Republika Czeska)";
@@ -2136,7 +2136,7 @@ radon:branch_961acf82-6975-4142-9291-e81fd71d0fd3 a radon:Branch, org:Organizati
   adms:identifier "000001614";
   org:identifier "961acf82-6975-4142-9291-e81fd71d0fd3";
   org:subOrganizationOf "dbdda9a7-f6f7-44e8-af1d-9863e2256ca3";
-  foaf:homepage "https://legnica.pwr.edu.pl/" .
+  foaf:homepage "https://legnica.pwr.edu.pl/"^^xsd:anyURI .
 
 radon:branch_962a50a7-942d-4f95-a4b7-1b68b2242291 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Turystyki i Zdrowia w Białej Podlaskiej (Filia)";
@@ -2148,7 +2148,7 @@ radon:branch_962a50a7-942d-4f95-a4b7-1b68b2242291 a radon:Branch, org:Organizati
   adms:identifier "000327830";
   org:identifier "962a50a7-942d-4f95-a4b7-1b68b2242291";
   org:subOrganizationOf "eea34b38-b88c-44b7-acb1-5c9a8a9f7d66";
-  foaf:homepage "http://www.awf-bp.edu.pl" .
+  foaf:homepage "http://www.awf-bp.edu.pl"^^xsd:anyURI .
 
 radon:branch_96b4f881-59af-4b0d-a51a-9f511aa46e65 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Kielcach";
@@ -2170,7 +2170,7 @@ radon:branch_96c9da49-fec6-4c26-92d5-490972b592f6 a radon:Branch, org:Organizati
   adms:identifier "292390760";
   org:identifier "96c9da49-fec6-4c26-92d5-490972b592f6";
   org:subOrganizationOf "835ac4bc-3b1c-4d79-a10f-843bc54be4ef";
-  foaf:homepage "http://stsw.edu.pl" .
+  foaf:homepage "http://stsw.edu.pl"^^xsd:anyURI .
 
 radon:branch_9724470b-8d76-4b64-b876-ecda078aaed2 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Szczecinie";
@@ -2182,7 +2182,7 @@ radon:branch_9724470b-8d76-4b64-b876-ecda078aaed2 a radon:Branch, org:Organizati
   adms:identifier "01029199800021";
   org:identifier "9724470b-8d76-4b64-b876-ecda078aaed2";
   org:subOrganizationOf "aad3aebb-97ca-40f2-ba23-1ced23433435";
-  foaf:homepage "http://www.wspkorczak.eu" .
+  foaf:homepage "http://www.wspkorczak.eu"^^xsd:anyURI .
 
 radon:branch_97a34949-437e-4fad-8e18-329fb065f61b a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Nauk Społecznych w Jastrzębiu-Zdroju";
@@ -2194,7 +2194,7 @@ radon:branch_97a34949-437e-4fad-8e18-329fb065f61b a radon:Branch, org:Organizati
   adms:identifier "300001987";
   org:identifier "97a34949-437e-4fad-8e18-329fb065f61b";
   org:subOrganizationOf "90296486-2c11-4d4f-9cef-2edcebdf5b39";
-  foaf:homepage "http://www.wsb.net.pl" .
+  foaf:homepage "http://www.wsb.net.pl"^^xsd:anyURI .
 
 radon:branch_987bdef1-d226-4d79-93ce-10611b26536d a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział w Stargardzie";
@@ -2206,7 +2206,7 @@ radon:branch_987bdef1-d226-4d79-93ce-10611b26536d a radon:Branch, org:Organizati
   adms:identifier "811975923";
   org:identifier "987bdef1-d226-4d79-93ce-10611b26536d";
   org:subOrganizationOf "93316717-c30b-4ab1-9f32-f95eef75f238";
-  foaf:homepage "http://www.stargard.zpsb.pl" .
+  foaf:homepage "http://www.stargard.zpsb.pl"^^xsd:anyURI .
 
 radon:branch_988bf698-fda5-475a-bb3c-a52ec3704460 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Bydgoszczy";
@@ -2229,7 +2229,7 @@ radon:branch_9c2ef415-edea-4123-9614-5ffcf2ad1996 a radon:Branch, org:Organizati
   adms:identifier "356266966";
   org:identifier "9c2ef415-edea-4123-9614-5ffcf2ad1996";
   org:subOrganizationOf "5042c377-e340-4a6c-86f2-b1e177dfa9a2";
-  foaf:homepage "http://wste.edu.pl" .
+  foaf:homepage "http://wste.edu.pl"^^xsd:anyURI .
 
 radon:branch_9c5e4224-2184-40d9-a736-418bfadbf4a0 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Opolu";
@@ -2241,7 +2241,7 @@ radon:branch_9c5e4224-2184-40d9-a736-418bfadbf4a0 a radon:Branch, org:Organizati
   adms:identifier "010340484";
   org:identifier "9c5e4224-2184-40d9-a736-418bfadbf4a0";
   org:subOrganizationOf "180d2805-5609-4d97-ae79-27444f690ab6";
-  foaf:homepage "http://www.janski.edu.pl" .
+  foaf:homepage "http://www.janski.edu.pl"^^xsd:anyURI .
 
 radon:branch_9c6d4ae9-3160-4185-92cf-c4d45f5e258d a radon:Branch, org:OrganizationalUnit;
   schema:name "Kolegium Nauk Stosowanych - Filia w Malborku";
@@ -2273,7 +2273,7 @@ radon:branch_9d2f269f-1d38-42ea-b972-62e9d6d0a2b1 a radon:Branch, org:Organizati
   adms:identifier "300001987";
   org:identifier "9d2f269f-1d38-42ea-b972-62e9d6d0a2b1";
   org:subOrganizationOf "90296486-2c11-4d4f-9cef-2edcebdf5b39";
-  foaf:homepage "http://www.wsb.net.pl" .
+  foaf:homepage "http://www.wsb.net.pl"^^xsd:anyURI .
 
 radon:branch_9e0390b4-d014-47ab-b91f-6572ad731595 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Końskich";
@@ -2295,7 +2295,7 @@ radon:branch_9eeb2d06-6011-4814-9d35-075536a412d3 a radon:Branch, org:Organizati
   adms:identifier "470985279";
   org:identifier "9eeb2d06-6011-4814-9d35-075536a412d3";
   org:subOrganizationOf "8f4f45a9-5c93-4073-8e0a-fcb2b63cb997";
-  foaf:homepage "http://brodnica.spoleczna.pl" .
+  foaf:homepage "http://brodnica.spoleczna.pl"^^xsd:anyURI .
 
 radon:branch_9f301e27-38b9-4bb4-ab42-6f7071bc843b a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Finansów i Zarządzania w Bydgoszczy";
@@ -2317,7 +2317,7 @@ radon:branch_9f98d7ed-3d0d-4e3a-848f-5897fbff7b6e a radon:Branch, org:Organizati
   adms:identifier "000327853";
   org:identifier "9f98d7ed-3d0d-4e3a-848f-5897fbff7b6e";
   org:subOrganizationOf "f3b17ba6-8d96-4eee-a245-737a6775d82d";
-  foaf:homepage "http://www.awf-gorzow.edu.pl" .
+  foaf:homepage "http://www.awf-gorzow.edu.pl"^^xsd:anyURI .
 
 radon:branch_9fd30a98-b2f2-4344-8a1c-0a6585aa4f13 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia AHE w Wodzisławiu Śląskim ";
@@ -2340,7 +2340,7 @@ radon:branch_a01a243d-0a05-42d3-a340-9a01affcdeb4 a radon:Branch, org:Organizati
   adms:identifier "092386249";
   org:identifier "a01a243d-0a05-42d3-a340-9a01affcdeb4";
   org:subOrganizationOf "60b9afe6-5246-491a-85c7-466fcfa8c639";
-  foaf:homepage "http://wsg.byd.pl" .
+  foaf:homepage "http://wsg.byd.pl"^^xsd:anyURI .
 
 radon:branch_a03d2c58-b037-4822-9df8-7f21a3a79c15 a radon:Branch, org:OrganizationalUnit;
   schema:name "Zamiejscowy Wydział Prawa w Londynie";
@@ -2352,7 +2352,7 @@ radon:branch_a03d2c58-b037-4822-9df8-7f21a3a79c15 a radon:Branch, org:Organizati
   adms:identifier "012789159";
   org:identifier "a03d2c58-b037-4822-9df8-7f21a3a79c15";
   org:subOrganizationOf "903dbacc-a32a-4d22-bc56-585899808cfc";
-  foaf:homepage "http://www.ewspa.edu.pl" .
+  foaf:homepage "http://www.ewspa.edu.pl"^^xsd:anyURI .
 
 radon:branch_a09432ac-93a7-41c3-b60e-fc7a1f8b9ac6 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wyższa Szkoła Bezpieczeństwa Wewnętrznego w Łodzi - Filia w Pradze";
@@ -2364,7 +2364,7 @@ radon:branch_a09432ac-93a7-41c3-b60e-fc7a1f8b9ac6 a radon:Branch, org:Organizati
   adms:identifier "385071556";
   org:identifier "a09432ac-93a7-41c3-b60e-fc7a1f8b9ac6";
   org:subOrganizationOf "abf540f6-32e6-451f-bc62-b818b8dd244b";
-  foaf:homepage "www.wsbw.cz" .
+  foaf:homepage "www.wsbw.cz"^^xsd:anyURI .
 
 radon:branch_a0a3be95-d958-4b1a-882c-ffdc879611dd a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Warszawie";
@@ -2376,7 +2376,7 @@ radon:branch_a0a3be95-d958-4b1a-882c-ffdc879611dd a radon:Branch, org:Organizati
   adms:identifier "470985279";
   org:identifier "a0a3be95-d958-4b1a-882c-ffdc879611dd";
   org:subOrganizationOf "8f4f45a9-5c93-4073-8e0a-fcb2b63cb997";
-  foaf:homepage "http://www.warszawa.san.edu.pl/" .
+  foaf:homepage "http://www.warszawa.san.edu.pl/"^^xsd:anyURI .
 
 radon:branch_a1150932-371b-4cdc-b2fe-127126a2f0fb a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Uniwersytetu w Białymstoku w Wilnie, Wydział Ekonomiczno-Informatyczny";
@@ -2388,7 +2388,7 @@ radon:branch_a1150932-371b-4cdc-b2fe-127126a2f0fb a radon:Branch, org:Organizati
   adms:identifier "050562207";
   org:identifier "a1150932-371b-4cdc-b2fe-127126a2f0fb";
   org:subOrganizationOf "d0155bd9-09cf-474a-b10c-51a4b46c9d57";
-  foaf:homepage "http://www.uwb.lt/" .
+  foaf:homepage "http://www.uwb.lt/"^^xsd:anyURI .
 
 radon:branch_a1dea900-800d-4476-a898-7c7ebf2d809b a radon:Branch, org:OrganizationalUnit;
   schema:name "Instytut Nauk Medycznych";
@@ -2411,7 +2411,7 @@ radon:branch_a2b3f1f7-4011-483d-95b7-947f3850a6c2 a radon:Branch, org:Organizati
   adms:identifier "510884205";
   org:identifier "a2b3f1f7-4011-483d-95b7-947f3850a6c2";
   org:subOrganizationOf "1a88b2ad-f6fd-4e5a-b514-27766a21594d";
-  foaf:homepage "http://www.uwm.edu.pl/elk/" .
+  foaf:homepage "http://www.uwm.edu.pl/elk/"^^xsd:anyURI .
 
 radon:branch_a45a000b-6802-45a4-bb58-7a03a272928e a radon:Branch, org:OrganizationalUnit;
   schema:name "Kolegium Nauk Ekonomicznych i Społecznych";
@@ -2423,7 +2423,7 @@ radon:branch_a45a000b-6802-45a4-bb58-7a03a272928e a radon:Branch, org:Organizati
   adms:identifier "000001554";
   org:identifier "a45a000b-6802-45a4-bb58-7a03a272928e";
   org:subOrganizationOf "521ce6da-8ebb-47a5-90fe-3832685b75f9";
-  foaf:homepage "http://www.knes.pw.plock.pl" .
+  foaf:homepage "http://www.knes.pw.plock.pl"^^xsd:anyURI .
 
 radon:branch_a4c09bc0-3cba-40d6-82c0-e2238a3d86fc a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Warszawie";
@@ -2434,7 +2434,7 @@ radon:branch_a4c09bc0-3cba-40d6-82c0-e2238a3d86fc a radon:Branch, org:Organizati
   adms:identifier "290698978";
   org:identifier "a4c09bc0-3cba-40d6-82c0-e2238a3d86fc";
   org:subOrganizationOf "c10b9c4e-c1a9-40f3-af77-964c8c1971e2";
-  foaf:homepage "warszawa@eust.pl" .
+  foaf:homepage "warszawa@eust.pl"^^xsd:anyURI .
 
 radon:branch_a59d6b78-3444-4cf1-8fc3-3eb77f2f9236 a radon:Branch, org:OrganizationalUnit;
   schema:name "Akademia Ignatianum w Krakowie, Filia w Mysłowicach";
@@ -2446,7 +2446,7 @@ radon:branch_a59d6b78-3444-4cf1-8fc3-3eb77f2f9236 a radon:Branch, org:Organizati
   adms:identifier "357244777";
   org:identifier "a59d6b78-3444-4cf1-8fc3-3eb77f2f9236";
   org:subOrganizationOf "f39171b5-f192-4064-bc1b-c5c84006a634";
-  foaf:homepage "http://www.ignatianum.edu.pl" .
+  foaf:homepage "http://www.ignatianum.edu.pl"^^xsd:anyURI .
 
 radon:branch_a5c24e63-e1e7-451a-97d3-bf7030aa13c5 a radon:Branch, org:OrganizationalUnit;
   schema:name "Akademia Bialska im. Jana Pawła II - Filia w Radzyniu Podlaskim";
@@ -2467,7 +2467,7 @@ radon:branch_a6186e15-e6ee-4916-836b-2864732d892f a radon:Branch, org:Organizati
   adms:identifier "300001987";
   org:identifier "a6186e15-e6ee-4916-836b-2864732d892f";
   org:subOrganizationOf "90296486-2c11-4d4f-9cef-2edcebdf5b39";
-  foaf:homepage "https://www.wsb.net.pl/" .
+  foaf:homepage "https://www.wsb.net.pl/"^^xsd:anyURI .
 
 radon:branch_a656ca79-5008-4137-bfc1-5e2f127bd558 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy Studiów Europejskich we Lwowie";
@@ -2490,7 +2490,7 @@ radon:branch_a6586243-4baf-4835-ba6e-6fe016f1f380 a radon:Branch, org:Organizati
   adms:identifier "470985279";
   org:identifier "a6586243-4baf-4835-ba6e-6fe016f1f380";
   org:subOrganizationOf "8f4f45a9-5c93-4073-8e0a-fcb2b63cb997";
-  foaf:homepage "http://szczecinek.spoleczna.pl" .
+  foaf:homepage "http://szczecinek.spoleczna.pl"^^xsd:anyURI .
 
 radon:branch_a74fafc8-3184-417d-8df4-99f76ea17a1c a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Piotrkowie Trybunalskim";
@@ -2502,7 +2502,7 @@ radon:branch_a74fafc8-3184-417d-8df4-99f76ea17a1c a radon:Branch, org:Organizati
   adms:identifier "00000140700034";
   org:identifier "a74fafc8-3184-417d-8df4-99f76ea17a1c";
   org:subOrganizationOf "451f3300-ea98-4941-a77e-31f6cc80cbeb";
-  foaf:homepage "www.unipt.pl/" .
+  foaf:homepage "www.unipt.pl/"^^xsd:anyURI .
 
 radon:branch_a7818834-c23e-40d3-84a5-ce1877c65173 a radon:Branch, org:OrganizationalUnit;
   schema:name "ZAMIEJSCOWY INSTYTUT SPORTU I REKREACJI W SOPOCIE";
@@ -2514,7 +2514,7 @@ radon:branch_a7818834-c23e-40d3-84a5-ce1877c65173 a radon:Branch, org:Organizati
   adms:identifier "368585165";
   org:identifier "a7818834-c23e-40d3-84a5-ce1877c65173";
   org:subOrganizationOf "eb677936-faca-4d49-9884-bc532f3c0566";
-  foaf:homepage "http://ews.edu.pl" .
+  foaf:homepage "http://ews.edu.pl"^^xsd:anyURI .
 
 radon:branch_ab56e57e-3632-43d2-a946-78c2dfa5ae28 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Sulechowie Uniwersytetu Zielonogórskiego";
@@ -2526,7 +2526,7 @@ radon:branch_ab56e57e-3632-43d2-a946-78c2dfa5ae28 a radon:Branch, org:Organizati
   adms:identifier "977924147";
   org:identifier "ab56e57e-3632-43d2-a946-78c2dfa5ae28";
   org:subOrganizationOf "41ade527-eee8-4133-87f6-f9acbecc3acf";
-  foaf:homepage "http://www.wzs.uz.zgora.pl" .
+  foaf:homepage "http://www.wzs.uz.zgora.pl"^^xsd:anyURI .
 
 radon:branch_ab594042-a2ee-4aea-b4dc-27ed26109d67 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Świdnicy";
@@ -2538,7 +2538,7 @@ radon:branch_ab594042-a2ee-4aea-b4dc-27ed26109d67 a radon:Branch, org:Organizati
   adms:identifier "470985279";
   org:identifier "ab594042-a2ee-4aea-b4dc-27ed26109d67";
   org:subOrganizationOf "8f4f45a9-5c93-4073-8e0a-fcb2b63cb997";
-  foaf:homepage "http://swidnica.spoleczna.pl" .
+  foaf:homepage "http://swidnica.spoleczna.pl"^^xsd:anyURI .
 
 radon:branch_ab5a019f-6155-482a-bcff-a23fc0c21d1b a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Skarżysku Kamiennej";
@@ -2571,7 +2571,7 @@ radon:branch_ac25fd48-460a-41e9-ac42-657fcf6cfeb4 a radon:Branch, org:Organizati
   adms:identifier "290698978";
   org:identifier "ac25fd48-460a-41e9-ac42-657fcf6cfeb4";
   org:subOrganizationOf "c10b9c4e-c1a9-40f3-af77-964c8c1971e2";
-  foaf:homepage "https://goluchowski.edu.pl/filia-w-tomaszowie-mazowieckim/" .
+  foaf:homepage "https://goluchowski.edu.pl/filia-w-tomaszowie-mazowieckim/"^^xsd:anyURI .
 
 radon:branch_ac707042-9c31-4454-8733-9f9332c68ac3 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Tarnobrzegu Staropolskiej Szkoły Wyższej w Kielcach ";
@@ -2592,7 +2592,7 @@ radon:branch_aca527d8-bd6b-4ce9-91c9-b69f5357ddf6 a radon:Branch, org:Organizati
   adms:identifier "120101283";
   org:identifier "aca527d8-bd6b-4ce9-91c9-b69f5357ddf6";
   org:subOrganizationOf "9948021a-d4a1-4f4f-946c-630504be6302";
-  foaf:homepage "http://www.apeiron.edu.pl/studia/wydzial-zamiejscowy-w-katowicach" .
+  foaf:homepage "http://www.apeiron.edu.pl/studia/wydzial-zamiejscowy-w-katowicach"^^xsd:anyURI .
 
 radon:branch_ad4ac4b8-4179-4f65-b8cf-082aa853c2ae a radon:Branch, org:OrganizationalUnit;
   schema:name "Zamiejscowy Wydział Nauk Społecznych w Legnicy";
@@ -2604,7 +2604,7 @@ radon:branch_ad4ac4b8-4179-4f65-b8cf-082aa853c2ae a radon:Branch, org:Organizati
   adms:identifier "300350110";
   org:identifier "ad4ac4b8-4179-4f65-b8cf-082aa853c2ae";
   org:subOrganizationOf "c5418c63-337f-479d-abdb-269833bcd0b0";
-  foaf:homepage "http://www.wwsse.pl" .
+  foaf:homepage "http://www.wwsse.pl"^^xsd:anyURI .
 
 radon:branch_add6d958-6947-4175-bc75-54466ea1e6d7 a radon:Branch, org:OrganizationalUnit;
   schema:name "ZAMIEJSCOWY INSTYTUT SPORTU I REKREACJI W SIEMIANOWICACH ŚLĄSKICH";
@@ -2616,7 +2616,7 @@ radon:branch_add6d958-6947-4175-bc75-54466ea1e6d7 a radon:Branch, org:Organizati
   adms:identifier "368585165";
   org:identifier "add6d958-6947-4175-bc75-54466ea1e6d7";
   org:subOrganizationOf "eb677936-faca-4d49-9884-bc532f3c0566";
-  foaf:homepage "http://ews.edu.pl" .
+  foaf:homepage "http://ews.edu.pl"^^xsd:anyURI .
 
 radon:branch_b059deee-bce5-4c80-85ae-b2d962b7a1f0 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wyższa Szkoła Administracji w Stalowej Woli";
@@ -2628,7 +2628,7 @@ radon:branch_b059deee-bce5-4c80-85ae-b2d962b7a1f0 a radon:Branch, org:Organizati
   adms:identifier "070846998";
   org:identifier "b059deee-bce5-4c80-85ae-b2d962b7a1f0";
   org:subOrganizationOf "a10cb76e-7c85-476b-abf1-f9413bb554d7";
-  foaf:homepage "www.wsa.stalowa-wola.pl" .
+  foaf:homepage "www.wsa.stalowa-wola.pl"^^xsd:anyURI .
 
 radon:branch_b0a48def-81e5-4333-ab54-31ff9d26cbc6 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Chorzowie  Dolnośląskiej Szkoły Wyższej z siedzibą we Wrocławiu";
@@ -2640,7 +2640,7 @@ radon:branch_b0a48def-81e5-4333-ab54-31ff9d26cbc6 a radon:Branch, org:Organizati
   adms:identifier "931056267";
   org:identifier "b0a48def-81e5-4333-ab54-31ff9d26cbc6";
   org:subOrganizationOf "6df72f86-fe9b-4e01-9121-db36db218bd8";
-  foaf:homepage "https://www.dsw.edu.pl/" .
+  foaf:homepage "https://www.dsw.edu.pl/"^^xsd:anyURI .
 
 radon:branch_b1067fd3-6ce7-417b-bf74-6d92c3d38671 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Warszawie";
@@ -2663,7 +2663,7 @@ radon:branch_b1cfeb9d-5fcf-465f-96a3-50d91188689a a radon:Branch, org:Organizati
   adms:identifier "510623491";
   org:identifier "b1cfeb9d-5fcf-465f-96a3-50d91188689a";
   org:subOrganizationOf "b7deaf8c-7b59-4816-b2d7-67e58ced293b";
-  foaf:homepage "http://www.wsiie.olsztyn.pl/" .
+  foaf:homepage "http://www.wsiie.olsztyn.pl/"^^xsd:anyURI .
 
 radon:branch_b321d679-d30b-4dfa-82da-c62774d47422 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Bełchatowie";
@@ -2675,7 +2675,7 @@ radon:branch_b321d679-d30b-4dfa-82da-c62774d47422 a radon:Branch, org:Organizati
   adms:identifier "470985279";
   org:identifier "b321d679-d30b-4dfa-82da-c62774d47422";
   org:subOrganizationOf "8f4f45a9-5c93-4073-8e0a-fcb2b63cb997";
-  foaf:homepage "http://belchatow.spoleczna.pl" .
+  foaf:homepage "http://belchatow.spoleczna.pl"^^xsd:anyURI .
 
 radon:branch_b369741a-38b9-4526-870b-28322d9efa2c a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Cieszynie";
@@ -2697,7 +2697,7 @@ radon:branch_b5ac23ff-b9fb-420a-839b-4426bdd1c556 a radon:Branch, org:Organizati
   adms:identifier "00000132400037";
   org:identifier "b5ac23ff-b9fb-420a-839b-4426bdd1c556";
   org:subOrganizationOf "3fa8a5bb-a2e7-455d-8a1e-1f71ed0d992a";
-  foaf:homepage "www.cm.umk.pl" .
+  foaf:homepage "www.cm.umk.pl"^^xsd:anyURI .
 
 radon:branch_b621d8cc-a06f-4b27-a3ea-07ed0b66113a a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia we Wrocławiu";
@@ -2708,7 +2708,7 @@ radon:branch_b621d8cc-a06f-4b27-a3ea-07ed0b66113a a radon:Branch, org:Organizati
   adms:identifier "390624793";
   org:identifier "b621d8cc-a06f-4b27-a3ea-07ed0b66113a";
   org:subOrganizationOf "01188a2d-6822-402e-9053-21ba791fac0b";
-  foaf:homepage "www.collegiumwitelona.pl" .
+  foaf:homepage "www.collegiumwitelona.pl"^^xsd:anyURI .
 
 radon:branch_b7bec61b-d25e-4caf-a153-9cc1b59b561e a radon:Branch, org:OrganizationalUnit;
   schema:name "Wyższa Szkoła Nauk o Zdrowiu w Bydgoszczy Filia w Łodzi";
@@ -2719,7 +2719,7 @@ radon:branch_b7bec61b-d25e-4caf-a153-9cc1b59b561e a radon:Branch, org:Organizati
   adms:identifier "340072737";
   org:identifier "b7bec61b-d25e-4caf-a153-9cc1b59b561e";
   org:subOrganizationOf "548bd80f-e4fa-42e5-bd11-1abfb1869bb4";
-  foaf:homepage "wsnoz.pl" .
+  foaf:homepage "wsnoz.pl"^^xsd:anyURI .
 
 radon:branch_b8dfc3c7-f03c-4425-9f33-1f9f95fa956f a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Łucku";
@@ -2740,7 +2740,7 @@ radon:branch_b9352f69-2970-4863-a93e-c92439751555 a radon:Branch, org:Organizati
   vcard:street-address "ul. Odrodzenia 45";
   org:identifier "b9352f69-2970-4863-a93e-c92439751555";
   org:subOrganizationOf "9a80eec2-fc58-44c1-89ed-0e424ac52932";
-  foaf:homepage "https://wshkrasnystaw.pl/" .
+  foaf:homepage "https://wshkrasnystaw.pl/"^^xsd:anyURI .
 
 radon:branch_b9858199-45fa-4596-a376-a1170f77e5f6 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Braniewie";
@@ -2782,7 +2782,7 @@ radon:branch_bb7dcc9b-f63f-44cd-b15f-7543746d3512 a radon:Branch, org:Organizati
   adms:identifier "000001407";
   org:identifier "bb7dcc9b-f63f-44cd-b15f-7543746d3512";
   org:subOrganizationOf "451f3300-ea98-4941-a77e-31f6cc80cbeb";
-  foaf:homepage "http://unipt.pl" .
+  foaf:homepage "http://unipt.pl"^^xsd:anyURI .
 
 radon:branch_bb8d0a44-bf84-4f28-b553-7a2bdf90f8c8 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Ostrołęce";
@@ -2794,7 +2794,7 @@ radon:branch_bb8d0a44-bf84-4f28-b553-7a2bdf90f8c8 a radon:Branch, org:Organizati
   adms:identifier "192471740";
   org:identifier "bb8d0a44-bf84-4f28-b553-7a2bdf90f8c8";
   org:subOrganizationOf "f1316179-e357-4607-97da-024972e0194f";
-  foaf:homepage "www.wsse.du.pl" .
+  foaf:homepage "www.wsse.du.pl"^^xsd:anyURI .
 
 radon:branch_bbc276f0-8f3d-4c9d-9d2c-67d5a3b4c921 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia we Wrocławiu";
@@ -2806,7 +2806,7 @@ radon:branch_bbc276f0-8f3d-4c9d-9d2c-67d5a3b4c921 a radon:Branch, org:Organizati
   adms:identifier "011947981";
   org:identifier "bbc276f0-8f3d-4c9d-9d2c-67d5a3b4c921";
   org:subOrganizationOf "55baf644-3dc9-4855-a45b-d6b971a17256";
-  foaf:homepage "http://www.swps.pl" .
+  foaf:homepage "http://www.swps.pl"^^xsd:anyURI .
 
 radon:branch_bc35b430-bef0-4232-ab06-28645fb123f8 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Nowogardzie";
@@ -2818,7 +2818,7 @@ radon:branch_bc35b430-bef0-4232-ab06-28645fb123f8 a radon:Branch, org:Organizati
   adms:identifier "812011950";
   org:identifier "bc35b430-bef0-4232-ab06-28645fb123f8";
   org:subOrganizationOf "91934ff1-e070-4adf-962d-7c54e52941fc";
-  foaf:homepage "http://www.nowogard.cb.szczecin.pl/" .
+  foaf:homepage "http://www.nowogard.cb.szczecin.pl/"^^xsd:anyURI .
 
 radon:branch_bde8c19b-6144-424d-81fd-aba29bc6a4f4 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Menedżerskiej Akademii Nauk Stosowanych w Warszawie z siedzibą w Bełchatowie";
@@ -2830,7 +2830,7 @@ radon:branch_bde8c19b-6144-424d-81fd-aba29bc6a4f4 a radon:Branch, org:Organizati
   adms:identifier "011146123";
   org:identifier "bde8c19b-6144-424d-81fd-aba29bc6a4f4";
   org:subOrganizationOf "d8ce144a-93fb-4475-95d8-94e322e3a8fb";
-  foaf:homepage "http://wsm.belchatow.pl" .
+  foaf:homepage "http://wsm.belchatow.pl"^^xsd:anyURI .
 
 radon:branch_bfdbf7f7-ad6e-4156-90bc-a8408374e11d a radon:Branch, org:OrganizationalUnit;
   schema:name "Wyższa Szkoła Biznesu i Nauk o Zdrowiu w Łodzi - Filia w Szczawnie-Zdroju";
@@ -2851,7 +2851,7 @@ radon:branch_c1313b9b-19c3-4927-a119-8dd2611df4b1 a radon:Branch, org:Organizati
   adms:identifier "100224009";
   org:identifier "c1313b9b-19c3-4927-a119-8dd2611df4b1";
   org:subOrganizationOf "b31da9d6-ea61-4575-b764-6e90c633713f";
-  foaf:homepage "http://www.wschodzachod.edu.pl/nowysacz" .
+  foaf:homepage "http://www.wschodzachod.edu.pl/nowysacz"^^xsd:anyURI .
 
 radon:branch_c454fb02-59bf-4683-a011-7bc515c0629d a radon:Branch, org:OrganizationalUnit;
   schema:name "Akademia Nauk Stosowanych Mazovia filia w Otwocku";
@@ -2863,7 +2863,7 @@ radon:branch_c454fb02-59bf-4683-a011-7bc515c0629d a radon:Branch, org:Organizati
   adms:identifier "711643331";
   org:identifier "c454fb02-59bf-4683-a011-7bc515c0629d";
   org:subOrganizationOf "d521e56b-c925-4b88-ada3-5a6ecec4f59b";
-  foaf:homepage "www.mazovia.edu.pl" .
+  foaf:homepage "www.mazovia.edu.pl"^^xsd:anyURI .
 
 radon:branch_c77cf66f-1db8-49bc-ab1d-803e9f5c7f69 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Przasnyszu";
@@ -2875,7 +2875,7 @@ radon:branch_c77cf66f-1db8-49bc-ab1d-803e9f5c7f69 a radon:Branch, org:Organizati
   adms:identifier "093208780";
   org:identifier "c77cf66f-1db8-49bc-ab1d-803e9f5c7f69";
   org:subOrganizationOf "a53b78b5-44b6-4e93-8166-90ed8b5c92e3";
-  foaf:homepage "https://ultswiecie.edu.pl/" .
+  foaf:homepage "https://ultswiecie.edu.pl/"^^xsd:anyURI .
 
 radon:branch_c8555123-7f3a-4c45-b3ef-5173381fe65d a radon:Branch, org:OrganizationalUnit;
   schema:name "Zamiejscowy Wydział w Terespolu";
@@ -2887,7 +2887,7 @@ radon:branch_c8555123-7f3a-4c45-b3ef-5173381fe65d a radon:Branch, org:Organizati
   adms:identifier "030310705";
   org:identifier "c8555123-7f3a-4c45-b3ef-5173381fe65d";
   org:subOrganizationOf "7b1ecf5e-1c1d-40d0-91a9-cbde801c4409";
-  foaf:homepage "http://www.pswbp.pl/" .
+  foaf:homepage "http://www.pswbp.pl/"^^xsd:anyURI .
 
 radon:branch_c88cd16b-888a-48a2-b624-2b259a30bd00 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Olkuszu";
@@ -2899,7 +2899,7 @@ radon:branch_c88cd16b-888a-48a2-b624-2b259a30bd00 a radon:Branch, org:Organizati
   adms:identifier "470985279";
   org:identifier "c88cd16b-888a-48a2-b624-2b259a30bd00";
   org:subOrganizationOf "8f4f45a9-5c93-4073-8e0a-fcb2b63cb997";
-  foaf:homepage "http://olkusz.spoleczna.pl" .
+  foaf:homepage "http://olkusz.spoleczna.pl"^^xsd:anyURI .
 
 radon:branch_ca99fecb-b4cc-4a2f-bd93-48f9cc749dc0 a radon:Branch, org:OrganizationalUnit;
   schema:name "Uczelnia Nauk Społecznych Filia w Nowym Targu";
@@ -2920,7 +2920,7 @@ radon:branch_caec45bf-7749-445e-9d04-abb0c1d453df a radon:Branch, org:Organizati
   adms:identifier "01114612300028";
   org:identifier "caec45bf-7749-445e-9d04-abb0c1d453df";
   org:subOrganizationOf "d8ce144a-93fb-4475-95d8-94e322e3a8fb";
-  foaf:homepage "http://www.wsm-ciech.com/" .
+  foaf:homepage "http://www.wsm-ciech.com/"^^xsd:anyURI .
 
 radon:branch_cb8545ab-9de3-4c3f-9b70-79941b350383 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zarządzania i Bezpieczeństwa Filii w Lęborku";
@@ -2932,7 +2932,7 @@ radon:branch_cb8545ab-9de3-4c3f-9b70-79941b350383 a radon:Branch, org:Organizati
   adms:identifier "190402863";
   org:identifier "cb8545ab-9de3-4c3f-9b70-79941b350383";
   org:subOrganizationOf "aa3c4635-ddb3-465a-b158-2256e5823248";
-  foaf:homepage "http://www.wsaib.pl" .
+  foaf:homepage "http://www.wsaib.pl"^^xsd:anyURI .
 
 radon:branch_ccb369be-1746-44a8-a5cd-f4e428cd01f1 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Krakowie";
@@ -2944,7 +2944,7 @@ radon:branch_ccb369be-1746-44a8-a5cd-f4e428cd01f1 a radon:Branch, org:Organizati
   adms:identifier "470985279";
   org:identifier "ccb369be-1746-44a8-a5cd-f4e428cd01f1";
   org:subOrganizationOf "8f4f45a9-5c93-4073-8e0a-fcb2b63cb997";
-  foaf:homepage "http://krakow.spoleczna.pl" .
+  foaf:homepage "http://krakow.spoleczna.pl"^^xsd:anyURI .
 
 radon:branch_cce3463f-0b64-4127-bb24-55c5483f31c3 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Wiedniu";
@@ -2956,7 +2956,7 @@ radon:branch_cce3463f-0b64-4127-bb24-55c5483f31c3 a radon:Branch, org:Organizati
   adms:identifier "272199522";
   org:identifier "cce3463f-0b64-4127-bb24-55c5483f31c3";
   org:subOrganizationOf "58dcc6b4-cc40-4c1f-ad2d-46bc7fa9f3b5";
-  foaf:homepage "http://gwsh.pl/wieden/" .
+  foaf:homepage "http://gwsh.pl/wieden/"^^xsd:anyURI .
 
 radon:branch_cd6d0031-1822-41f6-aa00-cfd2f7bf9705 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia AHE w Jaśle";
@@ -2979,7 +2979,7 @@ radon:branch_cd82b44a-683f-40eb-aaf9-36838025bfcb a radon:Branch, org:Organizati
   adms:identifier "015650551";
   org:identifier "cd82b44a-683f-40eb-aaf9-36838025bfcb";
   org:subOrganizationOf "7b0ab8cc-4a9c-4409-a081-852409a0c9eb";
-  foaf:homepage "http://www.chodkowska.edu.pl" .
+  foaf:homepage "http://www.chodkowska.edu.pl"^^xsd:anyURI .
 
 radon:branch_cdb45768-e986-4b44-b2ce-66f981afe791 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Ekonomiczny w Opolu";
@@ -2991,7 +2991,7 @@ radon:branch_cdb45768-e986-4b44-b2ce-66f981afe791 a radon:Branch, org:Organizati
   adms:identifier "931893307";
   org:identifier "cdb45768-e986-4b44-b2ce-66f981afe791";
   org:subOrganizationOf "8395c169-9930-4090-acb2-320b9203f249";
-  foaf:homepage "http://www.merito.pl/opole" .
+  foaf:homepage "http://www.merito.pl/opole"^^xsd:anyURI .
 
 radon:branch_ce2d6a19-802c-46cb-94d6-953cd8821dd2 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Olkuszu";
@@ -3003,7 +3003,7 @@ radon:branch_ce2d6a19-802c-46cb-94d6-953cd8821dd2 a radon:Branch, org:Organizati
   adms:identifier "272653903";
   org:identifier "ce2d6a19-802c-46cb-94d6-953cd8821dd2";
   org:subOrganizationOf "69309128-a485-48bf-b8fb-006187190299";
-  foaf:homepage "https://www.wsb.edu.pl/olkusz" .
+  foaf:homepage "https://www.wsb.edu.pl/olkusz"^^xsd:anyURI .
 
 radon:branch_ceed931e-1483-4788-b239-bbcf1fabf6e9 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Myślenicach";
@@ -3015,7 +3015,7 @@ radon:branch_ceed931e-1483-4788-b239-bbcf1fabf6e9 a radon:Branch, org:Organizati
   adms:identifier "292390760";
   org:identifier "ceed931e-1483-4788-b239-bbcf1fabf6e9";
   org:subOrganizationOf "835ac4bc-3b1c-4d79-a10f-843bc54be4ef";
-  foaf:homepage "www.stans.edu.pl" .
+  foaf:homepage "www.stans.edu.pl"^^xsd:anyURI .
 
 radon:branch_cf34724c-36fc-4992-8f44-b57aa14af346 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Wyższej Szkoły Menedżerskiej w Warszawie z siedzibą w Karvinie";
@@ -3027,7 +3027,7 @@ radon:branch_cf34724c-36fc-4992-8f44-b57aa14af346 a radon:Branch, org:Organizati
   adms:identifier "011146123";
   org:identifier "cf34724c-36fc-4992-8f44-b57aa14af346";
   org:subOrganizationOf "d8ce144a-93fb-4475-95d8-94e322e3a8fb";
-  foaf:homepage "http://www.pedagogikakarvina.cz" .
+  foaf:homepage "http://www.pedagogikakarvina.cz"^^xsd:anyURI .
 
 radon:branch_cf46a927-51b5-46f4-a737-8fcea97d9a90 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Ostravie (Republika Czeska)";
@@ -3039,7 +3039,7 @@ radon:branch_cf46a927-51b5-46f4-a737-8fcea97d9a90 a radon:Branch, org:Organizati
   adms:identifier "852747854";
   org:identifier "cf46a927-51b5-46f4-a737-8fcea97d9a90";
   org:subOrganizationOf "70a94e95-4e7a-4069-a6fd-3a65eae3af10";
-  foaf:homepage "http://www.tszw.edu.pl/" .
+  foaf:homepage "http://www.tszw.edu.pl/"^^xsd:anyURI .
 
 radon:branch_cf882c5c-9ce8-4634-92ea-d64e3a64079a a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Administracji Filia w Iławie";
@@ -3051,7 +3051,7 @@ radon:branch_cf882c5c-9ce8-4634-92ea-d64e3a64079a a radon:Branch, org:Organizati
   adms:identifier "610217351";
   org:identifier "cf882c5c-9ce8-4634-92ea-d64e3a64079a";
   org:subOrganizationOf "77de6eec-1f71-4363-bea7-e4287d49e1da";
-  foaf:homepage "http://www.wlodkowic.pl" .
+  foaf:homepage "http://www.wlodkowic.pl"^^xsd:anyURI .
 
 radon:branch_cfad9708-4b7e-48a2-8940-58035f9d9db9 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Starachowicach";
@@ -3083,7 +3083,7 @@ radon:branch_d076ae3d-c2f3-4e4d-be20-d3590fb46501 a radon:Branch, org:Organizati
   adms:identifier "290698978";
   org:identifier "d076ae3d-c2f3-4e4d-be20-d3590fb46501";
   org:subOrganizationOf "c10b9c4e-c1a9-40f3-af77-964c8c1971e2";
-  foaf:homepage "https://goluchowski.edu.pl/filia-w-miechowie/" .
+  foaf:homepage "https://goluchowski.edu.pl/filia-w-miechowie/"^^xsd:anyURI .
 
 radon:branch_d4b042bc-90c0-457f-85fa-584b4e22076b a radon:Branch, org:OrganizationalUnit;
   schema:name "Państwowa Szkoła Wyższa im. Hipolita Cegielskiego w Gnieźnie Filia w Krotoszynie";
@@ -3095,7 +3095,7 @@ radon:branch_d4b042bc-90c0-457f-85fa-584b4e22076b a radon:Branch, org:Organizati
   adms:identifier "634603839";
   org:identifier "d4b042bc-90c0-457f-85fa-584b4e22076b";
   org:subOrganizationOf "3b58b562-f989-497c-a844-2a893fb99609";
-  foaf:homepage "pwsz-gniezno.edu.pl" .
+  foaf:homepage "pwsz-gniezno.edu.pl"^^xsd:anyURI .
 
 radon:branch_d5236573-4c38-4348-b614-22aa9217d67e a radon:Branch, org:OrganizationalUnit;
   schema:name "Kolegium Nauk Stosowanych przy Instytucie Europejskim - Filia Browary";
@@ -3117,7 +3117,7 @@ radon:branch_d5cbecab-8a2e-4ed8-b4dd-05eb68449509 a radon:Branch, org:Organizati
   vcard:street-address "ul. Pocztowa 2023";
   org:identifier "d5cbecab-8a2e-4ed8-b4dd-05eb68449509";
   org:subOrganizationOf "aad4ac1c-4de1-456f-a31d-1c29dc994385";
-  foaf:homepage "https://humanum.pl/" .
+  foaf:homepage "https://humanum.pl/"^^xsd:anyURI .
 
 radon:branch_d62b3221-0977-4ccf-b478-cb8fbc81d1dc a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Akademii Śląskiej w Jaworznie";
@@ -3138,7 +3138,7 @@ radon:branch_d6c8f11f-218f-4185-bf1e-9518908253ee a radon:Branch, org:Organizati
   adms:identifier "100313150";
   org:identifier "d6c8f11f-218f-4185-bf1e-9518908253ee";
   org:subOrganizationOf "f3353058-dd3f-4734-94fe-407e296021e8";
-  foaf:homepage "http://www.wsbinoz.edu.pl/" .
+  foaf:homepage "http://www.wsbinoz.edu.pl/"^^xsd:anyURI .
 
 radon:branch_dc269ebc-5be5-49b5-ab73-8e878cb563b6 a radon:Branch, org:OrganizationalUnit;
   schema:name "Zamiejscowy Wydział Administracji w Brukseli";
@@ -3161,7 +3161,7 @@ radon:branch_dc92bb04-a825-4145-95fc-de5c58a7993f a radon:Branch, org:Organizati
   adms:identifier "670679257";
   org:identifier "dc92bb04-a825-4145-95fc-de5c58a7993f";
   org:subOrganizationOf "15570eb2-05ce-4f28-81b9-ad0121b5df35";
-  foaf:homepage "http://studia.zakopane.pwsos.pl" .
+  foaf:homepage "http://studia.zakopane.pwsos.pl"^^xsd:anyURI .
 
 radon:branch_dd367d16-9e86-4f53-9971-e817c6e26b26 a radon:Branch, org:OrganizationalUnit;
   schema:name "Regionalny Ośrodek Studiów Podyplomowych - Filia w Słupsku";
@@ -3173,7 +3173,7 @@ radon:branch_dd367d16-9e86-4f53-9971-e817c6e26b26 a radon:Branch, org:Organizati
   adms:identifier "092386249";
   org:identifier "dd367d16-9e86-4f53-9971-e817c6e26b26";
   org:subOrganizationOf "60b9afe6-5246-491a-85c7-466fcfa8c639";
-  foaf:homepage "wsg.byd.pl" .
+  foaf:homepage "wsg.byd.pl"^^xsd:anyURI .
 
 radon:branch_dd48d83f-b32b-4bde-9ad0-8d4c8ed173de a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Politechniki Śląskiej w Rybniku";
@@ -3185,7 +3185,7 @@ radon:branch_dd48d83f-b32b-4bde-9ad0-8d4c8ed173de a radon:Branch, org:Organizati
   adms:identifier "000001637";
   org:identifier "dd48d83f-b32b-4bde-9ad0-8d4c8ed173de";
   org:subOrganizationOf "d2b78be5-640c-4efd-870a-a0e84067d609";
-  foaf:homepage "https://www.polsl.pl/Jednostki/RJP1-CKI/Strony/witamy.aspx" .
+  foaf:homepage "https://www.polsl.pl/Jednostki/RJP1-CKI/Strony/witamy.aspx"^^xsd:anyURI .
 
 radon:branch_dd8ab14d-4592-4f4d-b6d6-7f54add41633 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Kielcach";
@@ -3196,7 +3196,7 @@ radon:branch_dd8ab14d-4592-4f4d-b6d6-7f54add41633 a radon:Branch, org:Organizati
   vcard:street-address "ul. Świętokrzyska 2023";
   org:identifier "dd8ab14d-4592-4f4d-b6d6-7f54add41633";
   org:subOrganizationOf "aad4ac1c-4de1-456f-a31d-1c29dc994385";
-  foaf:homepage "https://humanum.pl" .
+  foaf:homepage "https://humanum.pl"^^xsd:anyURI .
 
 radon:branch_ddc27da2-0d61-449d-8fc4-1dab84f4079b a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Wychowania Fizycznego i Zdrowia";
@@ -3208,7 +3208,7 @@ radon:branch_ddc27da2-0d61-449d-8fc4-1dab84f4079b a radon:Branch, org:Organizati
   adms:identifier "000327830";
   org:identifier "ddc27da2-0d61-449d-8fc4-1dab84f4079b";
   org:subOrganizationOf "eea34b38-b88c-44b7-acb1-5c9a8a9f7d66";
-  foaf:homepage "www.awf-bp.edu.pl" .
+  foaf:homepage "www.awf-bp.edu.pl"^^xsd:anyURI .
 
 radon:branch_de51d495-b683-4c4e-8af4-315adb7f245a a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Poznaniu";
@@ -3229,7 +3229,7 @@ radon:branch_df0b920e-f962-41f9-8dc6-4b841b50c413 a radon:Branch, org:Organizati
   adms:identifier "000001293";
   org:identifier "df0b920e-f962-41f9-8dc6-4b841b50c413";
   org:subOrganizationOf "9eec5244-9085-4de9-9ad9-a77b7ad693bc";
-  foaf:homepage "http://www.ceg.amu.edu.pl" .
+  foaf:homepage "http://www.ceg.amu.edu.pl"^^xsd:anyURI .
 
 radon:branch_df49e609-f9d2-4954-93ff-102083bb83f3 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Teologiczny Sekcja w Tarnowie";
@@ -3241,7 +3241,7 @@ radon:branch_df49e609-f9d2-4954-93ff-102083bb83f3 a radon:Branch, org:Organizati
   adms:identifier "00387191300028";
   org:identifier "df49e609-f9d2-4954-93ff-102083bb83f3";
   org:subOrganizationOf "07208b1f-4d34-483a-a884-05ac93b6fcec";
-  foaf:homepage "http://wt.diecezja.tarnow.pl" .
+  foaf:homepage "http://wt.diecezja.tarnow.pl"^^xsd:anyURI .
 
 radon:branch_e03b355d-114a-46ff-a930-6e967bb4d36b a radon:Branch, org:OrganizationalUnit;
   schema:name "Kolegium Nauk Społecznych";
@@ -3264,7 +3264,7 @@ radon:branch_e0c4b746-0f19-400e-a275-6efbd91fb079 a radon:Branch, org:Organizati
   adms:identifier "272653903";
   org:identifier "e0c4b746-0f19-400e-a275-6efbd91fb079";
   org:subOrganizationOf "69309128-a485-48bf-b8fb-006187190299";
-  foaf:homepage "http://wsb.edu.pl/krakow" .
+  foaf:homepage "http://wsb.edu.pl/krakow"^^xsd:anyURI .
 
 radon:branch_e2a97365-df91-4801-be9a-12750cbb98f5 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wyższa Szkoła Nauk o Zdrowiu w Bydgoszczy Filia w Toruniu";
@@ -3275,7 +3275,7 @@ radon:branch_e2a97365-df91-4801-be9a-12750cbb98f5 a radon:Branch, org:Organizati
   adms:identifier "340072737";
   org:identifier "e2a97365-df91-4801-be9a-12750cbb98f5";
   org:subOrganizationOf "548bd80f-e4fa-42e5-bd11-1abfb1869bb4";
-  foaf:homepage "wsnoz.pl" .
+  foaf:homepage "wsnoz.pl"^^xsd:anyURI .
 
 radon:branch_e490e3b1-b934-4b74-83f2-720e2989d966 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Ostrowie Wielkopolskim";
@@ -3287,7 +3287,7 @@ radon:branch_e490e3b1-b934-4b74-83f2-720e2989d966 a radon:Branch, org:Organizati
   adms:identifier "300685922";
   org:identifier "e490e3b1-b934-4b74-83f2-720e2989d966";
   org:subOrganizationOf "840fa892-2a42-4007-92cd-c6f60a19f825";
-  foaf:homepage "http://www.wskmostrow.edu.pl/" .
+  foaf:homepage "http://www.wskmostrow.edu.pl/"^^xsd:anyURI .
 
 radon:branch_e4f58947-df16-47dc-bf14-d01fa02cee7e a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Jeleniej Górze";
@@ -3299,7 +3299,7 @@ radon:branch_e4f58947-df16-47dc-bf14-d01fa02cee7e a radon:Branch, org:Organizati
   adms:identifier "000001614";
   org:identifier "e4f58947-df16-47dc-bf14-d01fa02cee7e";
   org:subOrganizationOf "dbdda9a7-f6f7-44e8-af1d-9863e2256ca3";
-  foaf:homepage "https://jelenia-gora.pwr.edu.pl/" .
+  foaf:homepage "https://jelenia-gora.pwr.edu.pl/"^^xsd:anyURI .
 
 radon:branch_e4f86be1-62b8-43dc-904b-bd0eede6f916 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Warszawie";
@@ -3311,7 +3311,7 @@ radon:branch_e4f86be1-62b8-43dc-904b-bd0eede6f916 a radon:Branch, org:Organizati
   adms:identifier "630245248";
   org:identifier "e4f86be1-62b8-43dc-904b-bd0eede6f916";
   org:subOrganizationOf "add982ff-1e14-4375-84f5-07977f9fd994";
-  foaf:homepage "https://www.merito.pl/poznan" .
+  foaf:homepage "https://www.merito.pl/poznan"^^xsd:anyURI .
 
 radon:branch_e5eafee2-d652-4e32-9d2f-39e8a12d23c4 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Chojnicach";
@@ -3323,7 +3323,7 @@ radon:branch_e5eafee2-d652-4e32-9d2f-39e8a12d23c4 a radon:Branch, org:Organizati
   adms:identifier "191939223";
   org:identifier "e5eafee2-d652-4e32-9d2f-39e8a12d23c4";
   org:subOrganizationOf "ce4dd171-ea6a-4e21-9982-6181689f7c0e";
-  foaf:homepage "https://sopocka.edu.pl/" .
+  foaf:homepage "https://sopocka.edu.pl/"^^xsd:anyURI .
 
 radon:branch_e667c975-8346-42ee-8f18-d3c4c1329a3a a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Politechniki Koszalińskiej w Szczecinku";
@@ -3335,7 +3335,7 @@ radon:branch_e667c975-8346-42ee-8f18-d3c4c1329a3a a radon:Branch, org:Organizati
   adms:identifier "000001703";
   org:identifier "e667c975-8346-42ee-8f18-d3c4c1329a3a";
   org:subOrganizationOf "b26a6014-ae33-445c-9ff8-49216dbc5587";
-  foaf:homepage "https://wpd.tu.koszalin.pl" .
+  foaf:homepage "https://wpd.tu.koszalin.pl"^^xsd:anyURI .
 
 radon:branch_e7c476d6-f081-4074-ab1d-32f40fb2c206 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Nauk Humanistyczno - Społecznych w Olsztynie";
@@ -3347,7 +3347,7 @@ radon:branch_e7c476d6-f081-4074-ab1d-32f40fb2c206 a radon:Branch, org:Organizati
   adms:identifier "01029199800053";
   org:identifier "e7c476d6-f081-4074-ab1d-32f40fb2c206";
   org:subOrganizationOf "aad3aebb-97ca-40f2-ba23-1ced23433435";
-  foaf:homepage "http://www.wsptwp.eu" .
+  foaf:homepage "http://www.wsptwp.eu"^^xsd:anyURI .
 
 radon:branch_e81c0a30-e456-44f5-8cf5-0e45d22458e3 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia Uczelni Jana Wyżykowskiego";
@@ -3359,7 +3359,7 @@ radon:branch_e81c0a30-e456-44f5-8cf5-0e45d22458e3 a radon:Branch, org:Organizati
   adms:identifier "020035320";
   org:identifier "e81c0a30-e456-44f5-8cf5-0e45d22458e3";
   org:subOrganizationOf "61053439-1457-4be3-88c9-5faecc430cda";
-  foaf:homepage "http://www.ujw.pl" .
+  foaf:homepage "http://www.ujw.pl"^^xsd:anyURI .
 
 radon:branch_e9b266c1-4aaf-4d2e-9c18-a679244f38a2 a radon:Branch, org:OrganizationalUnit;
   schema:name "Akademia im. Aleksandra Gieysztora";
@@ -3371,7 +3371,7 @@ radon:branch_e9b266c1-4aaf-4d2e-9c18-a679244f38a2 a radon:Branch, org:Organizati
   adms:identifier "011021150";
   org:identifier "e9b266c1-4aaf-4d2e-9c18-a679244f38a2";
   org:subOrganizationOf "1cb32064-70d2-4de8-b43f-8e67b8a4286b";
-  foaf:homepage "www.vistula.edu.pl" .
+  foaf:homepage "www.vistula.edu.pl"^^xsd:anyURI .
 
 radon:branch_eaf415eb-355a-4f6b-94c0-26bb687f50e6 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Mechaniczno-Technologiczny w Stalowej Woli";
@@ -3414,7 +3414,7 @@ radon:branch_ecf58b9e-4e00-4722-8fbd-6be9bc717ebb a radon:Branch, org:Organizati
   adms:identifier "191871175";
   org:identifier "ecf58b9e-4e00-4722-8fbd-6be9bc717ebb";
   org:subOrganizationOf "bc3eae7b-1b6a-4a7c-8db2-5ef5f8a94051";
-  foaf:homepage "https://powislanska.edu.pl/filia-torun/" .
+  foaf:homepage "https://powislanska.edu.pl/filia-torun/"^^xsd:anyURI .
 
 radon:branch_ed3c4a7f-cc31-47f4-b175-ad82aaffd69f a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Nauk Społecznych w Kaliszu";
@@ -3426,7 +3426,7 @@ radon:branch_ed3c4a7f-cc31-47f4-b175-ad82aaffd69f a radon:Branch, org:Organizati
   adms:identifier "300350110";
   org:identifier "ed3c4a7f-cc31-47f4-b175-ad82aaffd69f";
   org:subOrganizationOf "c5418c63-337f-479d-abdb-269833bcd0b0";
-  foaf:homepage "http://www.wase.edu.pl" .
+  foaf:homepage "http://www.wase.edu.pl"^^xsd:anyURI .
 
 radon:branch_efd9092a-66fe-4557-91db-c7f99569f015 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wyższa Szkoła Kadr Menedżerskich, Filia w Białymstoku";
@@ -3438,7 +3438,7 @@ radon:branch_efd9092a-66fe-4557-91db-c7f99569f015 a radon:Branch, org:Organizati
   adms:identifier "300685922";
   org:identifier "efd9092a-66fe-4557-91db-c7f99569f015";
   org:subOrganizationOf "840fa892-2a42-4007-92cd-c6f60a19f825";
-  foaf:homepage "https://www.wskmkonin.edu.pl/bialystok" .
+  foaf:homepage "https://www.wskmkonin.edu.pl/bialystok"^^xsd:anyURI .
 
 radon:branch_f18c2f3f-b9c3-4289-8d63-daf497b988a6 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Kazimierzy Wielkiej";
@@ -3482,7 +3482,7 @@ radon:branch_f372e87a-24a9-445d-b6e9-86a264e0501f a radon:Branch, org:Organizati
   adms:identifier "000001554";
   org:identifier "f372e87a-24a9-445d-b6e9-86a264e0501f";
   org:subOrganizationOf "521ce6da-8ebb-47a5-90fe-3832685b75f9";
-  foaf:homepage "http://www.pw.plock.pl" .
+  foaf:homepage "http://www.pw.plock.pl"^^xsd:anyURI .
 
 radon:branch_f57da2dd-4bfc-4b43-b592-02c00c68dc48 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Elblągu";
@@ -3494,7 +3494,7 @@ radon:branch_f57da2dd-4bfc-4b43-b592-02c00c68dc48 a radon:Branch, org:Organizati
   adms:identifier "010340484";
   org:identifier "f57da2dd-4bfc-4b43-b592-02c00c68dc48";
   org:subOrganizationOf "180d2805-5609-4d97-ae79-27444f690ab6";
-  foaf:homepage "http://www.janski.edu.pl" .
+  foaf:homepage "http://www.janski.edu.pl"^^xsd:anyURI .
 
 radon:branch_f6ac8a43-e889-4465-a7be-e5cd68554f1a a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Starachowicach";
@@ -3506,7 +3506,7 @@ radon:branch_f6ac8a43-e889-4465-a7be-e5cd68554f1a a radon:Branch, org:Organizati
   adms:identifier "193059070";
   org:identifier "f6ac8a43-e889-4465-a7be-e5cd68554f1a";
   org:subOrganizationOf "c8d725eb-bb10-4712-84a2-35c4785a15ae";
-  foaf:homepage "http://www.pomeraniastarachowice.edu.pl" .
+  foaf:homepage "http://www.pomeraniastarachowice.edu.pl"^^xsd:anyURI .
 
 radon:branch_f7482664-6d61-4fbb-9cff-a7d866df10c3 a radon:Branch, org:OrganizationalUnit;
   schema:name "Kolegium Nauk Stosowanych - Filia w Pile";
@@ -3528,7 +3528,7 @@ radon:branch_f85df847-98b0-49ac-9678-787dde3bd7af a radon:Branch, org:Organizati
   adms:identifier "610217351";
   org:identifier "f85df847-98b0-49ac-9678-787dde3bd7af";
   org:subOrganizationOf "77de6eec-1f71-4363-bea7-e4287d49e1da";
-  foaf:homepage "http://www.wlodkowic.pl" .
+  foaf:homepage "http://www.wlodkowic.pl"^^xsd:anyURI .
 
 radon:branch_fa40ef32-b211-4b69-9d3f-a0f2a178b9b0 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Lublinie";
@@ -3539,7 +3539,7 @@ radon:branch_fa40ef32-b211-4b69-9d3f-a0f2a178b9b0 a radon:Branch, org:Organizati
   vcard:street-address "ul. Gęsia 5";
   org:identifier "fa40ef32-b211-4b69-9d3f-a0f2a178b9b0";
   org:subOrganizationOf "aad4ac1c-4de1-456f-a31d-1c29dc994385";
-  foaf:homepage "https://humanum.pl/" .
+  foaf:homepage "https://humanum.pl/"^^xsd:anyURI .
 
 radon:branch_fb075196-d282-43f6-bad2-6f6230ec8f9e a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Lublinie";
@@ -3551,7 +3551,7 @@ radon:branch_fb075196-d282-43f6-bad2-6f6230ec8f9e a radon:Branch, org:Organizati
   adms:identifier "01029199800046";
   org:identifier "fb075196-d282-43f6-bad2-6f6230ec8f9e";
   org:subOrganizationOf "aad3aebb-97ca-40f2-ba23-1ced23433435";
-  foaf:homepage "http://www.wsptwp.eu" .
+  foaf:homepage "http://www.wsptwp.eu"^^xsd:anyURI .
 
 radon:branch_fb2b4706-e589-440a-b092-9065d3d40c92 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Krakowie";
@@ -3563,7 +3563,7 @@ radon:branch_fb2b4706-e589-440a-b092-9065d3d40c92 a radon:Branch, org:Organizati
   adms:identifier "010340484";
   org:identifier "fb2b4706-e589-440a-b092-9065d3d40c92";
   org:subOrganizationOf "180d2805-5609-4d97-ae79-27444f690ab6";
-  foaf:homepage "http://www.janski.edu.pl" .
+  foaf:homepage "http://www.janski.edu.pl"^^xsd:anyURI .
 
 radon:branch_fba63b30-9f4e-44a4-b368-7ee2b4daa985 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Olsztynie";
@@ -3575,7 +3575,7 @@ radon:branch_fba63b30-9f4e-44a4-b368-7ee2b4daa985 a radon:Branch, org:Organizati
   adms:identifier "192768769";
   org:identifier "fba63b30-9f4e-44a4-b368-7ee2b4daa985";
   org:subOrganizationOf "0bdc78e2-3f99-49ee-ab6c-d9fadf38c0f1";
-  foaf:homepage "https://gsw.gda.pl/" .
+  foaf:homepage "https://gsw.gda.pl/"^^xsd:anyURI .
 
 radon:branch_fd24f038-618e-4500-b55b-ef3eb4bff001 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Informatyki w Grudziądzu";
@@ -3587,7 +3587,7 @@ radon:branch_fd24f038-618e-4500-b55b-ef3eb4bff001 a radon:Branch, org:Organizati
   adms:identifier "910215414";
   org:identifier "fd24f038-618e-4500-b55b-ef3eb4bff001";
   org:subOrganizationOf "871e140a-03db-4bf5-9c91-0b6bdd2a6798";
-  foaf:homepage "http://www.ksw.wloclawek.pl" .
+  foaf:homepage "http://www.ksw.wloclawek.pl"^^xsd:anyURI .
 
 radon:branch_fd468845-8d2e-4bad-ba79-59eae4c18770 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Koszalinie";
@@ -3599,7 +3599,7 @@ radon:branch_fd468845-8d2e-4bad-ba79-59eae4c18770 a radon:Branch, org:Organizati
   adms:identifier "470985279";
   org:identifier "fd468845-8d2e-4bad-ba79-59eae4c18770";
   org:subOrganizationOf "8f4f45a9-5c93-4073-8e0a-fcb2b63cb997";
-  foaf:homepage "https://koszalin.spoleczna.pl" .
+  foaf:homepage "https://koszalin.spoleczna.pl"^^xsd:anyURI .
 
 radon:branch_fd5f235a-2abf-4e14-ab64-8c7d8bf9df69 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Piotrkowie Trybunalskim.  Wydział Nauk Społecznych";
@@ -3611,7 +3611,7 @@ radon:branch_fd5f235a-2abf-4e14-ab64-8c7d8bf9df69 a radon:Branch, org:Organizati
   adms:identifier "000001407";
   org:identifier "fd5f235a-2abf-4e14-ab64-8c7d8bf9df69";
   org:subOrganizationOf "451f3300-ea98-4941-a77e-31f6cc80cbeb";
-  foaf:homepage "http://unipt.pl" .
+  foaf:homepage "http://unipt.pl"^^xsd:anyURI .
 
 radon:branch_fe580602-3173-416c-9705-512cfc487415 a radon:Branch, org:OrganizationalUnit;
   schema:name "Regionalny Ośrodek Studiów Podyplomowych - Filia w Zgorzelcu";
@@ -3623,7 +3623,7 @@ radon:branch_fe580602-3173-416c-9705-512cfc487415 a radon:Branch, org:Organizati
   adms:identifier "092386249";
   org:identifier "fe580602-3173-416c-9705-512cfc487415";
   org:subOrganizationOf "60b9afe6-5246-491a-85c7-466fcfa8c639";
-  foaf:homepage "wsg.byd.pl" .
+  foaf:homepage "wsg.byd.pl"^^xsd:anyURI .
 
 radon:branch_fe70e96d-d5dc-4fc8-a052-cec02a6f2a19 a radon:Branch, org:OrganizationalUnit;
   schema:name "Filia w Krakowie";
@@ -3635,7 +3635,7 @@ radon:branch_fe70e96d-d5dc-4fc8-a052-cec02a6f2a19 a radon:Branch, org:Organizati
   adms:identifier "011947981";
   org:identifier "fe70e96d-d5dc-4fc8-a052-cec02a6f2a19";
   org:subOrganizationOf "55baf644-3dc9-4855-a45b-d6b971a17256";
-  foaf:homepage "www.swps.pl" .
+  foaf:homepage "www.swps.pl"^^xsd:anyURI .
 
 radon:branch_ffaa6e84-df4f-4ae1-8ebb-51ee6de55ed4 a radon:Branch, org:OrganizationalUnit;
   schema:name "Wydział Zamiejscowy w Krośnie";
@@ -3647,4 +3647,9 @@ radon:branch_ffaa6e84-df4f-4ae1-8ebb-51ee6de55ed4 a radon:Branch, org:Organizati
   adms:identifier "292390760";
   org:identifier "ffaa6e84-df4f-4ae1-8ebb-51ee6de55ed4";
   org:subOrganizationOf "835ac4bc-3b1c-4d79-a10f-843bc54be4ef";
-  foaf:homepage "http://www.etins.edu.pl" .
+  foaf:homepage "http://www.etins.edu.pl"^^xsd:anyURI .
+
+radon:consistsOf a <http://www.w3.org/2002/07/owl#AsymmetricProperty>, <http://www.w3.org/2002/07/owl#ObjectProperty>;
+  rdfs:comment "Represents that a Domain consists of one or more Disciplines.";
+  rdfs:label "consists of";
+  rdfs:range "http://example.org/radon#Discipline" .

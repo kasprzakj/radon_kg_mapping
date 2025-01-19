@@ -1,0 +1,244 @@
+prefixes:
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  org: http://www.w3.org/ns/org#
+  vcard: http://www.w3.org/2006/vcard/ns#
+  vivo: http://vivoweb.org/ontology/core#
+  schema: http://schema.org/
+  prov: http://www.w3.org/ns/prov#
+  dcterms: http://purl.org/dc/terms/
+  time: http://www.w3.org/2006/time#
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
+  adms: http://www.w3.org/ns/adms#
+  radon: http://example.org/radon#
+  aiiso: http://purl.org/vocab/aiiso/schema#
+  bibo: http://purl.org/ontology/bibo/
+
+mappings:
+  property_regon:
+    sources:
+        - ['data/branches.json~jsonpath', '$[*]']
+    s: radon:regon
+    po:
+      - [a, owl:DatatypeProperty]
+      - [rdfs:label, "REGON identifier"]
+      - [rdfs:comment, "Polish national business registry number"]
+      - [rdfs:domain, org:OrganizationalUnit]
+      - [rdfs:range, xsd:string]
+
+  property_consistsOf:
+    sources:
+      - ['data/branches.json~jsonpath', '$[*]']
+    s: radon:consistsOf
+    po:
+      - [a, owl:ObjectProperty]
+      - [a, owl:AsymmetricProperty]
+      - [rdfs:range, radon:Discipline]
+      - [rdfs:label, "consists of"]
+      - [rdfs:comment, "Represents that a Domain consists of one or more Disciplines."]
+
+  property_startedCurrentJob:
+    sources:
+      - ['data/branches.json~jsonpath', '$[*]']
+    s: radon:startedCurrentJob
+    po:
+      - [a, owl:DatatypeProperty]
+      - [rdfs:domain, radon:Employee]
+      - [rdfs:range, xsd:date]
+      - [rdfs:label, "work start date"]
+      - [rdfs:comment, "The date when the employee started their current employement."]
+
+  property_hasDissertation:
+    sources: 
+      - ['data/branches.json~jsonpath', '$[*]']
+    s: radon:hasDissertation
+    po:
+      - [a, owl:ObjectProperty]
+      - [rdfs:domain, radon:Promotion]
+      - [rdfs:range, bibo:Thesis]
+      - [rdfs:comment, "The dissertation related to the promotion."]
+
+  branch:
+    sources:
+      - ['data/branches.json~jsonpath', '$[*]']
+    s: radon:branch_$(branchUuid)
+    po:
+      - [a, radon:Branch]
+      - [a, org:OrganizationalUnit]
+      - [org:identifier, $(branchUuid)]
+      - [schema:name, $(name)]
+      - [vcard:hasEmail, $(eMail)]
+      - [vcard:country-name, $(country)]
+      - [vcard:street-address, '$(street) $(buildingNumber)']
+      - [vcard:postal-code, $(postalCode)]
+      - [vcard:region, $(voivodeship)]
+      - [vcard:locality, $(city)]
+      - [foaf:homepage, $(www), xsd:anyURI]
+      - [schema:status, $(status)]
+      - p: org:subOrganizationOf
+        o:
+          mapping: institution
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(mainInstitutionUuid)]
+              - [str2, $(institutionUuid)]
+
+  institution:
+    sources:
+      - ['data/institutions.json~jsonpath', '$[*]']
+    s: radon:institution_$(institutionUuid)
+    po:
+      - [a, vivo:University]
+      - [a, org:OrganizationalUnit]
+      - [org:identifier, $(institutionUuid)]
+      - [schema:name, $(name)]
+      - [schema:url, $(www)]
+      - [org:classification, $(iKindName)]
+      - [radon:regon, $(regon)]
+      - [vcard:hasEmail, $(eMail)]
+      - [vcard:country-name, $(country)]
+      - [vcard:locality, $(city)]
+      - [vcard:street-address, '$(street) $(bNumber) $(lNumber)']
+      - [vcard:postal-code, $(postalCode)]
+      - [vcard:region, $(voivodeship)]
+      - [schema:status, $(status)]
+      - p: org:hasSubOrganization
+        o:
+          mapping: branch
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(institutionUuid)]
+              - [str2, $(mainInstitutionUuid)]
+      - p: org:reportsTo
+        o:
+          mapping: supervising_institutions
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(supervisingInstitutionID)]
+              - [str2, $(supervisingInstitutionID)]
+      - p: aiiso:Teaches
+        o:
+          mapping: discipline
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(institutionUuid)]
+              - [str2, $(institutionUuid)]
+
+  supervising_institutions:
+    sources:
+      - ['data/institutions.json~jsonpath', '$[*]']
+    s: radon:supervisingInstitution_$(supervisingInstitutionID)
+    po:
+    - [a, org:OrganizationalUnit]
+    - [org:identifier, $(supervisingInstitutionID)]
+    - [schema:name, $(supervisingInstitutionName)]
+
+  employee:
+    sources:
+      - ['data/employees.json~jsonpath', '$[*]']
+    s: radon:employee_$(id)
+    po:
+      - [a, radon:Employee]
+      - [org:identifier, $(id)]
+      - [foaf:firstName, $(personalData.firstName)]
+      - [foaf:middleName, $(personalData.middleName)]
+      - [foaf:lastName, $(personalData.lastName)]
+      - [schema:hasCredential, '$(calculatedEduLevel)']
+      - [vivo:hasResearchArea, '$(employments[0].declaredDisciplines.firstDisciplineName)']
+      - [vivo:hasResearchArea, '$(employments[0].declaredDisciplines.secondDisciplineName)']
+      - [vivo:hasResearchArea, '$(employments[1].declaredDisciplines.firstDisciplineName)']
+      - [vivo:hasResearchArea, '$(employments[1].declaredDisciplines.secondDisciplineName)']
+      - [vivo:hasResearchArea, '$(employments[2].declaredDisciplines.firstDisciplineName)']
+      - [vivo:hasResearchArea, '$(employments[2].declaredDisciplines.secondDisciplineName)']
+      - [org:role, '$(managerialFunctions[0].function)']
+      - [radon:startedCurrentJob, '$(employments[0].startDate)', xsd:date]
+      - p: schema:worksFor
+        o:
+          mapping: institution
+          condition:
+            function: equal
+            parameters:
+              - [str1, '$(employments[0].employingInstitutionUuid)']
+              - [str2, $(institutionUuid)]
+      - p: schema:worksFor
+        o:
+          mapping: institution
+          condition:
+            function: equal
+            parameters:
+              - [str1, '$(employments[1].employingInstitutionUuid)']
+              - [str2, $(institutionUuid)]
+      - p: org:memberOf
+        o:
+          mapping: institution
+          condition:
+            function: equal
+            parameters:
+              - [str1, '$(managerialFunctions[0].institutionId)']
+              - [str2, $(institutionUuid)]
+
+  promotion:
+    sources:
+      - ['data/promotions_limited.json~jsonpath', '$[*]']
+    s: radon:promotion_$(promotionUuid)
+    po:
+      - [a, radon:Promotion]
+      - [schema:identifier, $(promotionUuid)]
+      - [radon:hasDissertation, radon:dissertation_$(promotionUuid)]
+      - p: rev:Reviewer
+        o:
+          mapping: employee
+          condition:
+            function: equal
+            parameters:
+              - [str1, '$(commissionMembers[0].reviewerUuid)']
+              - [str2, $(id)]
+      
+  dissertation:
+    sources:
+      - ['data/promotions_limited.json~jsonpath', '$[*]']
+    s: radon:dissertation_$(promotionUuid)
+    po:
+      - [a, bibo:Thesis]
+      - [schema:identifier, $(promotionUuid)]
+      - [dcterms:title, $(dissertationData.dissertationTitle)]
+      - [dcterms:creator, '$(personBaseData.name) $(personBaseData.surname)']
+
+  discipline:
+    sources:
+      - ['data/researchDisciplines_transformed.json~jsonpath', '$[*]']
+    s: radon:discipline_$(disciplineCode)
+    po:
+      - [a, radon:Discipline]
+      - [schema:identifier, $(disciplineCode)]
+      - [schema:name, $(disciplineName)]
+      - p: rdfs:subclassOf
+        o:
+          mapping: domain
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(domainCode)]
+              - [str2, $(domainCode)]
+
+  domain:
+    sources: 
+      - ['data/researchDisciplines_transformed.json~jsonpath', '$[*]']
+    s: radon:domain_$(domainCode)
+    po:
+      - [a, radon:Domain]
+      - [schema:identifier, $(domainCode)]
+      - [schema:name, $(domainName)]
+      - p: radon:consistsOf
+        o:
+          mapping: discipline
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(domainCode)]
+              - [str2, $(domainCode)]
