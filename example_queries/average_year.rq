@@ -1,0 +1,11 @@
+PREFIX radon: <http://example.org/radon#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?institutionName (AVG(YEAR(?startedYear)) AS ?averageStartedYear)
+WHERE {
+  ?person radon:startedCurrentJob ?startedYear;
+          schema:worksFor ?institution.
+  ?institution schema:name ?institutionName.
+}
+GROUP BY ?institutionName
+ORDER BY DESC(?averageStartedYear)

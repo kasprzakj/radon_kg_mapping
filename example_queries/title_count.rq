@@ -1,0 +1,11 @@
+PREFIX schema: <http://schema.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+SELECT ?credential (COUNT(?person) AS ?titleCount)
+WHERE {
+  ?person schema:worksFor ?institution;
+          schema:hasCredential ?credential.
+  ?institution schema:name "Politechnika Warszawska".
+}
+GROUP BY ?credential
+ORDER BY DESC(?titleCount)
